@@ -1,0 +1,167 @@
+/* === STYLISH BRAND === */
+.agencyBrand {
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 8px !important;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none !important;
+}
+
+.agencyBrand em {
+  font-style: normal !important;
+  font-weight: 900 !important;
+  font-size: 22px !important;
+  letter-spacing: .18em !important;
+  background: linear-gradient(135deg, #ff8a18 0%, #ffd8a8 50%, #ff8a18 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 24px rgba(255, 138, 24, .35);
+}
+
+.agencyBrand i {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 10px !important;
+  letter-spacing: .32em !important;
+  color: rgba(255, 255, 255, .42) !important;
+  text-transform: uppercase !important;
+  padding-left: 4px;
+  border-left: 1px solid rgba(255, 122, 24, .4);
+}
+
+.agencyBrand span {
+  display: none !important;
+}
+
+/* === HERO ORBIT LABELS — replace the old metric/live panels === */
+.agencyMetricPanel,
+.agencyLivePanel {
+  display: none !important;
+}
+
+.agencyHeroVisual {
+  position: relative;
+}
+
+.agencyOrbitLabel {
+  position: absolute;
+  z-index: 6;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(10, 10, 10, .68);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 122, 24, .22);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, .5), inset 0 0 24px rgba(255, 106, 0, .04);
+  min-width: 180px;
+  pointer-events: none;
+  animation: orbitFloat 6s ease-in-out infinite;
+}
+
+.agencyOrbitLabel::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff8a18;
+  box-shadow: 0 0 14px #ff8a18, 0 0 28px rgba(255, 138, 24, .6);
+}
+
+.agencyOrbitLabel b {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+
+.agencyOrbitLabel span {
+  display: block;
+  color: rgba(255, 255, 255, .58);
+  font-size: 11px;
+  letter-spacing: .04em;
+  line-height: 1.3;
+}
+
+.agencyOrbitLabel1 {
+  top: 8%;
+  left: -6%;
+  animation-delay: 0s;
+}
+
+.agencyOrbitLabel1::before {
+  right: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.agencyOrbitLabel2 {
+  top: 14%;
+  right: -6%;
+  animation-delay: 1.5s;
+}
+
+.agencyOrbitLabel2::before {
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.agencyOrbitLabel3 {
+  bottom: 18%;
+  left: -4%;
+  animation-delay: 3s;
+}
+
+.agencyOrbitLabel3::before {
+  right: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.agencyOrbitLabel4 {
+  bottom: 10%;
+  right: -4%;
+  animation-delay: 4.5s;
+}
+
+.agencyOrbitLabel4::before {
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes orbitFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media (max-width: 980px) {
+  .agencyOrbitLabel1 { top: 4%; left: 2%; }
+  .agencyOrbitLabel2 { top: 4%; right: 2%; }
+  .agencyOrbitLabel3 { bottom: 8%; left: 2%; }
+  .agencyOrbitLabel4 { bottom: 8%; right: 2%; }
+}
+
+@media (max-width: 640px) {
+  .agencyOrbitLabel {
+    min-width: 130px;
+    padding: 7px 10px;
+  }
+  .agencyOrbitLabel b { font-size: 11px; }
+  .agencyOrbitLabel span { font-size: 9px; }
+  .agencyOrbitLabel::before { display: none; }
+}
+
+/* === REMOVE PHONE CTA leftover styles if any === */
+.agencyContactBox {
+  display: none !important;
+}

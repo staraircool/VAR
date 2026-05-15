@@ -1,0 +1,17 @@
+/* TEAM */
+Agency: VARPEC AUTOMATIONS
+Site: https://varpecautomations.com
+Contact: hello [at] varpecautomations.com
+WhatsApp: +44 7735 390520
+Location: United Kingdom — Serving Worldwide
+
+/* SPECIALISATION */
+Automated B2B lead generation
+AI email outreach and warm-up
+WhatsApp outreach automation
+AI phone call bot campaigns
+Google Sheet buyer dashboards
+Interested lead alerts and routing
+
+/* THANKS */
+React · Vite · Three.js · Framer Motion · GSAP

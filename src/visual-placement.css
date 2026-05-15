@@ -1,0 +1,341 @@
+.agencyDashboardSection {
+  display: grid;
+  grid-template-columns: .95fr 1.05fr;
+  gap: 36px;
+  align-items: center;
+  min-height: auto;
+  padding: 88px max(24px, calc((100vw - 1120px) / 2));
+  background: linear-gradient(180deg, #060606, #030303);
+}
+
+.agencyDashboardSection:before {
+  inset: 34px max(18px, calc((100vw - 1180px) / 2));
+  border-radius: 40px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .014));
+  border: 1px solid rgba(255, 122, 24, .13);
+  box-shadow: inset 0 0 90px rgba(255, 106, 0, .05);
+}
+
+.agencyDashboardSection:after {
+  opacity: .35;
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 36% 50%, #000 10%, transparent 68%);
+}
+
+.agencyDashboardVisual {
+  order: 1;
+  width: 100%;
+  min-height: 360px;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 34px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .018));
+  border: 1px solid rgba(255, 255, 255, .11);
+  box-shadow: 0 32px 100px rgba(0, 0, 0, .58), inset 0 0 70px rgba(255, 106, 0, .06);
+  overflow: visible;
+}
+
+.agencyDashboardVisual:before {
+  display: none;
+}
+
+.agencyDashboardVisual:after {
+  content: "BUYER DATABASE";
+  position: absolute;
+  left: 22px;
+  top: 22px;
+  z-index: 5;
+  width: auto;
+  height: auto;
+  padding: 10px 13px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .72);
+  border: 1px solid rgba(255, 255, 255, .13);
+  color: #ffbd82;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .12em;
+  filter: none;
+  transform: none;
+  animation: none;
+}
+
+.agencyDashboardVisual img {
+  position: relative;
+  z-index: 3;
+  width: min(680px, 112%);
+  animation: none;
+  transform: none;
+  filter: drop-shadow(0 34px 70px rgba(0, 0, 0, .78)) drop-shadow(0 0 24px rgba(255, 106, 0, .14));
+}
+
+.agencyDashboardCopy {
+  order: 2;
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  border-left: 0;
+}
+
+.agencyDashboardCopy p,
+.agencyEmailCopy p {
+  display: inline-flex;
+  padding: 9px 13px;
+  border-radius: 999px;
+  background: rgba(255, 106, 0, .1);
+  border: 1px solid rgba(255, 122, 24, .22);
+}
+
+.agencyDashboardCopy h2,
+.agencyEmailCopy h2 {
+  margin: 16px 0;
+  font-size: clamp(34px, 4.7vw, 58px);
+  line-height: .96;
+}
+
+.agencyDashboardCopy span,
+.agencyEmailCopy span {
+  max-width: 560px;
+  margin: 0;
+}
+
+.agencyDashboardCopy .agencyShowcaseBadges,
+.agencyEmailCopy .agencyShowcaseBadges {
+  justify-content: flex-start;
+}
+
+.agencyDataRail,
+.agencyDataLens,
+.agencyDashboardAura {
+  display: none;
+}
+
+.agencyEmailSection {
+  position: relative;
+  display: block;
+  min-height: 790px;
+  padding: 88px max(24px, calc((100vw - 1120px) / 2)) 0;
+  background: radial-gradient(circle at 50% 91%, rgba(255, 106, 0, .34), transparent 28%), linear-gradient(180deg, #060606, #020202);
+  overflow: hidden;
+}
+
+.agencyEmailSection:before {
+  inset: 34px max(18px, calc((100vw - 1180px) / 2)) 0;
+  border-radius: 42px 42px 0 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .012) 48%, rgba(255, 106, 0, .06));
+  border: 1px solid rgba(255, 122, 24, .14);
+  border-bottom: 0;
+  box-shadow: inset 0 -90px 130px rgba(255, 106, 0, .08);
+}
+
+.agencyEmailSection:after {
+  opacity: .34;
+  mask-image: radial-gradient(ellipse at 50% 76%, #000 12%, transparent 70%);
+}
+
+.agencyEmailCopy {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  border-left: 0;
+  position: relative;
+  z-index: 8;
+}
+
+.agencyEmailCopy h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.agencyEmailCopy span {
+  margin: 0 auto;
+}
+
+.agencyEmailCopy .agencyShowcaseBadges {
+  justify-content: center;
+}
+
+.agencyEmailVisual {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: min(980px, 100%);
+  height: 430px;
+  min-height: 0;
+  transform: translateX(-50%);
+  display: block;
+  overflow: visible;
+  border-radius: 0;
+  isolation: isolate;
+}
+
+.agencyEmailVisual img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  z-index: 4;
+  width: min(840px, 100%);
+  height: auto;
+  transform: translateX(-50%);
+  animation: none;
+  filter: drop-shadow(0 -6px 24px rgba(255, 106, 0, .14)) drop-shadow(0 36px 90px rgba(0, 0, 0, .86));
+}
+
+.agencyEmailHalo {
+  position: absolute;
+  left: 50%;
+  bottom: -120px;
+  z-index: 0;
+  width: 860px;
+  max-width: 100%;
+  height: 350px;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse at 50% 70%, rgba(255, 106, 0, .42), transparent 64%);
+  filter: blur(46px);
+}
+
+.agencyEmailBeacon {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 2;
+  width: min(760px, 92%);
+  height: 80px;
+  transform: translateX(-50%);
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(255, 122, 24, .08), rgba(0, 0, 0, .38));
+  border-top: 1px solid rgba(255, 122, 24, .18);
+  box-shadow: 0 -18px 70px rgba(255, 106, 0, .14);
+}
+
+.agencyEmailFloor {
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  z-index: 5;
+  width: 100%;
+  height: 38px;
+  transform: translateX(-50%);
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(255, 122, 24, .22), rgba(6, 6, 6, .98) 34%, #020202);
+  border-top: 1px solid rgba(255, 202, 145, .38);
+  box-shadow: 0 -12px 34px rgba(255, 106, 0, .16), inset 0 18px 30px rgba(255, 106, 0, .06);
+}
+
+.agencyEmailVisual:before {
+  display: none;
+}
+
+.agencyEmailVisual:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: auto;
+  bottom: 40px;
+  z-index: 6;
+  width: min(650px, 78%);
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(255, 217, 174, .84), transparent);
+  box-shadow: 0 0 32px rgba(255, 106, 0, .76);
+}
+
+.agencyEmailDock {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .agencyDashboardSection {
+    grid-template-columns: 1fr;
+    padding-top: 78px;
+    gap: 26px;
+  }
+
+  .agencyDashboardVisual {
+    order: 2;
+    min-height: 330px;
+  }
+
+  .agencyDashboardCopy {
+    order: 1;
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .agencyDashboardCopy .agencyShowcaseBadges {
+    justify-content: center;
+  }
+
+  .agencyEmailSection {
+    min-height: 720px;
+  }
+
+  .agencyEmailVisual {
+    height: 390px;
+  }
+}
+
+@media (max-width: 540px) {
+  .agencyDashboardSection {
+    padding: 68px 20px;
+  }
+
+  .agencyDashboardSection:before,
+  .agencyEmailSection:before {
+    inset: 16px 16px 0;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .agencyDashboardCopy h2,
+  .agencyEmailCopy h2 {
+    font-size: 36px;
+  }
+
+  .agencyDashboardVisual {
+    min-height: 260px;
+    border-radius: 26px;
+  }
+
+  .agencyDashboardVisual img {
+    width: 120%;
+  }
+
+  .agencyDashboardVisual:after {
+    top: 14px;
+    left: 14px;
+    font-size: 10px;
+  }
+
+  .agencyEmailSection {
+    min-height: 650px;
+    padding: 70px 20px 0;
+  }
+
+  .agencyEmailVisual {
+    height: 330px;
+    width: 100%;
+  }
+
+  .agencyEmailVisual img {
+    width: 126%;
+    bottom: -2px;
+  }
+
+  .agencyEmailBeacon {
+    width: 104%;
+    height: 72px;
+  }
+
+  .agencyEmailFloor {
+    width: 100%;
+    height: 34px;
+  }
+
+  .agencyEmailDock {
+    display: none;
+  }
+}

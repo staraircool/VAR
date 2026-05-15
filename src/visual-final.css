@@ -1,0 +1,393 @@
+.agencyDashboardSection {
+  display: block;
+  min-height: 980px;
+  padding: 112px max(24px, calc((100vw - 1180px) / 2)) 80px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255, 106, 0, .28), transparent 29%),
+    radial-gradient(circle at 50% 74%, rgba(255, 122, 24, .18), transparent 24%),
+    linear-gradient(180deg, #070707, #020202);
+  overflow: hidden;
+}
+
+.agencyDashboardSection:before {
+  inset: 42px max(18px, calc((100vw - 1260px) / 2));
+  border-radius: 56px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .07), rgba(255, 255, 255, .012) 45%, rgba(255, 106, 0, .075)),
+    repeating-linear-gradient(90deg, transparent 0 64px, rgba(255, 122, 24, .08) 65px);
+  border: 1px solid rgba(255, 122, 24, .18);
+  box-shadow: inset 0 0 160px rgba(255, 106, 0, .09), 0 48px 160px rgba(0, 0, 0, .55);
+}
+
+.agencyDashboardSection:after {
+  background-size: 78px 78px;
+  mask-image: radial-gradient(ellipse at 50% 52%, #000 18%, transparent 72%);
+  opacity: .9;
+}
+
+.agencyDashboardCopy {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  border-left: 0;
+}
+
+.agencyDashboardCopy p,
+.agencyEmailCopy p {
+  display: inline-flex;
+  padding: 10px 15px;
+  border-radius: 999px;
+  background: rgba(255, 106, 0, .12);
+  border: 1px solid rgba(255, 122, 24, .28);
+}
+
+.agencyDashboardCopy h2,
+.agencyEmailCopy h2 {
+  max-width: 980px;
+  margin: 18px auto;
+  font-size: clamp(46px, 7vw, 94px);
+  line-height: .9;
+}
+
+.agencyDashboardCopy span,
+.agencyEmailCopy span {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.agencyDashboardCopy .agencyShowcaseBadges,
+.agencyEmailCopy .agencyShowcaseBadges {
+  justify-content: center;
+}
+
+.agencyDashboardVisual {
+  width: min(1120px, 100%);
+  min-height: 590px;
+  margin: 26px auto 0;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+  perspective: 1200px;
+}
+
+.agencyDashboardVisual:before {
+  content: "";
+  position: absolute;
+  width: min(780px, 76vw);
+  aspect-ratio: 1;
+  top: 48%;
+  left: 50%;
+  z-index: 0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background:
+    conic-gradient(from 0deg, transparent, rgba(255, 122, 24, .58), transparent 34%, rgba(255, 122, 24, .42), transparent 70%),
+    radial-gradient(circle, transparent 48%, rgba(255, 106, 0, .16) 49%, transparent 61%);
+  animation: agencyPortalSpin 4.6s linear infinite;
+}
+
+.agencyDashboardVisual:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: min(900px, 86vw);
+  height: 250px;
+  transform: translate(-50%, -50%) rotate(-6deg);
+  background: linear-gradient(90deg, transparent, rgba(255, 122, 24, .24), transparent);
+  filter: blur(18px);
+  animation: agencyPortalSweep 1.8s ease-in-out infinite alternate;
+}
+
+.agencyDashboardVisual img {
+  position: relative;
+  z-index: 3;
+  width: min(1040px, 116%);
+  height: auto;
+  transform-origin: 50% 62%;
+  animation: agencyDashboardFloat 2.8s ease-in-out infinite alternate;
+  filter: drop-shadow(0 58px 120px rgba(0, 0, 0, .88)) drop-shadow(0 0 54px rgba(255, 106, 0, .28));
+}
+
+.agencyDashboardAura {
+  inset: 5% 8% 0;
+  z-index: 0;
+  background: radial-gradient(ellipse, rgba(255, 106, 0, .48), transparent 62%);
+  filter: blur(64px);
+}
+
+.agencyDataRail {
+  position: absolute;
+  left: 0;
+  top: 36%;
+  z-index: 5;
+  display: grid;
+  gap: 10px;
+}
+
+.agencyDataRail b {
+  padding: 10px 13px;
+  border-radius: 999px;
+  color: #ffbd82;
+  background: rgba(0, 0, 0, .68);
+  border: 1px solid rgba(255, 255, 255, .14);
+  font-size: 11px;
+  letter-spacing: .16em;
+}
+
+.agencyDataLens {
+  position: absolute;
+  right: 2%;
+  top: 20%;
+  z-index: 5;
+  width: 230px;
+  padding: 18px;
+  border-radius: 28px;
+  background: rgba(0, 0, 0, .72);
+  border: 1px solid rgba(255, 255, 255, .15);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, .58);
+}
+
+.agencyDataLens strong {
+  display: block;
+  color: #ff8a18;
+  font-size: 30px;
+  letter-spacing: -.06em;
+}
+
+.agencyDataLens span {
+  display: block;
+  color: #ededed;
+  font-size: 13px;
+  line-height: 1.45;
+  margin-top: 5px;
+}
+
+.agencyEmailSection {
+  display: block;
+  min-height: 920px;
+  padding: 108px max(24px, calc((100vw - 1180px) / 2)) 0;
+  background:
+    radial-gradient(circle at 50% 93%, rgba(255, 106, 0, .48), transparent 29%),
+    radial-gradient(circle at 50% 54%, rgba(255, 122, 24, .16), transparent 35%),
+    linear-gradient(180deg, #060606, #020202);
+  overflow: hidden;
+}
+
+.agencyEmailSection:before {
+  inset: 46px max(18px, calc((100vw - 1260px) / 2)) 0;
+  border-radius: 56px 56px 0 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .012) 45%, rgba(255, 106, 0, .08)),
+    repeating-linear-gradient(0deg, transparent 0 74px, rgba(255, 122, 24, .08) 75px);
+  border: 1px solid rgba(255, 122, 24, .17);
+  border-bottom: 0;
+  box-shadow: inset 0 -120px 170px rgba(255, 106, 0, .11);
+}
+
+.agencyEmailCopy {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  border-left: 0;
+}
+
+.agencyEmailVisual {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: min(1100px, 100%);
+  height: 560px;
+  min-height: 0;
+  transform: translateX(-50%);
+  display: block;
+  overflow: visible;
+  border-radius: 0;
+  isolation: isolate;
+}
+
+.agencyEmailVisual img {
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  z-index: 4;
+  width: min(980px, 108%);
+  height: auto;
+  transform: translateX(-50%);
+  animation: agencyEmailPop 2.2s ease-in-out infinite alternate;
+  filter: drop-shadow(0 -8px 30px rgba(255, 106, 0, .22)) drop-shadow(0 54px 120px rgba(0, 0, 0, .9));
+}
+
+.agencyEmailHalo {
+  inset: auto 0 -22%;
+  height: 420px;
+  z-index: 0;
+  background: radial-gradient(ellipse at 50% 82%, rgba(255, 106, 0, .64), transparent 62%);
+  filter: blur(62px);
+}
+
+.agencyEmailBeacon {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 2;
+  width: min(860px, 94%);
+  height: 320px;
+  transform: translateX(-50%);
+  border-radius: 50% 50% 0 0;
+  background: linear-gradient(180deg, rgba(255, 122, 24, .2), rgba(255, 122, 24, .04) 44%, rgba(0, 0, 0, .8));
+  border: 1px solid rgba(255, 122, 24, .25);
+  box-shadow: 0 -34px 130px rgba(255, 106, 0, .24), inset 0 0 95px rgba(255, 106, 0, .12);
+}
+
+.agencyEmailFloor {
+  position: absolute;
+  left: 50%;
+  bottom: -28px;
+  z-index: 5;
+  width: 120%;
+  height: 190px;
+  transform: translateX(-50%);
+  border-radius: 50% 50% 0 0;
+  background: linear-gradient(180deg, rgba(255, 122, 24, .28), rgba(8, 8, 8, .96) 42%, #020202);
+  border-top: 1px solid rgba(255, 204, 150, .45);
+  box-shadow: 0 -34px 120px rgba(255, 106, 0, .26), inset 0 42px 92px rgba(255, 106, 0, .09);
+}
+
+.agencyEmailVisual:before {
+  display: none;
+}
+
+.agencyEmailVisual:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: auto;
+  bottom: 150px;
+  z-index: 6;
+  width: min(780px, 82%);
+  height: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(255, 217, 174, .98), transparent);
+  box-shadow: 0 0 48px rgba(255, 106, 0, 1);
+}
+
+.agencyEmailDock {
+  left: 50%;
+  right: auto;
+  bottom: 34px;
+  z-index: 7;
+  width: min(740px, 86%);
+  transform: translateX(-50%);
+  padding: 23px 30px;
+  border-radius: 34px;
+  background: linear-gradient(135deg, rgba(7, 7, 7, .9), rgba(255, 106, 0, .14));
+  border: 1px solid rgba(255, 255, 255, .17);
+  box-shadow: 0 32px 120px rgba(0, 0, 0, .72), inset 0 0 42px rgba(255, 106, 0, .09);
+}
+
+@keyframes agencyPortalSpin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes agencyPortalSweep {
+  from { opacity: .25; transform: translate(-50%, -50%) rotate(-10deg) scaleX(.9); }
+  to { opacity: .85; transform: translate(-50%, -50%) rotate(8deg) scaleX(1.08); }
+}
+
+@keyframes agencyDashboardFloat {
+  from { transform: translateY(0) rotateX(5deg) rotateZ(-1.2deg) scale(1); }
+  to { transform: translateY(-18px) rotateX(2deg) rotateZ(1deg) scale(1.018); }
+}
+
+@keyframes agencyEmailPop {
+  from { transform: translateX(-50%) translateY(8px) scale(1); }
+  to { transform: translateX(-50%) translateY(-14px) scale(1.018); }
+}
+
+@media (max-width: 980px) {
+  .agencyDashboardSection { min-height: auto; }
+  .agencyDashboardVisual { min-height: 500px; }
+  .agencyEmailSection { min-height: 820px; }
+  .agencyEmailVisual { height: 520px; }
+  .agencyEmailVisual img { width: 118%; }
+}
+
+@media (max-width: 540px) {
+  .agencyDashboardSection {
+    padding: 82px 20px 76px;
+  }
+
+  .agencyDashboardSection:before,
+  .agencyEmailSection:before {
+    inset: 18px 18px 0;
+    border-radius: 34px 34px 0 0;
+  }
+
+  .agencyDashboardCopy h2,
+  .agencyEmailCopy h2 {
+    font-size: 42px;
+  }
+
+  .agencyDashboardVisual {
+    min-height: 360px;
+  }
+
+  .agencyDashboardVisual img {
+    width: 148%;
+  }
+
+  .agencyDataRail {
+    display: none;
+  }
+
+  .agencyDataLens {
+    right: 0;
+    top: 12%;
+    width: 160px;
+    padding: 13px;
+  }
+
+  .agencyDataLens strong {
+    font-size: 20px;
+  }
+
+  .agencyEmailSection {
+    min-height: 740px;
+    padding: 82px 20px 0;
+  }
+
+  .agencyEmailVisual {
+    height: 405px;
+  }
+
+  .agencyEmailVisual img {
+    width: 160%;
+    bottom: -6px;
+  }
+
+  .agencyEmailBeacon {
+    width: 116%;
+    height: 230px;
+  }
+
+  .agencyEmailFloor {
+    width: 150%;
+    height: 150px;
+  }
+
+  .agencyEmailDock {
+    width: 96%;
+    bottom: 24px;
+    display: grid;
+    padding: 18px;
+  }
+
+  .agencyEmailDock span {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,293 @@
+/* FINAL CLEAN OVERRIDE — full laptop card has no circle/glow, half laptop only covered by thin straight strip */
+
+.agencyDashboardSection {
+  background: linear-gradient(180deg, #070707, #030303) !important;
+}
+
+.agencyDashboardSection::before,
+.agencyDashboardSection::after {
+  display: none !important;
+  content: none !important;
+}
+
+.agencyDashboardVisual {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  border-radius: 0 !important;
+  min-height: auto !important;
+  padding: 20px 0 !important;
+}
+
+.agencyDashboardVisual::before,
+.agencyDashboardVisual::after {
+  display: none !important;
+  content: none !important;
+}
+
+.agencyDashboardVisual img {
+  width: min(720px, 100%) !important;
+  filter: drop-shadow(0 28px 60px rgba(0, 0, 0, .55)) !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+.agencyDataRail,
+.agencyDataLens,
+.agencyDashboardAura {
+  display: none !important;
+}
+
+/* Half laptop — thin straight bottom edge only, no curve, no half cover */
+
+.agencyEmailSection::before,
+.agencyEmailSection::after {
+  display: none !important;
+  content: none !important;
+}
+
+.agencyEmailVisual::before,
+.agencyEmailVisual::after {
+  display: none !important;
+  content: none !important;
+}
+
+.agencyEmailBeacon {
+  display: none !important;
+}
+
+.agencyEmailHalo {
+  display: none !important;
+}
+
+.agencyEmailDock {
+  display: none !important;
+}
+
+.agencyEmailFloor {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 24px !important;
+  transform: none !important;
+  border-radius: 0 !important;
+  background: #030303 !important;
+  border-top: 1px solid rgba(255, 122, 24, .35) !important;
+  box-shadow: 0 -14px 28px rgba(255, 106, 0, .18) !important;
+  z-index: 6 !important;
+}
+
+.agencyEmailVisual img {
+  bottom: 22px !important;
+}
+
+/* === EDITORIAL EMAIL SECTION === */
+
+.agencyEmailSection {
+  position: relative;
+  padding-top: 120px !important;
+  padding-bottom: 0 !important;
+  min-height: auto !important;
+  background: linear-gradient(180deg, #050505 0%, #080808 60%, #0a0606 100%) !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+.agencyEmailVisual {
+  position: relative !important;
+  left: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 980px !important;
+  height: auto !important;
+  margin: -340px auto 0 !important;
+  display: block !important;
+  isolation: isolate;
+  overflow: visible !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+.agencyEmailVisual img {
+  position: relative !important;
+  left: auto !important;
+  bottom: auto !important;
+  top: auto !important;
+  transform: none !important;
+  display: block !important;
+  margin: 0 auto !important;
+  width: min(840px, 100%) !important;
+  height: auto !important;
+}
+
+.agencyEmailStats {
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .agencyEmailVisual {
+    margin-top: -240px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .agencyEmailVisual {
+    margin-top: -180px !important;
+  }
+}
+
+.agencyEmailFloor,
+.agencyEmailBeacon,
+.agencyEmailHalo,
+.agencyEmailDock {
+  display: none !important;
+}
+
+.agencyEmailWordmark {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: clamp(110px, 18vw, 260px);
+  font-weight: 900;
+  letter-spacing: -.06em;
+  line-height: .8;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 122, 24, .14);
+  text-stroke: 1px rgba(255, 122, 24, .14);
+  pointer-events: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.agencyEmailCopy {
+  position: relative !important;
+  z-index: 5 !important;
+  max-width: 1080px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  text-align: center !important;
+}
+
+.agencyEmailCopy p {
+  display: inline-flex !important;
+  font-family: 'Courier New', monospace !important;
+  font-size: 12px !important;
+  letter-spacing: .14em !important;
+  text-transform: uppercase !important;
+  color: #ff8a18 !important;
+  background: transparent !important;
+  border: 1px solid rgba(255, 122, 24, .35) !important;
+  padding: 8px 14px !important;
+  border-radius: 4px !important;
+}
+
+.agencyEmailCopy h2 {
+  font-size: clamp(40px, 5.6vw, 76px) !important;
+  margin: 22px auto 18px !important;
+  max-width: 920px !important;
+}
+
+.agencyEmailCopy span {
+  display: block !important;
+  max-width: 680px !important;
+  margin: 0 auto !important;
+  color: #b8b8b8 !important;
+  font-size: 17px !important;
+  line-height: 1.65 !important;
+}
+
+.agencyEmailStats {
+  position: relative;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin: 70px auto 0;
+  padding: 0 24px;
+  max-width: 1180px;
+  border-top: 1px solid rgba(255, 122, 24, .18);
+  border-bottom: 1px solid rgba(255, 122, 24, .18);
+}
+
+.agencyEmailStats > div {
+  position: relative;
+  padding: 32px 26px;
+  text-align: left;
+  border-right: 1px solid rgba(255, 122, 24, .14);
+}
+
+.agencyEmailStats > div:last-child {
+  border-right: 0;
+}
+
+.agencyEmailStats strong {
+  display: block;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  color: #ff8a18;
+  letter-spacing: .18em;
+  margin-bottom: 14px;
+}
+
+.agencyEmailStats b {
+  display: block;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 1.15;
+}
+
+.agencyEmailStats span {
+  display: block;
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 1.55;
+  margin: 0 !important;
+  max-width: none !important;
+}
+
+@media (max-width: 768px) {
+  .agencyEmailStats {
+    grid-template-columns: 1fr;
+    margin: 40px 20px 50px;
+  }
+
+  .agencyEmailStats > div {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 122, 24, .14);
+    padding: 22px 18px;
+  }
+
+  .agencyEmailStats > div:last-child {
+    border-bottom: 0;
+  }
+
+  .agencyEmailWordmark {
+    top: 24px;
+    font-size: 84px;
+  }
+}
+
+@media (max-width: 540px) {
+  .agencyEmailFloor {
+    height: 18px !important;
+  }
+
+  .agencyEmailVisual img {
+    bottom: 16px !important;
+  }
+
+  .agencyEmailSection {
+    padding-top: 90px !important;
+    min-height: 760px !important;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "VARPEC AUTOMATIONS — Automated Lead Generation Agency",
+  "short_name": "VARPEC",
+  "description": "Premium automation agency for B2B lead generation, AI email outreach, WhatsApp campaigns, and phone bot systems.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050505",
+  "theme_color": "#ff7a18",
+  "lang": "en-GB",
+  "categories": ["business", "productivity", "marketing"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
