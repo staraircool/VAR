@@ -19,6 +19,7 @@ import './premium-sections.css';
 import { Spotlight } from './ui/Spotlight';
 import { Badge } from './ui/Badge';
 import { Accordion } from './ui/Accordion';
+import { LeadFeed } from './ui/LeadFeed';
 import { Dialog } from './ui/Dialog';
 import { Sheet } from './ui/Sheet';
 import { Tooltip } from './ui/Tooltip';
@@ -263,6 +264,8 @@ export default function AgencyApp() {
         <div className="agencySectionHead"><p>The VARPEC growth sequence</p><h2>A simple system your buyers instantly understand.</h2></div>
         <div className="agencyProcessGrid">{process.map(([step, title, text]) => <motion.article className="agencyProcessCard" key={step} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><strong>{step}</strong><h3>{title}</h3><p>{text}</p></motion.article>)}</div>
       </section>
+
+      <LeadFeed />
 
       <section className="agencyScarcityBand"><div><p>Scarcity without begging</p><h2>We only want clients who are ready to move. Slow decision makers leave the market open for faster competitors.</h2></div><a className="agencyPrimaryBtn" href="#contact">Ask for onboarding availability <ArrowRight size={18} /></a></section>
 
