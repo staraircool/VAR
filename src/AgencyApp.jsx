@@ -211,20 +211,7 @@ export default function AgencyApp() {
 
       <section className="agencyTicker"><div className="agencyTickerTrack">{[...signals, ...signals].map((item, index) => <span key={`${item}-${index}`}><Zap size={15} />{item}</span>)}</div></section>
 
-      <section className="agencyDashboardSection">
-        <div className="agencyDashboardVisual">
-          <div className="agencyDataRail"><b>LEADS</b><b>STATUS</b><b>OUTREACH</b></div>
-          <img src={laptopFull} alt="VARPEC Google Sheet dashboard showing targeted buyer lead contacts" />
-          <div className="agencyDataLens"><strong>Buyer OS</strong><span>Daily prospect flow, structured for action.</span></div>
-          <div className="agencyDashboardAura" />
-        </div>
-        <motion.div className="agencyDashboardCopy" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-          <p>Google Sheet command center</p>
-          <h2>Every targeted buyer lands in a clean dashboard your team can act on.</h2>
-          <span>Names, phone numbers, emails, categories, lead status, outreach notes, and campaign visibility stay organized in one place. No messy lists. No lost prospects. Just a daily buyer flow you can work from.</span>
-          <div className="agencyShowcaseBadges"><b>50-145 daily contacts</b><b>Lead status tracking</b><b>Team-ready dashboard</b></div>
-        </motion.div>
-      </section>
+      <LeadFeed />
 
       <section className="agencyEmailSection">
         <div className="agencyEmailWordmark" aria-hidden="true">OUTREACH</div>
@@ -264,8 +251,6 @@ export default function AgencyApp() {
         <div className="agencySectionHead"><p>The VARPEC growth sequence</p><h2>A simple system your buyers instantly understand.</h2></div>
         <div className="agencyProcessGrid">{process.map(([step, title, text]) => <motion.article className="agencyProcessCard" key={step} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><strong>{step}</strong><h3>{title}</h3><p>{text}</p></motion.article>)}</div>
       </section>
-
-      <LeadFeed />
 
       <section className="agencyScarcityBand"><div><p>Scarcity without begging</p><h2>We only want clients who are ready to move. Slow decision makers leave the market open for faster competitors.</h2></div><a className="agencyPrimaryBtn" href="#contact">Ask for onboarding availability <ArrowRight size={18} /></a></section>
 

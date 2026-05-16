@@ -1,0 +1,1754 @@
+#,BUSINESS NAME,CATEGORY,COUNTRY,CITY,ADDRESS,WEBSITE,EMAIL,PHONE,STATUS,OUTREACH,NOTES
+,Supreme Wholesale Liquidation,Wholesaler,US,Wayne,"25 Continental Dr, Wayne, NJ 07470",,N/A,"(718) 300-9279
+",,🆕 New Lead,
+,Arizona Pallet LLC,Fournisseur de palettes,US,Phoenix,"646 S 27th Ave, Phoenix, AZ 85009",,,(602) 269-6307,,🆕 New Lead,
+,,,,,{{ $('Loop Over Items').item.json.address }},,,,,,
+,L&L Liquidations,Liquidateur,US,Phoenix,"3440 W Lewis Ave ste h, Phoenix, AZ 85009",,,(602) 810-7487,,🆕 New Lead,
+,Bargain Central Warehouse,Magasin discount,US,Mesa,"251 N Morris, Mesa, AZ 85201",https://bargaincentralwarehouse.com/,,(480) 833-6155,,🆕 New Lead,
+,Let's Go Shopping Mesa,Magasin,US,Mesa,"1356 S Gilbert Rd Ste 15, Mesa, AZ 85204",,,(480) 306-8725,,🆕 New Lead,
+,Arizona Recycling Pallets LLC,Fournisseur de palettes,US,Phoenix,"1601 W Broadway Rd, Phoenix, AZ 85041",https://palletsarllc.wixsite.com/arizonarecyclingpall,,(480) 358-0486,,🆕 New Lead,
+,Cactus Liquidation Inc,Liquidateur,US,Glendale,"4323 W Cactus Rd Suite 7, Glendale, AZ 85304",,,(602) 768-7018,,🆕 New Lead,
+,America Wholesale Furniture LLC,Magasin d'ameublement et de décoration,US,Phoenix,"2626 W Glenrosa Ave, Phoenix, AZ 85017",https://www.americawholesalefurniture.com/,,(602) 812-4122,,🆕 New Lead,
+,blowout liquidation - bin store,Liquidateur,US,Phoenix,"3539 W Northern Ave, Phoenix, AZ 85051",http://blowoutliquidation.com/,,(480) 338-2651,,🆕 New Lead,
+,Coast-to-Coast Liquidators,Magasin discount,US,Phoenix,"9015 N 43rd Ave, Phoenix, AZ 85051",http://coastliquidation.com/,,(602) 824-8741,,🆕 New Lead,
+,Liquidation Center,Liquidateur,US,Phoenix,"3840 N 28th Ave, Phoenix, AZ 85017",,,(602) 484-0133,,🆕 New Lead,
+,Liquidation World,Liquidateur,US,Phoenix,"2902 W Van Buren St, Phoenix, AZ 85009",http://liquidationworldaz.com/,,(623) 387-1700,,🆕 New Lead,
+,Liquidation Auction Phoenix,Magasin,US,Phoenix,"2434 E Thomas Rd, Phoenix, AZ 85016",https://liquidationlandphoenix.com/,,,,🆕 New Lead,
+,SaleSumo,Liquidateur,US,Phoenix,"221 N 48th Ave, Phoenix, AZ 85043",http://www.salesumo.com/,,(602) 332-8056,,🆕 New Lead,
+,Wrapped Pallets Liquidation Phoenix,Liquidateur,US,Phoenix,"1000 W Vista Bonita Dr Suite B104, Phoenix, AZ 85027",https://www.wrappedpallets.com/,,(602) 856-7680,,🆕 New Lead,
+,Appliance Liquidators,Liquidateur,US,Phoenix,"3111 E Greenway Rd, Phoenix, AZ 85032",https://www.azpalletliquidators.com/?utm_source=gmb&utm_medium=organichttp://www.azpalletliquidators.com/,,(480) 470-1600,,🆕 New Lead,
+,AZ Cost Pro,Liquidateur,US,Phoenix,"1730 W Buchanan St, Phoenix, AZ 85007",https://www.facebook.com/az.cost.pro.llc,,(480) 942-8120,,🆕 New Lead,
+,Primo Liquidation LLC,Liquidateur,US,Phoenix,"3334 W Van Buren St B, Phoenix, AZ 85009",http://primoliquidation.com/,,(602) 845-9713,,🆕 New Lead,
+,Las Vegas Liquidation Pallets Superstore,Liquidateur,US,Las Vegas,"2570 E Tropicana Ave #10, Las Vegas, NV 89121",https://www.lasvegasliquidationpallets.com/superstore,,(702) 577-3333,,🆕 New Lead,
+,Las Vegas Liquidation Pallets,Liquidateur,US,Las Vegas,"3775 E Sahara Ave, Las Vegas, NV 89104",https://lasvegasliquidationpallets.com/warehouse/,,(725) 227-8498,,🆕 New Lead,
+,888 Lots,Liquidator,US,Linden,"1416 E Linden Ave, Linden, NJ 07036",https://888lots.com/?utm_campaign=WebsiteLinkBusinessInfo&utm_medium=GoogleBusinessInfo&utm_source=GoogleBusinessProfile,lots@888lots.com,"(908) 583-9300
+",,🆕 New Lead,
+,Dr Maged Salaheldin Medical Center,Dermatologue,AE,,"Dubai Healthcare city, Building 27, Block B, Office 401 - Dubai - Émirats arabes unis",,N/A,#ERROR!,,🆕 New Lead,
+,Dr. Juwariya Tasneem Syeda,Dermatologue,AE,,Aster Jubilee Medical Complex - Khalid Bin Al Waleed Rd - Bur Dubai - Al Fahidi - Dubai - Émirats arabes unis,,,#ERROR!,,🆕 New Lead,
+,"Dr Omar Al Khalili Clinic – Beauty, Aesthetics & Dermatology in Dubai",Dermatologue,AE,,Umm Al Sheif - Dubai - Émirats arabes unis,https://dromarkhalili.com/,,#ERROR!,,🆕 New Lead,
+,Dr. Shubhangi Perkar - Dermal Fillers in Dubai | Acne Scars Treatment in Dubai,Dermatologue,AE,,"Amwaj Polyclinic LLC, Amwaj 2 Building P11 - Jumeirah Beach Residence - Dubai - Émirats arabes unis",https://amwajpolyclinic.com/,,#ERROR!,,🆕 New Lead,
+,Ibrahim Abbara Dermatology & Venereology,Clinique dermatologique,AE,,Al Hana Center - 2nd Floor - 2nd St - Al Mankhool - Dubai - Émirats arabes unis,https://ibrahimabbara.com/dribrahimabbara,,#ERROR!,,🆕 New Lead,
+,Perla Dermatology Clinic,Dermatologue,AE,,Retail 02 City walk - Building 11A - alsaada street - Al Wasl - Dubai - Émirats arabes unis,http://www.perla-dc.com/,,#ERROR!,,🆕 New Lead,
+,Elive Beauty Spot Dermatology Clinic,Dermatologue,AE,,faris Mall - 16 St - Al Qouz First - Al Quoz - Dubai - Émirats arabes unis,https://eliveclinics.com/,,#ERROR!,,🆕 New Lead,
+,City Dermatology Clinic Dubai,Dermatologue,AE,,Jumeira St - Jumeirah - Jumeirah 3 - Dubai - Émirats arabes unis,https://citydermatologyclinic.com/dubai/,,#ERROR!,,🆕 New Lead,
+,Derma One Aesthetic Center - Cosmetic Centre Dubai,Dermatologue,AE,,348Q+294 - Cluster M - Al Thanyah Fifth - Jumeirah Lakes Towers - Dubai - Émirats arabes unis,https://dermaone.ae/?utm_source=gmb,,#ERROR!,,🆕 New Lead,
+,Dr Volha Shpadaruk,Dermatologue,AE,,"Building 64 - Building 64 ), Block A Third floor - Umm Hurair Second - Dubai Healthcare City - Dubai - Émirats arabes unis",https://dr-vs.com/,,#ERROR!,,🆕 New Lead,
+,Dr. Mahaveer Mehta Dermatology center Dubai,Dermatologue,AE,,"641-B - office tower , Gate - 3 Al Rigga Rd - Al Muraqqabat - Deira - Dubai - Émirats arabes unis",http://www.skinlaserdubai.com/,,#ERROR!,,🆕 New Lead,
+,Dr. VICTORIA Medical Center | Dermatologist | Botox | Filler | Aesthetic Treatment | Cosmetic Dermatology - Jumeirah,Dermatologue,AE,,Jumeirah - Jumeirah 1 - Dubai - Émirats arabes unis,https://www.instagram.com/dr.victoria.mc?igsh=MWg1MXh1cmE0NDE1Nw%3D%3D&utm_source=qr,,#ERROR!,,🆕 New Lead,
+,Altaderma Clinic & Training Center Dubai,Dermatologue,AE,,Jumeirah 2 - Jumeirah Rd - Villa 349 26 E St - opposite four seasons Resort - Dubai - Émirats arabes unis,https://altaderma.com/?utm_source=gmb,,#ERROR!,,🆕 New Lead,
+,Dr Habiba,Dermatologue,AE,,"Level 7, Fashion Parking - Dubai Mall - Sheikh Mohammed bin Rashid Blvd - Burj Khalifa - Downtown Dubai - Dubai - Émirats arabes unis",http://www.drhabiba.com/,,#ERROR!,,🆕 New Lead,
+,Dr Eissan Ragab Dermatology Specialist,Dermatologue,AE,,Umm Hurair Second - Dubai Healthcare City - Dubai - Émirats arabes unis,https://www.dreissanragab.com/,,#ERROR!,,🆕 New Lead,
+,Athena Dermatology Clinic,Dermatologue,AE,,"Commercial Entrance, The Onyx Tower - 2 Sheikh Zayed Rd - Al Thanyah Third - The Greens - Dubai - Émirats arabes unis",https://athenaderma.com/,,#ERROR!,,🆕 New Lead,
+,Premium Cosmetic Laser Center,Dermatologue,AE,,Al shafar Building 7 - 102 Al Wasl Rd - Al Bada' - Jumeirah 1 - Dubai - Émirats arabes unis,https://gopremium.ae/,,#ERROR!,,🆕 New Lead,
+,Dr. Aishani Shah - Dermatology & Aesthetic Clinic,Dermatologue,AE,,"Mubadala Health Dubai, Sunset mall - Jumeirah-3 - Jumeirah 3 - Dubai - Émirats arabes unis",https://mubadalahealthdubai.com/doctors-and-medical-staff/dr-aishani-shah/,,#ERROR!,,🆕 New Lead,
+,Glow Aesthetics Dermatology Clinic - Burjuman,Dermatologue,AE,,Khalid Bin Al Waleed Rd - Al Mankhool - Dubai - Émirats arabes unis,https://glowdubai.ae/,,#ERROR!,,🆕 New Lead,
+,Dr. Teena Mathew,Dermatologue,AE,,JTS Medical Centre LLC - Jumeirah - Jumeirah 1 - Dubai - Émirats arabes unis,https://jtsmedicalcentre.com/doctor/dr-teena-mathew/,,#ERROR!,,🆕 New Lead,
+,Centro Dermatologico,Dermatologue,ES,Madrid,"Gran Vía, 67, Centro, 28013 Madrid, Espagne",,N/A,#ERROR!,,🆕 New Lead,
+,"Clínica Marta Prieto | Dermatólogo en Madrid, Clínica Medicina Estética y Capilar",Dermatologue,ES,Madrid,"C. de Orense, 51, Bajo A, Tetuán, 28020 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,Centro Dermatológico Nuria Romero,Dermatologue,ES,Madrid,"Calle de Sta Engracia, 128, 1º, Chamberí, 28003 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,"Clinica IMEDE, Dermatological and Cosmetic Medical Center",Dermatologue,ES,Madrid,"P.º del Gral. Martínez Campos, 13, 1º CD, Chamberí, 28010 Madrid, Espagne",#ERROR!,info@imede.es,#ERROR!,,🆕 New Lead,
+,Madriderma Dermatologo Privado Madrid,Dermatologue,ES,Madrid,"Calle de Castelló, 41, Bajo Izquierda, Salamanca, 28001 Madrid, Espagne",#ERROR!,info@madriderma.com,#ERROR!,,🆕 New Lead,
+,Centro Médico Dermatológico - Dra. María Dolores Moya González,Dermatologue,ES,Madrid,"C. de Fernando el Católico, 13, bajo c, Chamberí, 28015 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,Consulta Privada Dermatológica - Dra. Martina Alés Fernández - Madrid,Dermatologue,ES,Madrid,"Av. de Ramón y Cajal, 109, Cdad. Lineal, 28043 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,Instituto de Medicina y Dermatología Avanzada (IMDA),Dermatologue,ES,Madrid,"Calle de Goya, 5, 7, entreplanta Pasaje comercial, Salamanca, 28001 Madrid, Espagne",#ERROR!,info@imda.es,#ERROR!,,🆕 New Lead,
+,Clínica Dermogalénica - Dermatólogo Madrid (Santiago Vidal Asensi),Dermatologue,ES,Madrid,"Cl. de Ayala, 38, 1ºB, Salamanca, 28001 Madrid, Espagne",,N/A,#ERROR!,,🆕 New Lead,
+,"Clínica DermoMedic. Dermatología médica, quirúrgica y estética",Dermatologue,ES,Madrid,"C. de Hermosilla, 59, Bajo derecha, Salamanca, 28001 Madrid, Espagne",#ERROR!,consulta@dermomedic.com,#ERROR!,,🆕 New Lead,
+,"Clínica AB Derma - Dermatología, Tricología y Medicina Estética",Clinique dermatologique,ES,Madrid,"Calle de Diego de León, 52, Salamanca, 28006 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,Clínica Eguren Dermatología y Estética | Dermatólogas especialistas en rosácea y acné en Madrid,Dermatologue,ES,Madrid,"C. de Lope de Rueda, 13, Entreplanta dcha, Salamanca, 28009 Madrid, Espagne",#ERROR!,info@clinicaeguren.com,#ERROR!,,🆕 New Lead,
+,ONESKIN-MED Clínica Dermatológica,Dermatologue,ES,Madrid,"Calle de Fernández de la Hoz, 76, bajo A, Chamberí, 28003 Madrid, Espagne",#ERROR!,info@oneskinmed.com,#ERROR!,,🆕 New Lead,
+,Dermaniac - Clínica Dermatológica en Madrid. Dra. Elena Vargas,Clinique dermatologique,ES,Madrid,"C. de Andrés Mellado, 23, Chamberí, 28015 Madrid, Espagne",#ERROR!,citaprevia@dermaniac.com,#ERROR!,,🆕 New Lead,
+,Clínica dermatológica De Felipe Madrid,Dermatologue,ES,Madrid,"Av. de Menéndez Pelayo, 81, Retiro, 28007 Madrid, Espagne",#ERROR!,madrid@defelipe.com,#ERROR!,,🆕 New Lead,
+,International Dermatology Clinic,Dermatologue,ES,Madrid,"C. del Marqués de Villamagna, 8, Salamanca, 28001 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,Dermatology Consultation Dr. Marta Moratinos,Dermatologue,ES,Madrid,"C. de Cáceres, 35, Arganzuela, 28045 Madrid, Espagne",#ERROR!,secretarias@dermamoratinos.es,#ERROR!,,🆕 New Lead,
+,Clínica dermatológica IMR Madrid - Castellana,Dermatologue,ES,Madrid,"P.º de la Castellana, 96, Chamartín, 28046 Madrid, Espagne",#ERROR!,N/A,#ERROR!,,🆕 New Lead,
+,Derma360 - Clínica de Dermatologia,Skin care clinic,PT,Lisbon,"Av. Duque de Loulé 5 2C, 1050-085 Lisboa, Portugal",https://derma360.pt/,info@derma360.pt,"351 21 043 4052
+",,🆕 New Lead,
+,A|D Lisbon (Aesthetic & Dermatology Lisbon),Medical clinic,PT,Lisbon,"R. Rodrigues Sampaio 146 3dto, 1150-282 Lisboa, Portugal",http://adlisbon.pt/,N/A,"351 963 954 090
+",,🆕 New Lead,
+,Centro de Dermatologia de Lisboa,Dermatologist,PT,Lisbon,"R. Augusto Gil 35B, 1000-064 Lisboa, Portugal",https://cdlisboa.pt/,geral@cdlisboa.pt,"351 21 053 4090
+",,🆕 New Lead,
+,"Clinical Dermatology Do Areeiro, Lda.",Skin care clinic,PT,Lisbon,"Av. Afonso Costa 22 SL D, 1900-036 Lisboa, Portugal",http://www.dermareeiro.pt/,geral@dermareeiro.pt,"351 21 845 2779
+",,🆕 New Lead,
+,Personal Derma - Dermatology Clinic & Esthetic,Dermatologist,PT,Lisbon,"Av. António Augusto de Aguiar 110 C, 1050-019 Lisboa, Portugal",http://www.personalderma.pt/,N/A,"351 910 333 055
+",,🆕 New Lead,
+,Dermatologista Dra. Teresa Fiadeiro,Dermatologist,PT,Lisbon,"Av. da República 101, 1050-197 Lisboa, Portugal",,N/A,"351 21 780 1808
+",,🆕 New Lead,
+,Dr. João Abel Amaro,Dermatologist,PT,Lisbon,"Alameda Dom Afonso Henriques 74, 1000-124 Lisboa, Portugal",https://www.joaoabelamaro.com.pt/,consultorioalameda@gmail.com,"351 21 843 5530
+",,🆕 New Lead,
+,Clínica Dra Isabel Fonseca Dermatologia,Dermatologist,PT,Lisbon,"R. Joaquim António de Aguiar 43, 1070-150 Lisboa, Portugal",https://www.isabelfonsecadermatologia.com/,clidermatologia@gmail.com,"351 925 998 775
+",,🆕 New Lead,
+,Este Medical Group- Hair & Skin Clinic Glasgow,Skin care clinic,GB,Glasgow,"1st Floor, 176 Bath St, Glasgow G2 4HG, United Kingdom",https://www.estemedicalgroup.uk/clinics/glasgow,N/A,"44 141 231 1883
+",,🆕 New Lead,
+,Dartmouth Hitchcock Clinics Manchester | Dermatology,Dermatologist,US,Manchester,"100 Hitchcock Way, Manchester, NH 03104",http://www.dartmouth-hitchcock.org/dermatology.html,N/A,"(603) 695-2540
+",,🆕 New Lead,
+,Dermatology Associates of Glastonbury: Zubkov Bella MD,Dermatologist,US,Glastonbury,"210 New London Turnpike, Glastonbury, CT 06033",http://dagdermdocs.com/,N/A,"(860) 633-1543
+",,🆕 New Lead,
+,Dermatology & Skin Health,Dermatologist,US,Bedford,"160 S River Rd Suite 2400, Bedford, NH 03110",https://dermskinhealth.com/,info@dermskinhealth.com,"(603) 742-5556
+",,🆕 New Lead,
+,Optima Dermatology & Medical Aesthetics,Dermatologist,US,Bedford,"176 S River Rd, Bedford, NH 03110",https://optimadermatology.com/locations/nh/bedford-nh,N/A,"(603) 942-2003
+",,🆕 New Lead,
+,Lumiere Clinic Manchester,Dermatologist,GB,Manchester,"38 City Rd E, Manchester M15 4QN, United Kingdom",http://www.lumiereclinic.co.uk/,info@lumiereclinic.co.uk,"44 161 236 6500
+",,🆕 New Lead,
+,Farmington Valley Dermatology,Dermatologist,US,South Windsor,"2400 Tamarack Ave #203, South Windsor, CT 06074",https://fvderm.com/,contact@fvderm.com,"(860) 674-9900
+",,🆕 New Lead,
+,"Moira Quinn, FNP-C, DCNP",Dermatologist,US,Leominster,"80 Erdman Way #100, Leominster, MA 01453",,N/A,"(978) 371-7010
+",,🆕 New Lead,
+,Manchester Dermatology Clinic,Dermatologist,GB,Manchester,"55 King St, Manchester M2 4LQ, United Kingdom",http://manchesterdermatologyclinic.co.uk/,example@mysite.com,"44 161 768 7674
+",,🆕 New Lead,
+,Pinnacle Dermatology - Manchester,Dermatologist,US,Manchester,"1020 McArthur St, Manchester, TN 37355",https://pinnacleskin.com/our-locations/manchester/?y_source=1_MTQxMzY2MzYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,N/A,"(931) 954-1400
+",,🆕 New Lead,
+,"Adult & Pediatric Dermatology, PC",Skin care clinic,US,Manchester,"87 McGregor Street Suite 2100 Notre Dame Pavilion, Manchester, NH 03102",https://www.apderm.com/locations/manchester-nh/?utm_source=google&utm_medium=organic&utm_campaign=gmb,N/A,"(603) 626-7546
+",,🆕 New Lead,
+,The Mole Clinic Manchester,Dermatologist,GB,Manchester,"7 St James's Square, Manchester M2 6DN, United Kingdom",https://themoleclinic.co.uk/manchester/?utm_source=google&utm_medium=local&utm_campaign=gmb,N/A,"44 800 023 4212
+",,🆕 New Lead,
+,Dr Nicole Dermatology,Dermatologist,GB,Manchester,"Lumiere Clinic, 38 City Rd E, Manchester M15 4QN, United Kingdom",http://www.drnicoledermatology.co.uk/,info@drnicoledermatology.co.uk,"44 161 236 6500
+",,🆕 New Lead,
+,Derm Expert Dr Tim Clayton,Dermatologist,GB,Manchester,"76 King St, Manchester M2 4NH, United Kingdom",https://www.dermexpert.co.uk/,N/A,"44 161 536 4008
+",,🆕 New Lead,
+,Smart Start Ignition Interlock,Safety equipment supplier,US,Greenfield,"150 Federal St, Greenfield, MA 01301",https://www.smartstartinc.com/locations/ignition-interlock-massachusetts-greenfield-150-federal-st-01301/?utm_source=Google&utm_campaign=5576&utm_medium=locations_organic,N/A,"(413) 223-9252
+",,🆕 New Lead,
+,Magdalena Pastuszak- RC- Dermatolog,Dermatologist,PL,Szczecin,"Narutowicza 11/39, 70-240 Szczecin, Poland",,N/A,"
+",,🆕 New Lead,
+,Indigogene Denim - Custom Leather & Denim Clothes,Sewing company,US,Mesa,"840 W University Dr #5, Mesa, AZ 85201",https://www.jrsewingmanufacture.com/,jrsewingmanufacture@gmail.com,"(480) 262-2123
+",,🆕 New Lead,
+,iconic garments,Clothes and fabric manufacturer,US,Kearny,"78 John Miller Way, Kearny, NJ 07032",,,"
+",,🆕 New Lead,
+,Whitley Realty Team LLC,Real estate agent,,,,,N/A,"(252) 378-0075
+",,🆕 New Lead,
+,Fashion Threads Ltd.,Clothes and fabric manufacturer,GB,Hove,"21 Lansdowne St, Brighton and Hove, Hove BN3 1FS, United Kingdom",http://www.fashionthreads.co.uk/,info@fashionthreads.co.uk,"44 7970 106336
+",,🆕 New Lead,
+,Fitness Clothing Manufacturer in UK,Clothes and fabric manufacturer,GB,London,"35 Catherine Pl, Buckingham Gate, London SW1E 6DY, United Kingdom",https://www.fitnessclothingmanufacturer.com/europe/uk/,N/A,"
+",,🆕 New Lead,
+,KC Manufacturing,Manufacturer,GB,Dunfermline,"26-42 Gardener's Street, Dunfermline KY12 0RN, United Kingdom",http://kalopsiacollective.com/,N/A,"44 131 281 1086
+",,🆕 New Lead,
+,Grade House Ltd Clothing Manufacturer & Fashion Product Development London,Clothes and fabric manufacturer,GB,London,"45-47 Alperton Ln, London HA0 1DX, United Kingdom",http://gradehouseltd.com/,info@gradehouseltd.com,"44 20 3544 2244
+",,🆕 New Lead,
+,Karpelle,Clothes and fabric manufacturer,GB,Oldham,"G02 Ground Floor, Ram Mill, Business Centre, Gordon St, Chadderton, Oldham OL9 9RH, United Kingdom",http://www.karpelle.co.uk/,N/A,"44 161 203 2400
+",,🆕 New Lead,
+,Bridge & Stitch,Clothes and fabric manufacturer,GB,Nottingham,"620A Mansfield Rd, Sherwood, Nottingham NG5 2GA, United Kingdom",http://bridgeandstitch.com/,hello@bridgeandstitch.com,"44 115 684 2525
+",,🆕 New Lead,
+,Fabrika London,Clothes and fabric manufacturer,GB,London,"Design District, 1 Barton Yard, Soames Walk, London SE10 0BN, United Kingdom",http://www.fabrika.london/,info@fabrikalondon.com,"44 7946 503408
+",,🆕 New Lead,
+,Corporatewear UK,Clothes and fabric manufacturer,GB,Birmingham,"Corporatewear UK, 2 Athole St, Birmingham B12 0DA, United Kingdom",http://www.cwear.co.uk/,info@cwear.co.uk,"44 121 446 2610
+",,🆕 New Lead,
+,L S Manufacturing UK,Clothes and fabric manufacturer,GB,Wolverhampton,"Sidney St, Wolverhampton WV2 4HH, United Kingdom",https://www.lsmanufacturing.com/,N/A,"44 1902 711823
+",,🆕 New Lead,
+,FPM UK LTD,Clothes and fabric manufacturer,GB,Birmingham,"60 Norton St, Birmingham B18 5RE, United Kingdom",http://www.fpmuk.net/,info@fpmuk.net,"44 121 551 1400
+",,🆕 New Lead,
+,Bulldog - London Clothing Manufacturer UK,Clothes and fabric manufacturer,GB,London,"14D, Leyton Studios, London E10 7QE, United Kingdom",https://www.londonclothingmanufacturer.co.uk/,N/A,"44 7429 291160
+",,🆕 New Lead,
+,Global Clothes Manufacturing |Cloth manufacturing Company in UK,Clothes and fabric manufacturer,GB,London,"6 London St, London EC3R 7LP, United Kingdom",https://globalclothesmanufacturing.com/,N/A,"44 7864 616152
+",,🆕 New Lead,
+,The Clothing Manufacturers UK,Clothes and fabric manufacturer,GB,London,"186 Bridport Rd, London N18 1SJ, United Kingdom",https://theclothingmanufacturers.com/,N/A,"44 7899 491932
+",,🆕 New Lead,
+,DSA Manufacturing,Clothes and fabric manufacturer,GB,Swansea,"DSA Manufacturing, The Old Sketty Coach House, 21 Gower Rd, Sketty, Swansea SA2 9BX, United Kingdom",http://www.dsa-manufacturing.co.uk/,N/A,"
+",,🆕 New Lead,
+,Fashion UK,Clothes and fabric manufacturer,GB,Leicester,"11 St Georges Way, Leicester LE1 1SH, United Kingdom",https://www.fashionsuk.com/,N/A,"44 116 276 2929
+",,🆕 New Lead,
+,"Affix Apparel: Clothing Manufacturers Uk, T Shirt Manufacturer Uk, Sportswear Manufacturers Uk",Clothes and fabric manufacturer,GB,London,"International House, 12 Constance St, London E16 2DQ, United Kingdom",https://affixapparel.co.uk/#utm_source=GMB&utm_medium=UK&utm_campaign=GMB+UK&utm_id=GMB+UK,N/A,"44 7868 710666
+",,🆕 New Lead,
+,Clothing Manufacturers UK,Clothes and fabric manufacturer,GB,London,"Unit 2B, 186 Bridport Rd, London N18 1SJ, United Kingdom",https://www.clothingmanufacturersuk.com/,info@clothingmanufacturersuk.com,"44 7522 191277
+",,🆕 New Lead,
+,Fashionworks London,Clothes and fabric manufacturer,GB,London,"27 Old Gloucester St, London WC1N 3AX, United Kingdom",https://fashionworkslondon.com/,N/A,"44 20 3917 4101
+",,🆕 New Lead,
+,Wangsheng Clothing Factory,Manufacturer,CN,Guangzhou,"38HF+VGM, Qiaonan St, Haizhu District, Guangzhou, Guangdong Province, China, 510305",,N/A,"86 20 2212 4605
+",,🆕 New Lead,
+,China Erchong Wanlu Transport Industry Clothing Factory,Manufacturer,CN,Deyang,"49GJ+6X5, Jinjiang Rd, Jingyang District, Deyang, Sichuan, China, 618013",,N/A,"86 838 222 4392
+",,🆕 New Lead,
+,Chase USA International Inc,Clothing store,US,San Diego,"388 W Calle Primera, San Diego, CA 92173",http://www.chaseusaapparel.com/,sales@chaseusaint.com,"(619) 662-0130
+",,🆕 New Lead,
+,China Jinzhong Clothing Factory,Manufacturer,CN,Guangzhou,"China, Guangdong Province, Guangzhou, Haizhu District, Taisha Rd, 西畔里西二巷8 邮政编码: 510288",,N/A,"
+",,🆕 New Lead,
+,Beijing Weikatong Clothing Factory,Manufacturer,CN,Tongzhou,"RPH2+RWJ, Zhangcai Rd, Tongzhou, Beijing, China, 101123",,N/A,"
+",,🆕 New Lead,
+,Guangzhou Haizhu Xihuang Clothing Factory,Manufacturer,CN,Guangzhou,"20 Chigang W Rd, 客村 Haizhu District, Guangzhou, Guangdong Province, China, 510310",,N/A,"
+",,🆕 New Lead,
+,Boming Clothing Factory,Manufacturer,CN,Foshan,"46M5+69H, Xinglong St, Nanhai District, Foshan, Guangdong Province, China, 510168",,N/A,"86 757 8113 0991
+",,🆕 New Lead,
+,Arlisman clothing manufacturer,Clothes and fabric manufacturer,CN,Zhongshan,"China, Guangdong Province, Zhongshan, Town, Shaxi, Zhongshan, No.2 Building 3,Pangtou industry str",https://www.arlisman.com/,N/A,"
+",,🆕 New Lead,
+,Guangzhou Melten Fashion Clothing Factory,Manufacturer,CN,Guangzhou,"27VP+7FJ, Yansha Rd, Panyu District, Guangzhou, Guangdong Province, China, 511431",https://www.meltenfashion.com/,N/A,"
+",,🆕 New Lead,
+,Acme Prints,Screen printing shop,US,Phoenix,"705 N 7th Ave, Phoenix, AZ 85007",http://www.acmeprints.com/,info@acmeprints.com,"(602) 461-7171
+",,🆕 New Lead,
+,Memon Garments Manufacturer - MGM Apparel Pvt ltd,Manufacturer,PK,Karachi,"Yousuf hotel, Mehran Town Sector 6 D Korangi, Karachi, Pakistan",,N/A,"92 334 3448929
+",,🆕 New Lead,
+,Intradeco Apparel Inc,Clothing supplier,US,Medley,"9500 NW 108th Ave, Medley, FL 33178",http://www.intradeco.com/,customercare@intradeco.com,"(305) 264-8888
+",,🆕 New Lead,
+,Divina Moda Made in Turkey Wholesale Women's Fashion Clothing Store,Clothing wholesale market place,US,Miami,"2029 NW 20th St, Miami, FL 33142",https://www.divinamoda.net/,Sales@divinamoda.net,"(786) 740-6715
+",,🆕 New Lead,
+,Original apparel (Factory Outlet),Clothes and fabric manufacturer,PK,Faisalabad,"9-KM, 203RB Lahore - Sheikhupura - Faisalabad Rd, Qamar Garden, Faisalabad, 38600, Pakistan",,N/A,"92 321 6624838
+",,🆕 New Lead,
+,ZAK GARMENT® 🇵🇰 (Manufacturer & Wholesaler),Manufacturer,PK,KARACHI,"ZAK GARMENT® 🇵🇰 *(Manufacturer & Wholesaler)*, Clifton Block-8, Dehli Colony Near Aqsa Masjid, Delhi Colony 2, KARACHI, 75600, Pakistan",https://wa.me/c/923012731594,N/A,"92 301 2731594
+",,🆕 New Lead,
+,Pakistan Leather Garments Manufacturing Company,Manufacturer,PK,Lahore,"Bostan Colony Near Railway Power House School Street Plot No 9/S/10 Peco, Road, Kotlakhpat, Lahore, 54000, Pakistan",https://www.leather.com.pk/,N/A,"92 300 4597039
+",,🆕 New Lead,
+,ZK INTERNATIONAL,Manufacturer,PK,Faisalabad,"Raja Ghulam, P-841 Street 6, Rasool Nagar Al Masoom Town, Faisalabad, 38000, Pakistan",http://www.zkinternational.com/,info@zkinternational.com,"92 41 2438615
+",,🆕 New Lead,
+,"Manufacturers of Jacket, Company Uniform, t-shirt,bags and all types of garments in Lahore",Manufacturer,PK,Lahore,"BANK STOP, HAKIM Chowk, Lahore, 05450, Pakistan",,N/A,"92 321 4948740
+",,🆕 New Lead,
+,Brand Stuff ( Clothing Manufacturers ),Clothing supplier,PK,Sialkot,"Hajipura Road, Haji Pura Bun Rd، Abad Nagar Hajipura, Sialkot, 51310, Pakistan",https://brand-stuff.com/,info@brand-stuff.com,"92 333 8642333
+",,🆕 New Lead,
+,Happy Garments Manufacturer (Men's & Kids wear),Clothes and fabric manufacturer,PK,Shahdara,"Shaikh javed building, near Bank al Habib, Shahdara Town, Shahdara, Pakistan",http://www.happygarments.com/,jane@yourbrand.com,"92 315 7900786
+",,📤 Email Sent,
+,,,,,#ERROR!,,,,,,
+,,,,,#ERROR!,,,,,,
+,,,,,#ERROR!,,,,,,
+,MG Apparel,Manufacturer,PK,Multan,"Plot 94, 96 Industrial Estate Hwy, Industrial Estate, Multan, Pakistan",http://www.mgapparel.com/,info@mgapparel.com,"92 61 111 181 181
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Monist Industries | Custom Clothing Manufacturers & Suppliers in United States (USA),Clothes and fabric manufacturer,PK,Sialkot,"Silver Star Rd, Islamia Park Sialkot, 51310, Pakistan",http://www.monistind.com/,info@monistind.com,"92 301 6194229
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Sturdy Apparel Manufacturing,Clothes and fabric manufacturer,PK,Islamabad,"Office No.4, 3rd Floor, Khan Plaza Phase 5-A, Phase 5 Ghauri Town, 44000, Pakistan",https://wa.me/c/923328507075,N/A,"92 332 8507075
+",,🆕 New Lead,
+,Stitch Cares Apparel (PVT) LTD.,Clothes and fabric manufacturer,PK,Lahore,"GF Center 24km Ferozepur Rd, Nishter Colony, Nashter Town, Lahore, 54600, Pakistan",https://stitchcares.com/,info@stitchcares.com,"92 303 2000848
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Burraq Garments Factory,Manufacturer,PK,Lahore,"Gajuumata, 47 HDR INDUSTRIAL ESTATE, Lahore, 53101, Pakistan",https://burraqgarments.com/,info@burraqgarments.com,"92 321 4430474
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,,,,,#ERROR!,,,,,,
+,"PTC FACTORY (Knitted Garment, Schoolwear, Sportswear and Boutique wear Ladies and Mens wear)",Manufacturer,PK,Lahore,"19-km Baghdadi house Street, Multan Rd, kot Hayat Samanabad Town, Lahore, 54000, Pakistan",https://primetradingcompany.com/,ceo@primetradingcompany.com,"92 336 5185591
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Axen Apparel Factory,Clothes and fabric manufacturer,PK,Gajju Matah,"24/1, HDR Industrial Estate, Gajju Matah, 54000, Pakistan",http://axenapparel.com/,opportunity@axenapparel.com,"92 336 5973985
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Active Apparels International Pvt Ltd,Clothes and fabric manufacturer,PK,Lahore,"58-M, Quaid-e-Azam Industrial Area, Kot Lakhpat, Quaid e Azam Industrial Estate, Lahore, Pakistan",http://www.activeapparels.com/,N/A,"92 42 35117891
+",,🆕 New Lead,
+,Kamran Apparel Shirt Brand Factory,Manufacturer,PK,Karachi,"22 Lyra St, Federal B Area Block 22 Industrial Area, Karachi, 75950, Pakistan",http://www.kamranapparels.com/,kamran@kamranapparels.com,"92 333 2191307
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,"Malik Stitchers - Garments & Shoes Manufacturer, Supplier & Exporter Company in Lahore, Pakistan",Manufacturer,PK,Muridke,"Backside Vital Patrol Pump, 1-km Sheikhupura Road, Afzal Colony Muridke, Pakistan",https://www.malikstitchers.pk/,MalikStitchers@gmail.com,"92 321 7571740
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,"Rijiz , A Custom Clothing Manufacturer",Clothes and fabric manufacturer,PK,Sialkot,"Besides Majeed Honda، near Tulip Marquee, Nawan Pind Araian, Sialkot, 51310, Pakistan",http://www.rijiz.co/,exportrijiz@gmail.com,"92 336 1408321
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Sajid Garments (Workwear Garments Manufacturers),Manufacturer,PK,Lahore,"Ganda Nala Rd, Sahowari Ramgarh, Lahore, 54000, Pakistan",http://www.sajidgarments.com/,info@sajidgarments.com,"92 320 0002083
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Style Apparel Park,Clothes and fabric manufacturer,PK,Rakh Mudke,"Rakh Mudke, Pakistan",http://www.styletextile.com/,N/A,"92 42 35123064
+",,🆕 New Lead,
+,START,Non-profit organization,US,Washington,"601 13th Street Northwest, Suite 900 South PMB #90104, Washington, DC 20005",http://start.org/,N/A,"(202) 462-2213
+",,🆕 New Lead,
+,KJ Production House,Manufacturer,AU,West Pennant Hills,"5 Kylie Cres, West Pennant Hills NSW 2125, Australia",http://kjproductionhouse.com.au/,N/A,"61 404 015 780
+",,🆕 New Lead,
+,D E E P W E A R,Business to business service,AU,Port Melbourne,"19 Johnston St, Port Melbourne VIC 3207, Australia",https://deepwear.info/australia/?utm_source=gmb&utm_medium=gmb_australia&utm_campaign=gmb_listing,enquire@deepwear.info,"61 450 343 245
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Textile Link,Fabric product manufacturer,AU,Clyde North,"4 Argon Circuit, Clyde North VIC 3978, Australia",http://textilelink.com.au/,info@textilelink.com.au,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Claybourn Manufacturing (Former The Australian Coat Company Pty Ltd),Manufacturer,AU,Underwood,"7 Ferguson St, Underwood QLD 4119, Australia",https://claybournmanufacturing.com.au/,N/A,"61 7 3290 4077
+",,🆕 New Lead,
+,Wornstar Clothing,Clothing store,US,Goodyear,"540 N Bullard Ave Suite 23-24, Goodyear, AZ 85338",http://www.wornstar.com/,info@stagheaddesigns.com,"(815) 277-9676
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Global Wholesale Clothing Manufacturer USA - Alanic Global,Clothing store,US,Beverly Hills,"8730 Wilshire Blvd Penthouse, Beverly Hills, CA 90210",https://www.alanicglobal.com/,info@alanicglobal.com,"(855) 525-2642
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Pacific Manufacturing,Clothing supplier,US,San Diego,"10373 Roselle St UNIT 110, San Diego, CA 92121",http://www.pac-mfg.com/,N/A,"(858) 429-6065
+",,🆕 New Lead,
+,Sphinx Australia,Manufacturer,AU,Bankstown,"12 Stacey St, Bankstown NSW 2200, Australia",http://www.sphinxaustralia.com.au/,N/A,"61 2 9790 8236
+",,🆕 New Lead,
+,Cave & Post Trading Co.,Men's clothing store,US,Phoenix,"509 W McDowell Rd #102, Phoenix, AZ 85003",https://www.caveandpost.com/,N/A,"(602) 931-0090
+",,🆕 New Lead,
+,CB Clothing,Clothes and fabric manufacturer,AU,Tullamarine,"26A Ovata Dr, Tullamarine VIC 3043, Australia",https://www.cbclothing.com.au/,N/A,"61 3 9335 6606
+",,🆕 New Lead,
+,Qualitops,Manufacturer,AU,Reservoir,"6 Brex Ct, Reservoir VIC 3073, Australia",http://www.qualitops.com.au/,info@qualitops.com.au,"61 3 9041 5062
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,,,,,#ERROR!,,,,,,
+,Dixxon Flannel Company,Clothing store,US,Tempe,"7200 S Priest Dr, Tempe, AZ 85283",http://www.dixxon.com/,info@dixxon.com,"(877) 874-2013
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,VISIONISE - Fashion Design & Manufacturing Services,Manufacturer,AU,Kahibah,"3 Aveley St, Kahibah NSW 2290, Australia",http://visionise.com.au/,team@visionise.com.au,"61 468 576 100
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,CGT Australia,Manufacturer,AU,Brunswick,"5/11 Prowse St, Brunswick VIC 3055, Australia",http://cgtaustralia.com/,user@domain.com,"61 3 9383 4822
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,The Logo Clothing Company,Clothing wholesaler,AU,Concord West,"26 Moala St, Concord West NSW 2138, Australia",https://www.thelogoclothingcompany.com.au/?utm_source=local&utm_medium=organic&utm_campaign=gmb,sales@thelogoclothingcompany.com.au,"61 2 8964 4166
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,D&J Fashion Manufacturer - Australia,Manufacturer,AU,North Strathfield,"Level 1/5 George St, North Strathfield NSW 2137, Australia",https://dnjfashion.com/,john@doe.com,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,,,
+,Raghouse,Clothing supplier,US,Phoenix,"806 S 56th Ave, Phoenix, AZ 85043",https://raghouse.com/,N/A,"(602) 278-6545
+",,🆕 New Lead,
+,Wholesale Apparel Manufacturers Australia | Clothing Manufacturer,Clothing supplier,AU,Miami,"8 Avalon Parade, Miami QLD 4220, Australia",https://www.clothingmanufacturer.com/australian-clothing/,N/A,"
+",,🆕 New Lead,
+,Alanic Clothing : Reputed Wholesale Clothing Manufacturers Australia,Clothing store,AU,North Sydney,"Lower Ground Floor/146 Arthur St, North Sydney NSW 2060, Australia",https://www.alanic.clothing/australia/,N/A,"
+",,🆕 New Lead,
+,Tropical Running Company,Clothing store,US,Miami,"2423 SW 147th Ave #605, Miami, FL 33185",,N/A,"(305) 521-9077
+",,🆕 New Lead,
+,Connect Apparel Sourcing GmbH,Import export company,DE,Duisburg,"Koloniestraße 172, 47057 Duisburg, Germany",http://www.connect-sourcing.com/,N/A,"
+",,🆕 New Lead,
+,Pride Germany,Clothes and fabric manufacturer,DE,Schleswig,"Beethovenstraße 4, 24837 Schleswig, Germany",,N/A,"49 4621 9377903
+",,🆕 New Lead,
+,Corporate Wear Germany,Clothes and fabric manufacturer,DE,Schenefeld,"Kampweg 20, 22869 Schenefeld, Germany",https://www.corporateweargermany.de/,N/A,"49 40 86642176
+",,🆕 New Lead,
+,Lemuta High Quality Clothing Manufacturer & Blanks,Clothes and fabric manufacturer,DE,Würzburg,"Alfred-Nobel-Straße 5, 97080 Würzburg, Germany",http://www.lemuta.com/,N/A,"49 931 99111301
+",,🆕 New Lead,
+,BEN AND a leading fashion agency based in Germany,Distribution service,DE,Munich,"Georgenstraße 3, 80799 München, Germany",https://www.ben-and.com/,N/A,"49 89 32308046
+",,🆕 New Lead,
+,Style Textilhandel GmbH Germany,Clothes and fabric manufacturer,DE,Mörlenbach,"Mumbacher Talstraße 130, 69509 Mörlenbach, Germany",https://www.style-textilhandel.eu/,N/A,"49 6209 794648
+",,🆕 New Lead,
+,X-Company GmbH,Clothes and fabric manufacturer,DE,Hamburg,"Koreastraße 5, 20457 Hamburg, Germany",http://www.x-company.dk/,info@x-company.dk,"49 40 32872400
+",,🆕 New Lead,
+,Tripping Animals Brewing Co.,Brewery,US,Miami,"2685 NW 105th Ave, Miami, FL 33172",http://trippinganimals.com/,N/A,"(305) 646-1339
+",,🆕 New Lead,
+,Sunset Clothing Co,Clothing store,US,Miami Beach,"1895 Purdy Ave, Miami Beach, FL 33139",,N/A,"(305) 534-1280
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Apparel Manufacturer in Germany,Clothes and fabric manufacturer,DE,Worms,"Apartment : 4, Hochheimer Str. 37, Floor: 3, 67549 Worms, Germany",http://ahmedapparel.com/,N/A,"47 94 72 13 92
+",,🆕 New Lead,
+,Closeout Pallet,Wholesaler,US,Garwood,"110 South Ave A, Garwood, NJ 07027",https://closeoutpallets.com/,N/A,"(347) 685-9335
+",,🆕 New Lead,
+,PALLET KINGS,Wholesaler,US,Newark,"51 Austin St, Newark, NJ 07114",https://www.instagram.com/palletkings_ny?igsh=NDl2NWVreTgxZnls,N/A,"(347) 439-3628
+",,🆕 New Lead,
+,Long Island Liquidations LLC,Liquidator,US,Rocky Point,"427 NY-25A #2, Rocky Point, NY 11778",http://www.longislandliquidations.com/,N/A,"(631) 846-0198
+",,🆕 New Lead,
+,Treasure hunt liquidators,Discount store,US,Springfield,"894 Main St, Springfield, MA 01103",,N/A,"(413) 301-6716
+",,🆕 New Lead,
+,Liquidation.com Warehouse,Wholesaler,US,Pittston,"130 Independence Dr, Pittston, PA 18640",http://liquidation.com/,N/A,"(800) 310-4604
+",,🆕 New Lead,
+,Elite Liquidations,Liquidator,US,Nashua,"18 Celina Ave #16, Nashua, NH 03063",,N/A,"(603) 440-0433
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Daily deals liquidation,Liquidator,US,Jersey City,"2815 John F. Kennedy Blvd, Jersey City, NJ 07306",https://wholesalepalletliquidatoin.com/,N/A,"
+",,🆕 New Lead,
+,Treasure Liquidation,Liquidator,US,East Longmeadow,"169 Shaker Rd, East Longmeadow, MA 01028",https://sites.google.com/d/1M05Cf-_q9Nb9YQy3as7st1UvJ__VpjM3/p/1wQZrS9G1tL3D5aZcH9jT0upk4Br9x-Ti/edit?pli=1,N/A,"(413) 419-7124
+",,🆕 New Lead,
+,Simplex Liquidation,Liquidator,US,Parsippany,"343 New Rd Unit 7, Parsippany, NJ 07054",http://www.facebook.com/simplexliquidation,N/A,"(718) 866-8866
+",,🆕 New Lead,
+,Liquidation and Surplus,Material handling equipment supplier,US,Ghent,"34 Salerno Dr, Ghent, NY 12075",,N/A,"(845) 988-6606
+",,🆕 New Lead,
+,B J Liquidators,Liquidator,US,Smithfield,"Tarklin Rd, Smithfield, RI 02917",,N/A,"(401) 949-1778
+",,🆕 New Lead,
+,westchester liquidators,Wholesaler,US,Mt Vernon,"6 S 4th Ave, Mt Vernon, NY 10550",https://instagram.com/westchesterliquidators?igshid=YmMyMTA2M2Y=,N/A,"(914) 371-1531
+",,🆕 New Lead,
+,Opened box liquidation pallets llc,Retail space rental agency,US,Bronx,"554 Casanova St, Bronx, NY 10474",https://usapalletliquidators.com/,support@usapalletliquidators.com,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,American Liquidations,Wholesaler,US,Waterbury,"204 Austin Rd, Waterbury, CT 06705",https://www.americanliquidations.com/,sales@americanliquidations.com,"(203) 587-4132
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rays liquidation,Liquidator,US,Chicopee,"151 E Main St, Chicopee, MA 01020",https://m.facebook.com/Raysliquidations/,N/A,"(413) 523-4223
+",,🆕 New Lead,
+,"SCD Sales and Liquidation, LLC",Wholesaler,US,Johnston,"807 Hartford Ave, Johnston, RI 02919",https://www.scdliquidation.com/,LeanneDay@ScdLiquidation.com,"(401) 300-0159
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,SK Deals Liquidation,Liquidator,US,Springfield,"480 St James Ave, Springfield, MA 01109",http://skdealsliquidation.com/,info@skdealsliquidation.com,"(413) 455-4112
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,AAA Closeout Liquidators,Liquidator,US,Albany,"Sorry, no walk-in visitors. Visits by written E-MAIL appointment only!, 41 State St, Albany, NY 12207",https://aaacloseout.com/,sales@aaacloseout.com,"(518) 217-8587
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Caterra Real Estate,Real estate agency,US,Santa Ana,"2700 N Main St suite 1101, Santa Ana, CA 92705",https://caterrare.com/,dannynteam@gmail.com,"(949) 903-6633
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Regan Beegle & George Hanold V | Times Real Estate CA | Orange County's Best Real Estate Team,Real estate agent,US,Newport Beach,"2901 West Coast Hwy, Newport Beach, CA 92663",https://www.timesrealestateca.com/,N/A,"(949) 335-7437
+",,🆕 New Lead,
+,Noe Cruz All State Homes Real Estate and Mortgage Professionals,Real estate agency,US,Fresno,"770 E Shaw Ave #128, Fresno, CA 93710",http://www.fresnopropertysales.com/,noecruzrealtor@gmail.com,"(559) 916-8617
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,California Real Estate Brokers and Associates,Real estate agency,US,Huntington Beach,"8907 Warner Ave #226, Huntington Beach, CA 92647",https://homesbycba.com/,N/A,"(714) 322-1537
+",,🆕 New Lead,
+,Real Estate Experts,Real estate agency,US,Campbell,"910 E Hamilton Ave Suite 130, Campbell, CA 95008",,N/A,"(408) 807-4541
+",,🆕 New Lead,
+,Century 21 Sierra Realtors,Real estate agent,US,Mariposa,"5180 CA-49 N, Mariposa, CA 95338",http://century21sierrarealtors.com/,N/A,"(209) 966-5354
+",,🆕 New Lead,
+,Power Real Estate Group,Real estate agency,US,Anaheim,"2390 E Orangewood Ave # 400, Anaheim, CA 92806",https://powerreteam.com/,jeffery@powerreteam.com,"(714) 408-1101
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Ramiro & Erica Rivas - Pasadena/Altadena Real Estate Agents - The Agency Pasadena,Real estate agency,US,Pasadena,"225 S Lake Ave Suite 100, Pasadena, CA 91101",http://www.ramiroanderica.com/,N/A,"(626) 497-4606
+",,🆕 New Lead,
+,"Miguel Gonzalez, Realtor",Real estate agency,US,Clovis,"418 Clovis Ave, Clovis, CA 93612",http://www.buyandsellwithmiguel.com/,N/A,"(559) 718-0000
+",,🆕 New Lead,
+,"Araceli Gomez Broker, NextHome D&G Realty Group - Central California Real Estate",Real estate agency,US,Atwater,"1260 Broadway Ave, Atwater, CA 95301",http://www.goaraceli.com/,N/A,"(209) 756-2063
+",,🆕 New Lead,
+,Anderson Real Estate Group,Real estate agency,US,Long Beach,"6615 E Pacific Coast Hwy #180, Long Beach, CA 90803",http://www.andersonreg.com/,info@AndersonREG.com,"(562) 669-4729
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,KALEO Real Estate Company,Real estate agency,US,La Verne,"1339 Foothill Blvd, La Verne, CA 91750",https://www.kaleorealestate.com/,info@kaleorealestate.com,"(626) 609-2130
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Keyes Real Estate,Real estate agency,US,Los Angeles,"1412 Colorado Blvd, Los Angeles, CA 90041",https://keyesla.com/,info@keyesLA.com,"(310) 486-9417
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Los Angeles Realtors-Nahed & Krys Benyamein's Estate of Grace Real Estate,Real estate agency,US,Norwalk,"13915 San Antonio Dr, Norwalk, CA 90650",http://www.estateofgrace.com/,N/A,"(562) 755-0084
+",,🆕 New Lead,
+,CA Flat Fee Real Estate,Real estate agent,US,Arcadia,"292 E Foothill Blvd E, Arcadia, CA 91006",https://caflatfee.com/,N/A,"(626) 790-2250
+",,🆕 New Lead,
+,RealEstateAgents.com,Real estate agent,US,San Francisco,"580 California St 16th floor, San Francisco, CA 94104",https://www.realestateagents.com/,support@realestateagents.com,"(888) 586-2349
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"The Debra White Team @ Real Broker Technologies Hanford, Ca.",Real estate agency,US,Hanford,"2201 N Wilsonia St, Hanford, CA 93230",https://debrawhiteteam.com/,dwhitereal@gmail.com,"(559) 994-9282
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Partner Real Estate,Real estate agency,US,Rosemead,"8932 Mission Dr STE 102, Rosemead, CA 91770",https://www.partner.realestate/,N/A,"(626) 789-0159
+",,🆕 New Lead,
+,California Coastal Real Estate,Real estate agency,US,San Luis Obispo,"3220 S Higuera St # 233, San Luis Obispo, CA 93401",http://www.californiacoastalrealestate.com/,user@domain.com,"(805) 459-1865
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,100% Commission Broker Real Estate - Stanfles Realty Premium,Real estate agency,US,Los Angeles,"123 S Figueroa St #108A, Los Angeles, CA 90012",http://www.stanflesrealty.com/,admin@stanflesrealty.com,"(888) 863-2820
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Alpha Properties NYC,Real estate agency,US,New York,"80 8th Ave Suite 1216, New York, NY 10011",http://www.alphanyc.com/,N/A,"(212) 674-1645
+",,🆕 New Lead,
+,The Antigua Team | NYC Real Estate Agents,Real estate agent,US,New York,"10 E 53rd St 5th floor, New York, NY 10022",https://theantiguateam.com/,N/A,"(914) 413-7024
+",,🆕 New Lead,
+,"MOVE NYC REAL ESTATE, LLC",Real estate agency,US,New York,"304 W 147th St, New York, NY 10039",,N/A,"
+",,🆕 New Lead,
+,NŌVEM Real Estate | Top 1% NYC Realtors,Real estate agency,US,New York,"745 5th Ave #500, New York, NY 10151",https://www.74westre.com/,N/A,"(212) 897-2374
+",,🆕 New Lead,
+,SERHANT. - NYC Real Estate Agency,Real estate agency,US,New York,"372 W Broadway, New York, NY 10012",https://serhant.com/,N/A,"(646) 480-7665
+",,🆕 New Lead,
+,Noble Black & Partners Real Estate,Real estate agency,US,New York,"The Corcoran Group, 590 Madison Ave, New York, NY 10022",https://nobleblackandpartners.com/?utm_source=gbp&utm_medium=organic,N/A,"(347) 526-3308
+",,🆕 New Lead,
+,Jeff Cohen Real Estate Agent New York City,Real estate agency,US,New York,"1033 2nd Ave, New York, NY 10022",http://www.jcny.com/,N/A,"(914) 489-1450
+",,🆕 New Lead,
+,Cooper & Cooper Real Estate,Real estate agency,US,New York,"1 Pennsylvania Plaza 53rd Floor, New York, NY 10119",http://www.coopercooper.com/,N/A,"(212) 864-4555
+",,🆕 New Lead,
+,Keller Williams NYC,Real estate agency,US,New York,"360 Madison Ave 9th Floor, New York, NY 10017",https://kwnyc.com/?utm_source=gbp&utm_medium=organic,N/A,"(212) 301-1140
+",,🆕 New Lead,
+,Caliber Associates,Real estate agency,US,New York,"115 W 45th St Suite 603, New York, NY 10036",https://www.calibernyc.com/,N/A,"(917) 604-5444
+",,🆕 New Lead,
+,NYC Residential Real Estate Agent Gavin Hammon at Compass,Real estate agency,US,New York,"110 5th Ave, New York, NY 10011",https://www.compass.com/agents/gavin-hammon/,N/A,"(917) 595-0400
+",,🆕 New Lead,
+,ELIKA Real Estate,Real estate agency,US,New York,"101 Avenue of the Americas 9th Floor, New York, NY 10013",https://www.elikarealestate.com/,N/A,"(212) 590-0540
+",,🆕 New Lead,
+,REAL New York,Real estate agency,US,New York,"29 W 30th St 4th Fl, New York, NY 10001",http://www.realnewyork.com/,N/A,"(212) 279-1289
+",,🆕 New Lead,
+,Jessica Kaufman – Luxury Real Estate Expert | NY & FL,Real estate agent,US,New York,"387 Park Ave S 4th floor, New York, NY 10016",https://www.corcoran.com/real-estate-agents/detail/jessica-kaufman/21310/regionId/1,N/A,"(212) 836-1091
+",,🆕 New Lead,
+,Manhattan Realty Group,Real estate agency,US,New York,"211 E 43rd St #804, New York, NY 10017",http://www.mrgnyc.com/,N/A,"(212) 470-7070
+",,🆕 New Lead,
+,Sydney Blumstein New York Real Estate Expert,Real estate agent,US,New York,"The Corcoran Group, 220 W 19th St 5TH floor C/O, New York, NY 10011",https://www.corcoran.com/real-estate-agents/detail/sydney-blumstein/8719/regionId/1,N/A,"(917) 435-3697
+",,🆕 New Lead,
+,Mont Sky Real Estate,Real estate agency,US,New York,"99 Wall St Suite 2006, New York, NY 10005",http://www.montskyrealestate.com/,N/A,"(646) 397-8508
+",,🆕 New Lead,
+,"The Bizzarro Agency, New York Real Estate Agents",Real estate agency,US,New York,"8 W 126th St, New York, NY 10027",http://www.bizzarroagency.com/,hello@bizzarroagency.com,"(917) 979-2259
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Bogard New York Team | SERHANT. Real Estate,Real estate agency,US,New York,"41 Wooster St Floor 3, New York, NY 10012",http://www.bogardny.com/,N/A,"(646) 201-8782
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,West Coast Realty,Real estate agency,US,California City,"8736 California City Blvd, California City, CA 93505",http://tehachapihomesforsell.com/,N/A,"(760) 373-9200
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Camden Brickell Apartments,Apartment rental agency,US,Miami,"50 SW 10th St, Miami, FL 33130",https://www.camdenliving.com/apartments/miami-fl/camden-brickell?utm_source=google&utm_medium=gmb&utm_campaign=camden-brickell&y_source=1_MTE2Nzc0NDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,Brickell@camdenliving.com,"(786) 741-7887
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Martorell Office Group Corp,Real estate agent,US,Miami,"444 Brickell Ave Suite P-60, Miami, FL 33131",http://www.martorelloffice.com/,N/A,"(786) 586-7927
+",,🆕 New Lead,
+,Cervera Real Estate Inc | Headquarters,Real estate agency,US,Miami,"1450 S Miami Ave, Miami, FL 33130",http://www.cervera.com/,info@cervera.com,"(305) 374-3434
+",,🆕 New Lead,
+,UNIK Import LLC,Importer,US,Miami,"31 SE 5th St APT 502, Miami, FL 33131",,N/A,"(850) 714-7569
+",,🆕 New Lead,
+,Mortgage Bolt,Mortgage broker,US,Miami,"848 Brickell Ave #840, Miami, FL 33131",http://mortgagebolt.com/,N/A,"(352) 328-9828
+",,🆕 New Lead,
+,Solitair Brickell Apartments,Apartment complex,US,Miami,"86 SW 8th St, Miami, FL 33130",https://www.livesolitair.com/?utm_source=GBP&utm_medium=organic&utm_knock=g,N/A,"(786) 842-4494
+",,🆕 New Lead,
+,Worldwide Title,Real estate agency,US,Miami,"1395 Brickell Ave #120, Miami, FL 33131",http://www.oneworldwidetitle.com/,N/A,"(305) 967-6338
+",,🆕 New Lead,
+,USA Corporation Services,Real estate agent,US,Miami,"100 SE 2nd St STE 2000, Miami, FL 33131",http://usacorporationservices.com/,N/A,"(305) 342-9717
+",,🆕 New Lead,
+,Axis Brickell Condos Realty,Condominium rental agency,US,Miami,"1111 SW 1st Ave, Miami, FL 33130",https://www.axisbrickell.com/,N/A,"(305) 714-2164
+",,🆕 New Lead,
+,Vie Management,Property management company,US,Miami,"80 SW 8th St suite 2000, Miami, FL 33130",http://www.viemgmt.com/,info@viemgmt.com,"(786) 550-2257
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Swire Properties Inc,Real estate developer,US,Miami,"98 SE 7th St #500, Miami, FL 33131",http://swireproperties.com/,N/A,"(305) 371-3877
+",,🆕 New Lead,
+,"Danielle Lisboa Martins, Ceo - Realty Iconic",Real estate agent,US,Miami,"501 NE 1st Ave #851, Miami, FL 33132",,N/A,"(786) 382-6782
+",,🆕 New Lead,
+,LUXO,Real estate agent,US,Miami,"888 US-1, Miami, FL 33130",https://luxo.estate/contact-us/,N/A,"(786) 617-4242
+",,🆕 New Lead,
+,Faccin Rentals,Real estate agency,US,Miami,"1395 Brickell Ave, Miami, FL 33131",https://faccinrentals.com/,N/A,"(954) 478-6530
+",,🆕 New Lead,
+,ICON BRICKELL RESIDENCES by Patricia Montalvan,Real estate consultant,US,Miami,"475 Brickell Ave, Miami, FL 33131",https://iconbrickellresidences.com/,Patricia@PatriciaMontalvan.com,"(305) 989-5499
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Sieber International LLC,Real estate agency,US,Miami,"1221 Brickell Ave #710, Miami, FL 33131",http://www.sieberinternational.com/,N/A,"(305) 456-2401
+",,🆕 New Lead,
+,Irina Shmeleva Realtor,Real estate agency,US,Miami,"901 S Miami Ave #215, Miami, FL 33130",http://irinashmeleva.com/,N/A,"(201) 321-3372
+",,🆕 New Lead,
+,Julie's Realty LLC,Real estate agency,US,Miami,"888 Biscayne Blvd #302, Miami, FL 33132",https://www.juliesrealty.net/,N/A,"(305) 751-6400
+",,🆕 New Lead,
+,ResiVest Realty,Real estate agency,US,Miami,"1331 SW 8th St, Miami, FL 33135",http://www.resivestrealty.com/,N/A,"(305) 901-5880
+",,🆕 New Lead,
+,New Construction South Florida,Real estate agency,US,Miami,"340 W Flagler St #103jg, Miami, FL 33130",https://www.newconstructionsouthflorida.com/,N/A,"(786) 877-3338
+",,🆕 New Lead,
+,Concept International Realty,Real estate agency,US,Miami,"55 SE 6th St STE 206, Miami, FL 33131",,N/A,"(786) 329-5690
+",,🆕 New Lead,
+,MARIN CAPITAL REALTY,Real estate agent,US,Miami,"1000 Brickell Ave, Miami, FL 33131",https://www.marincapitalrealty.com/,info@marincapitalrealty.com,"(786) 912-1911
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Fortune Christie's International Real Estate,Real estate agency,US,Miami,"475 Brickell Ave #204, Miami, FL 33131",http://www.iconbrickell.com/,N/A,"(305) 371-1411
+",,🆕 New Lead,
+,Maxwelle Real Estate Group,Real estate agency,US,Miami,"333 SE 2nd Ave Suite 3588, Miami, FL 33131",http://maxwelle.com/,info@maxwelle.com,"(305) 830-1000
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Johan Nunez,Real estate agency,US,Miami,"1110 Brickell Ave suite 208, Miami, FL 33131",https://johannunez.com/?utm_source=gbp&utm_medium=organic,N/A,"(305) 776-8703
+",,🆕 New Lead,
+,Fortune RES LLC,Industrial real estate agency,US,Miami,"801 Brickell Bay Dr APT 1966, Miami, FL 33131",http://www.fortunerealestateservices.com/,N/A,"(305) 587-4200
+",,🆕 New Lead,
+,David Gonzalez Real Estate,Real estate agent,US,Miami,"2121 SW 3rd Ave 3rd floor, Miami, FL 33129",http://www.davidgonzalezrealestate.com/,N/A,"(305) 747-8171
+",,🆕 New Lead,
+,AWA Realty,Real estate agency,US,Miami,"1110 Brickell Ave Unit 412, Miami, FL 33131",http://www.awa-realty.com/,N/A,"(305) 979-0032
+",,🆕 New Lead,
+,Millecento Brickell Real Estate,Real estate agent,US,Miami,"1100 S Miami Ave # 3907, Miami, FL 33130",https://millecentobrickell.com/,N/A,"(786) 236-5128
+",,🆕 New Lead,
+,Tatiana Costa P.A. | #TheCostaGroup,Real estate agent,US,Miami,"Fortune Christie’s International Real Estate, 1390 Brickell Ave #104, Miami, FL 33131",http://www.costagroupmiami.com/,info@costagroupmiami.com,"(305) 733-8990
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Optimar International Realty : Inés Gómez-Acebo,Real estate agent,US,Miami,"1000 Brickell Ave Ste 100, Miami, FL 33131",http://igarealtygroup.com/,inesga@igaluxhomes.com,"(786) 300-9382
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Affinity International Realty,Real estate agency,US,Miami,"999 Brickell Ave #700, Miami, FL 33131",http://www.affinitymiami.com/,sales@getaffinity.com,"(305) 376-4145
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,KENTIS REALTY,Real estate agency,US,Miami,"777 Brickell Ave #500, Miami, FL 33131",https://www.kentisrealty.com/,dimitrios@kentisrealty.com,"(786) 431-6050
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Steven Vargas and Chloe Vargas,Real estate agency,US,Miami,"325 S Biscayne Blvd #200, Miami, FL 33131",http://stevenvargas.com/,steven@stevenvargas.com,"(786) 683-2938
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Dmytro Varavin, P.A.",Real estate agent,US,Miami,"55 SW 9th St, Miami, FL 33130",https://www.varavin.com/,N/A,"(786) 351-4582
+",,🆕 New Lead,
+,Properties Miami,Real estate agency,US,Miami,"637 SW 3rd St APT 306, Miami, FL 33130",https://propertiesmiami.com/,info@propertiesmiami.com,"(786) 505-4939
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Deconova Real Estate Brickell Miami FL,Real estate agency,US,Miami,"1000 Brickell Ave SUITE 2D-200, Miami, FL 33131",http://www.deconovaflorida.com/,info@deconovaflorida.com,"(786) 581-3100
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Miami One Real Estate,Real estate agent,US,Miami,"1110 Brickell Ave SUITE 805, Miami, FL 33131",http://miamionere.com/,info@miamionere.com,"(954) 990-3150
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Sanmo Realty Inc,Real estate agency,US,Miami,"1395 Brickell Ave STE 800, Miami, FL 33131",http://www.sanmorealty.com/,N/A,"(305) 967-6337
+",,🆕 New Lead,
+,"Aura Realty, LLC.",Real estate agency,US,Miami,"201 S Biscayne Blvd Suite 2807, Miami, FL 33131",http://auraregroup.com/,N/A,"(786) 730-7509
+",,🆕 New Lead,
+,International Realty Group,Real estate agency,US,Miami,"1000 Brickell Ave #12A, Miami, FL 33131",http://www.internationalrg.com/,office@internationalrg.com,"(305) 507-5546
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Fortune International Group,Real estate agency,US,Miami,"1300 Brickell Ave, Miami, FL 33131",http://www.fortuneintlgroup.com/,N/A,"(305) 351-1000
+",,🆕 New Lead,
+,Richard Jimenez - Brokered by eXp Realty,Real estate agency,US,Miami,"66 W Flagler St Suit 900, Miami, FL 33130",http://www.locationlocationnow.com/,N/A,"(305) 495-5751
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Natalie Mery, Miami Real Estate Agent",Real estate agent,US,Miami,"398 NE 5th St 13th Floor, Miami, FL 33132",http://www.nataliemeryrealestate.com/,N/A,"(305) 905-9027
+",,🆕 New Lead,
+,Jose R. Sosa / The Sosa Team Compass,Real estate agency,US,Miami,"770 Claughton Island Dr, Miami, FL 33131",http://www.sosateam.com/,jose.sosa@compass.com,"(786) 556-7672
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,K&M Realty Corporation,Real estate agency,US,Miami,"40 SW 13th St #101, Miami, FL 33130",http://justinfloridahomes.com/,justin.knops@theagencyre.com,"(786) 253-5697
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,ECR Realty,Real estate agency,US,Miami,"1200 Brickell Bay Dr #104b, Miami, FL 33131",http://www.ecrrealtygroup.com/,N/A,"(786) 999-8113
+",,🆕 New Lead,
+,Liliana Shather Real Estate Broker,Real estate agency,US,Miami,"601 Brickell Key Dr suite 710, Miami, FL 33131",http://shatherrealtygroup.com/,lilianashather@gmail.com,"(786) 306-8679
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,RISE Realty,Commercial real estate agency,US,Miami,"1111 Brickell Ave, Miami, FL 33131",https://riserealty.com/,support@agentfire.com,"(305) 859-1606
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Monteiro International Realty Corp.,Real estate agency,US,Miami,"1110 Brickell Ave STE 404, Miami, FL 33131",http://www.monteirousa.com/,N/A,"(305) 385-6693
+",,🆕 New Lead,
+,Ximena Rosales Realtor: Xfera Realty Group LLC,Real estate agency,US,Miami,"420 SW 7th St Ste 1111, Miami, FL 33130",https://ximenarosalesrealtor.com/,N/A,"(786) 671-7722
+",,🆕 New Lead,
+,Binter USA | Real Estate,Real estate consultant,US,Miami,"444 Brickell Ave suite 828, Miami, FL 33131",https://www.binterusa.com/,info@binterusa.com,"(305) 416-3040
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Zip Code Miami Real Estate,Real estate agency,US,Miami,"175 SW 7th St, Miami, FL 33130",,N/A,"(305) 507-5557
+",,🆕 New Lead,
+,Paraiso.Miami,Real estate agency,,,"501 Northeast 31st Street # Cu-7, Miami, Florida 33137-4216",,N/A,"(305) 206-9426
+",,🆕 New Lead,
+,Piquet Realty,Real estate agency,US,Miami,"1000 Brickell Ave #1100, Miami, FL 33131",http://www.piquetrealty.com/,president@piquetrealty.com,"(305) 204-1160
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Yaffe International Realty,Real estate agency,,,"19300 West Dixie Highway #7, Miami, FL 33180-2201",,N/A,"(305) 741-0002
+",,🆕 New Lead,
+,Panoply Co.,Investment company,US,Miami,"175 SW 7th St STE 2201, Miami, FL 33130",http://www.panoplyco.com/,info@panoplyco.com,"(786) 328-6353
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Louis Urbina, PA - Realtor Associate at Avanti Way Realty in Miami, FL",Real estate agency,US,Miami,"444 Brickell Ave P32, Miami, FL 33131",http://www.miacitylife.com/,miacitylife.re@gmail.com,"(786) 355-7423
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Vertical International Real Estate, LLC",Property management company,US,Miami,"175 SW 7th St STE 2418, Miami, FL 33130",http://verticalbrokers.com/,N/A,"(954) 822-3439
+",,🆕 New Lead,
+,Sorymar Castillo,Real estate agent,US,Miami,"900 Biscayne Blvd, Miami, FL 33132",http://sorymarcastillo.com/,N/A,"(786) 818-2081
+",,🆕 New Lead,
+,The Space Brokers,Real estate agency,US,Miami,"333 SE 2nd Ave STE 2000, Miami, FL 33131",,N/A,"(305) 646-9653
+",,🆕 New Lead,
+,Real Brokers Miami – Real Estate Concierge,Real estate agency,US,Miami,"601 Brickell Key Dr #700, Miami, FL 33131",https://realbrokersmiami.com/,info@realbrokers.miami,"(754) 701-7788
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Globalty Investment,Real estate agency,US,Miami,"78 SW 7th St Suite 800, Miami, FL 33130",https://www.globaltyinvestment.com/,tpichet@globaltyinvestment.com,"(561) 945-4345
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,NB Elite Realty LLC,Real estate agency,US,Miami,"1101 Brickell Ave, Miami, FL 33131",http://nbeliterealty.com/,info@nbeliterealty.com,"(844) 444-6237
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,AF-Realty,Real estate agency,US,Miami,"801 Brickell Ave # 800, Miami, FL 33131",http://www.af-realty.com/,allan@af-realty.com,"(786) 220-2506
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Guy Fernandes | Real Estate Broker,Real estate agent,US,Miami,"1600 SW 1st Ave APT 612, Miami, FL 33129",https://alexandriarealtygroup.com/,Alex@AlexandriaRealtyGroup.com,"(305) 588-9626
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Milton Andrade, REALTOR - Compass",Real estate agency,US,Miami,"1655 SW 18th St, Miami, FL 33145",http://www.polarisadvisorsgroup.com/,N/A,"(785) 530-3942
+",,🆕 New Lead,
+,Rina Rodriguez | Real Estate Agent | Miami | Buy • Sell • Rent • Invest | Bilingual: English & Spanish,Real estate agent,US,Miami,"800 Brickell Ave Suite 525, Miami, FL 33131",https://rinasellsmiami.com/?utm_source=gbp&utm_medium=organic,N/A,"(305) 440-7407
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Avanti Way Realty Brickell,Real estate agency,US,Miami,"444 Brickell Ave Office P32, Miami, FL 33131",https://avantiway.com/brickell/,marceloquiroga@avantiway.com,"(305) 733-9741
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,DREAM LAND GROUP REAL ESTATE,Real estate agency,US,Miami,"1100 Brickell Bay Dr, Miami, FL 33131",https://www.facebook.com/miamirealestateopportunities/,N/A,"(305) 417-5859
+",,🆕 New Lead,
+,Lauren Hershey - CRR REALTY,Real estate agency,US,Miami,"1200 Brickell Ave Suite #700, Miami, FL 33130",https://www.laurenhershey.com/,laurenhersheyrealtor@gmail.com,"(708) 539-9319
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,SF Real Estate. US,Real estate agency,US,Miami,"1110 Brickell Ave, Miami, FL 33131",https://www.sfrealestate.us/,hello@sfrealestate.us,"(786) 443-1449
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,WaterView Global Realty Inc.,Real estate agency,US,Miami,"1200 Brickell Ave Suite 1950, Miami, FL 33131",https://waterviewglobalrealty.com/contacts/,N/A,"(305) 713-7000
+",,🆕 New Lead,
+,Abner Realty,Real estate agency,US,Miami,"690 SW 1st Ct, Miami, FL 33130",http://www.abnerglobal.com/,N/A,"(305) 222-7513
+",,🆕 New Lead,
+,The World Realty,Real estate agent,US,Miami,"1221 Brickell Ave, Miami, FL 33131",https://www.aleksandramarzec.com/,alek@aleksandrateam.com,"(305) 760-9121
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Fabulous Miami Properties,Real estate agency,US,Miami,"Latitude on the River, 185 SW 7th St APT 1409, Miami, FL 33130",https://fabulousmiamiproperties.com/,N/A,"(305) 219-2494
+",,🆕 New Lead,
+,Ecaterina (Katerina) Morosan - EXP Realty,Real estate agency,US,Miami,"80 SW 8th St suite 2000 fl, Miami, FL 33130",http://teamdom50.com/,katerina@teamdom50.com,"(929) 444-8802
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Alvaro García P.A.,Real estate agency,US,Miami,"25 SE 9th St CU-8, Miami, FL 33130",https://vipmiamiproperties.com/,N/A,"(305) 724-5807
+",,🆕 New Lead,
+,"Pappalardo Real Estate Group at Real Broker, LLC",Real estate agency,US,Raleigh,"7920 ACC Blvd, Raleigh, NC 27617",https://www.buyahouseinraleigh.com/contact-us/,N/A,"(919) 281-3219
+",,🆕 New Lead,
+,Martina Erdmeier REALTOR®️,Real estate agent,US,Erwin,"3875 Old Stage Rd S, Erwin, NC 28339",https://buyandsellwithmartina.com/,buyandsellwithmartina@gmail.com,"(910) 916-8485
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Ideal Home Realty,Real estate agency,US,Cary,"219 Creststone Dr, Cary, NC 27519",http://idealhomerealty.com/,Accessibility@incomrealestate.com,"(919) 691-7543
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Eddie & Julie Boyd, The Boyd Team -Myrtle Beach Realtors at INNOVATE Real Estate",Real estate agency,US,Myrtle Beach,"2542 Heritage Loop, Myrtle Beach, SC 29577",https://www.boydteam.com/,N/A,"(843) 222-8566
+",,🆕 New Lead,
+,Monarch Realty Co.,Real estate agency,US,Raleigh,"228 Fayetteville St Ste 200, Raleigh, NC 27601",https://monarchrealtyco.com/,info@monarchrealty.co,"(919) 322-1824
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Triangle to Coast Realty eXp | Karen Dupree Williams and Team,Real estate agency,US,Fuquay-Varina,"201 E Academy St Suite 105, Fuquay-Varina, NC 27526",https://triangletocoast.com/?utm_source=gbp&utm_medium=organic,N/A,"(984) 600-0906
+",,🆕 New Lead,
+,Carolina Flat Fee Realty @ Stu Barnes Real Estate,Real estate agency,US,Holly Springs,"5000 Sunset Walk Ln, Holly Springs, NC 27540",https://carolinaflatfeerealty.com/,stu@stubarnes.com,"(919) 819-3956
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Eaton Real Estate Services,Real estate agency,US,Raleigh,"5712 Dunstan Ct, Raleigh, NC 27613",http://eatonrealestateservices.com/,N/A,"(919) 901-8700
+",,🆕 New Lead,
+,Karen Trotta - USA Home Agent,Real estate agency,US,Clayton,"501 Gateway Dr #101C, Clayton, NC 27520",,N/A,"(919) 306-7560
+",,🆕 New Lead,
+,Welcome Home Team at Keller Williams,Real estate agency,US,Fayetteville,"639 Executive Pl STE 100, Fayetteville, NC 28305",http://www.welcomehometeamnc.com/,brian@welcomehometeamnc.com,"(910) 507-7227
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rich Commercial Realty,Commercial real estate agency,US,Raleigh,"3840 Ed Dr STE 108, Raleigh, NC 27612",http://www.richcommercialrealty.com/,N/A,"(919) 821-7880
+",,🆕 New Lead,
+,"Realty Dynamics, Inc.",Real estate agency,US,Charlotte,"1009A Westbrook Dr, Charlotte, NC 28202",http://www.charlottehomezone.com/,ncrealtydynamics@gmail.com,"(704) 779-6194
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Straight Up Realty,Real estate agency,US,Pittsboro,"136 West St, Pittsboro, NC 27312",http://www.straightuprealty.com/,N/A,"(919) 545-0154
+",,🆕 New Lead,
+,"Destiny Real Estate, Inc - Kevin Wester REALTOR and Your CPR Agent - Fayetteville, NC - Residential and Investment",Real estate agency,US,Fayetteville,"2932 Breezewood Ave #214, Fayetteville, NC 28303",http://www.destinyrealestatenc.com/,N/A,"(910) 677-0193
+",,🆕 New Lead,
+,"Jose Cruz, Commercial Real Estate Agent | Century 21 Triangle Group",Commercial real estate agency,US,Raleigh,"1111 Haynes St, Raleigh, NC 27604",http://www.jclcommercial.com/,info@indiantypefoundry.com,"(984) 239-8452
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Laura Grace & Company REAL ESTATE Fathom Realty NC,Real estate agency,US,Pittsboro,"287 East St Suite 421Q, Pittsboro, NC 27312",https://lauragrace.fathomrealty.com/,lgrace@fathomrealty.com,"(919) 260-8405
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Pittsboro - Eric Andrews Realtor,Real estate agency,US,Pittsboro,"73 Hillsboro St, Pittsboro, NC 27312",https://ericandrewsrealtor.com/,N/A,"(919) 542-0523
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Premier Real Estate,Real estate agency,US,Raleigh,"242 Cameron Dr, Raleigh, NC 27603",https://premierrealestate.pro/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=Google+My+Business,contact@premierrealestate.pro,"(919) 335-5268
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,RED Collective | Durham Real Estate Agents,Real estate agency,US,Durham,"2805 Hope Valley Rd, Durham, NC 27707",http://red-collective.com/,N/A,"
+",,🆕 New Lead,
+,OnWire Realty | Raleigh - Durham - Triangle Real Estate Company,Real estate agency,US,Raleigh,"4912 Professional Ct, Raleigh, NC 27609",https://www.onwire.us/,N/A,"(919) 714-7311
+",,🆕 New Lead,
+,1800 Real Estate Inc,Real estate agency,US,Durham,"2310 S Miami Blvd #132, Durham, NC 27703",https://www.1800realestatenc.com/,N/A,"(919) 300-5144
+",,🆕 New Lead,
+,"RW Realty of NC, LLC - Real Estate Agency - Wendell, NC",Real estate agency,US,Wendell,"208 Wendell Falls Pkwy, Wendell, NC 27591",https://rwrealtync.com/,rebecca@rwrealtync.com,"(919) 330-6833
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Insight Real Estate,Real estate agency,US,Raleigh,"3304 Six Forks Rd, Raleigh, NC 27609",http://www.insightraleigh.com/,hello@insightrealestate.com,"(984) 867-2289
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Mitul Shah - MS Realty LLC,Real estate agent,US,Morrisville,"2919 Historic Cir, Morrisville, NC 27560",http://realestateintriangle.com/,N/A,"(732) 429-4525
+",,🆕 New Lead,
+,Southern Oaks Realty LLC,Real estate agency,US,New Hill,"4208 Olive Branch Ln, New Hill, NC 27562",https://www.sornc.com/,jfetzer@sornc.com,"(919) 335-8292
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,USA House Buyers NC- Sell My House Fast Durham,Real estate consultant,US,Garner,"2624 Timber Dr #163, Garner, NC 27529",,N/A,"(919) 230-0050
+",,🆕 New Lead,
+,Giving Tree Realty,Real estate agency,US,Charlotte,"1244 East Blvd, Charlotte, NC 28203",https://givingtreerealty.com/,Brandy@givingtreerealty.com,"(704) 323-8080
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Tidal Realty Partners - Brokered by REAL,Real estate agency,US,Wilmington,"5215 Junction Cir STE 200, Wilmington, NC 28412",http://tidalrealtypartners.com/,info@tidalrealtypartners.com,"(910) 372-6720
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,M & M Team Realty | Real Estate,Real estate agency,US,Cary,"201 Shannon Oaks Cir # 100, Cary, NC 27511",https://www.mandmteamrealty.com/,meredith@mandmteamrealty.com,"(919) 619-3048
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Ryan Cassidy, Realtor and General Contractor",Real estate agency,US,Chapel Hill,"318 Cloister Ct, Chapel Hill, NC 27514",https://www.trianglehousehunter.com/,N/A,"(919) 696-4254
+",,🆕 New Lead,
+,SVN Real Estate Associates,Commercial real estate agency,US,Durham,"3333 Durham-Chapel Hill Blvd C, Durham, NC 27707",http://www.svn-rea.com/,user@domain.com,"(919) 489-2000
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Home Sweet Heidi Realty,Real estate agency,US,Raleigh,"4804 Oakgreen Ct, Raleigh, NC 27612",https://www.homesweetheidi.com/,heidi@homesweetheidi.com,"(919) 946-3292
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Aimee & Co. - Brokered by: Real Broker, LLC.",Real estate agency,US,Wilmington,"226 N Front St, Wilmington, NC 28401",http://www.aimeeandco.com/,aimee@aimeeandco.com,"(704) 965-8333
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Mooresville Realty,Real estate agency,US,Mooresville,"132 Joe Knox Ave suite 105 a, Mooresville, NC 28117",http://www.mooresvillerealty.com/,N/A,"(704) 663-0990
+",,🆕 New Lead,
+,DASH Carolina Real Estate,Real estate agency,US,Raleigh,"4800 Six Forks Rd # 210, Raleigh, NC 27609",https://dashcarolina.com/,info@dashnc.com,"(984) 205-2279
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Patty Herrera Home Team - Litchfield Realty,Real estate agency,US,Fayetteville,"581 Executive Pl Suite 100, Fayetteville, NC 28305",https://www.pattyherrerahometeam.com/,N/A,"(910) 222-3366
+",,🆕 New Lead,
+,"Claire Pope, Hodge & Kittrell Sotheby's International Realty",Real estate agency,US,Chapel Hill,"140 W Franklin St Suite 130, Chapel Hill, NC 27516",https://www.thebritbroker.com/,N/A,"(919) 530-9415
+",,🆕 New Lead,
+,Azita Wilson Realty Group,Real estate agency,US,Apex,"1483 Beaver Creek Commons Dr, Apex, NC 27502",https://livingincary.com/?utm_source=gbp&utm_medium=organic,N/A,"(919) 656-1439
+",,🆕 New Lead,
+,The Real Estate Concierge,Real estate agency,US,Fayetteville,"6200 Ramsey St Suite 100, Fayetteville, NC 28311",https://www.facebook.com/therealestateconciergegroup,N/A,"(910) 813-8192
+",,🆕 New Lead,
+,220 Agents,Real estate agency,US,Raleigh,"9051 Strickland Rd #200, Raleigh, NC 27615",https://www.220agents.com/t?source_string=google-business-page&page_url=%2F,info@220agents.com,"(919) 229-9144
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Warren Adamson,Real estate agent,US,Durham,"245 NC-54 Ste 101, Durham, NC 27713",https://warrenadamson.com/,N/A,"(919) 260-2260
+",,🆕 New Lead,
+,Spotlight Realty,Real estate agency,US,Chapel Hill,"101 Glen Lennox Dr Suite 230, Chapel Hill, NC 27517",https://spotlightnc.com/?utm_source=gbp&utm_medium=organic,N/A,"(919) 590-5755
+",,🆕 New Lead,
+,ESP Realty,Real estate agency,US,Apex,"1480 Chapel Ridge Rd Suite 100, Apex, NC 27502",http://www.esprealtors.com/,N/A,"(919) 205-3388
+",,🆕 New Lead,
+,Realty of America,Real estate agency,US,Graham,"120 S Main St suite 230, Graham, NC 27253",,N/A,"(336) 437-0708
+",,🆕 New Lead,
+,"Kima Real Estate Group @ REAL Broker, LLC",Real estate agency,US,Wake Forest,"881 Falcate Dr, Wake Forest, NC 27587",http://welcometocarolina.com/,N/A,"(919) 263-2888
+",,🆕 New Lead,
+,"Nancy Grace, Realtor",Real estate agency,US,Apex,"225 N Salem St, Apex, NC 27502",https://www.nancygracehomes.com/contact/,nancy@nancygracehomes.com,"(919) 616-4139
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Martin J. Burke, Realtor",Real estate agent,US,New Hill,"3654 Horton Hill Dr, New Hill, NC 27562",https://martinjburkerealtor.com/,N/A,"(919) 609-6842
+",,🆕 New Lead,
+,Hannah Chan - Cary Raleigh Realty,Real estate agency,US,Cary,"901 Kildaire Farm Rd d1, Cary, NC 27511",http://www.caryraleighrealty.com/,N/A,"(919) 426-1854
+",,🆕 New Lead,
+,Morton Bradbury Real Estate Group,Real estate agency,US,Raleigh,"8450 Falls of Neuse Rd STE 206, Raleigh, NC 27615",http://mortonbradbury.com/,hello@mortonbradbury.com,"(919) 964-0474
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Sanford Surrounded - Brokered By LPT Realty,Real estate agent,US,Sanford,"201 Commercial Ct, Sanford, NC 27330",https://www.sanfordsurrounded.com/,walter@sanfordsurrounded.com,"(919) 261-3163
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Team Armand @ EXP Realty,Real estate agency,US,Chapel Hill,"1340 Environ Way, Chapel Hill, NC 27517",http://www.teamarmand.com/,N/A,"(919) 980-9324
+",,🆕 New Lead,
+,Sanford Real Estate,Real estate agency,US,Sanford,"304 N Horner Blvd, Sanford, NC 27330",http://www.yoursanfordrealestate.com/,john@sanfordhome.com,"(919) 708-5100
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Linda Trevor & Co.,Real estate agency,US,Cary,"201 Fenton Gtwy Dr Suite 200, Cary, NC 27511",https://www.lindatrevor.com/,Homes@LindaTrevor.com,"(919) 378-1807
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Dreams Made Realty Group,Real estate agency,US,Fayetteville,"123 Anderson St, Fayetteville, NC 28301",http://www.dreamsmaderealty.com/,crystal@dreamsmaderealty.com,"(910) 500-3220
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Laura Morgan Homes, Powered by Compass",Real estate agent,US,Chapel Hill,"101 Glen Lennox Dr Suite 230, Chapel Hill, NC 27514",https://lauramorganhomes.com/,N/A,"(919) 624-4946
+",,🆕 New Lead,
+,Northside Realty Inc,Real estate agency,US,Raleigh,"4701 Creedmoor Rd #105, Raleigh, NC 27612",https://www.northside-realty.com/,information@northsiderealty.biz,"(919) 784-0101
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Gentry Team - Real Estate,Real estate agency,US,Pinehurst,"5 Chinquapin Rd, Pinehurst, NC 28374",https://thegentryteam.com/?utm_source=gbp&utm_medium=organic,N/A,"(910) 295-7100
+",,🆕 New Lead,
+,"Seth Roberts, Real Estate Broker",Commercial real estate agency,US,Apex,"2323 Manzoni Dr, Apex, NC 27502",http://sethroberts.bhhscarolinas.com/,N/A,"(919) 632-7384
+",,🆕 New Lead,
+,HomePro USA Realty,Real estate agency,US,Fayetteville,"417 Hilliard Dr, Fayetteville, NC 28311",https://www.homeprousarealty.com/,N/A,"(910) 864-5500
+",,🆕 New Lead,
+,Roberta Faria - Real Estate Agent,Real estate agent,US,Cary,"2128 High House Rd, Cary, NC 27519",http://robertarealestateagent.com/,N/A,"(919) 353-7005
+",,🆕 New Lead,
+,AM REALTY GROUP,Real estate agency,US,Raleigh,"4700 Homewood Ct, Raleigh, NC 27609",http://www.amrealtygroupllc.com/,"user@domain.com, ahmed@amrealtygroup.org","(910) 474-3626
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Inhabit Real Estate LLC,Real estate agency,US,Durham,"131 W Orange St Suite #200, Durham, NC 27701",https://inhabitthetriangle.com/,connie@inhabitthetriangle.com,"(919) 808-4549
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Michelle Porter Realtors | North Carolina Real Estate,Real estate agency,US,Pinehurst,"42 Chinquapin Rd, Pinehurst, NC 28374",http://www.michelleporter.com/,N/A,"(336) 207-0515
+",,🆕 New Lead,
+,"American Dream Realty, LLC",Real estate agency,US,Apex,"1106 Blackburn Rd, Apex, NC 27502",,N/A,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Theresa Lunt | Lunt Real Estate Group - eXp Realty,Real estate agent,US,Cary,"150 Preston Executive Dr, Cary, NC 27513",https://theresalunthomes.com/,N/A,"(919) 473-6341
+",,🆕 New Lead,
+,Sasquatch Real Estate Team,Real estate agency,US,Fayetteville,"2413 Robeson St STE 6, Fayetteville, NC 28305",https://www.sasquatchreteam.com/,team@latofonts.com,"(910) 420-0702
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Urban Durham Realty,Real estate agency,US,Durham,"214 Hunt St Suite 190, Durham, NC 27701",http://www.urbandurhamrealty.com/,N/A,"(919) 237-3701
+",,🆕 New Lead,
+,Amy Shair eXp Real Estate - REALTOR®,Real estate agency,US,Cary,"201 Shannon Oaks Cir Suite 101-A, Cary, NC 27511",https://amyshair.com/,nc.triangle@exprealty.com,"(919) 818-5001
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Boro Realty,Real estate agency,US,Carrboro,"605 W Main St #207, Carrboro, NC 27510",http://www.bororealtync.com/,user@domain.com,"(919) 240-7016
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,National Land Realty - Raleigh,Real estate agency,US,Apex,"4221 Sentimental Ln, Apex, NC 27539",https://nationalland.com/land-brokerage/Apex-NC/raleigh-nc-office,info@nationalland.com,"(855) 384-5263
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Governors Club Realty,Real estate agency,US,Chapel Hill,"10100 Governors Dr, Chapel Hill, NC 27517",http://www.governorsclub.com/,info@governorsclub.com,"(919) 968-8500
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Carolina Real Estate Experts; The Dan Jones Group,Real estate agency,US,Huntersville,"15905 Brookway Dr #4108, Huntersville, NC 28078",http://www.listwithdanjones.com/,sold@myhomecarolinas.com,"(704) 312-2202
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Heather Shores - Real Estate Agent Berkshire Hathaway Home Services York Simpson Realty,Real estate agent,US,Chapel Hill,"404 Meadowmont Village Cir, Chapel Hill, NC 27517",https://heathershores.bhhscarolinas.com/,N/A,"(802) 922-6921
+",,🆕 New Lead,
+,"The Summit Real Estate Agency, LLC.",Real estate agency,US,Sanford,"18 Boulder Dr, Sanford, NC 27332",https://www.facebook.com/KalaFortinBroker,N/A,"(931) 237-2917
+",,🆕 New Lead,
+,Navigate Realty Raleigh,Real estate agency,US,Raleigh,"7701 Six Forks Rd Suite 110, Raleigh, NC 27615",https://www.navigaterealty.com/,inbox@navigaterealty.com,"(919) 809-8266
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The NC Real Estate Firm LLC,Real estate agency,US,Raleigh,"4318 Bland Rd, Raleigh, NC 27609",https://thencrealestatefirmllc.com/contact/,N/A,"(919) 801-7951
+",,🆕 New Lead,
+,Tammie Terelle Real-Estate eXp,Real estate agency,US,Durham,"3004 Guess Rd d, Durham, NC 27705",http://tammiehgroup.com/,Accessibility@incomrealestate.com,"(919) 418-1376
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Drew Ludlow, Realtor: Ludlow Real Estate Group",Real estate agency,US,Apex,"1980 Lazio Ln, Apex, NC 27502",https://drewludlow.com/,drew@drewludlow.com,"(919) 818-8998
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Smart Choice Realty,Real estate agency,US,Raleigh,"3950 Blue Ridge Rd, Raleigh, NC 27612",http://www.smartpeoplelivehere.com/?utm_source=gmb&utm_medium=organic,sam@smartpeoplelivehere.com,"(919) 322-0077
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Jason D Realty,Real estate agency,US,Cary,"202 Union Mills Way, Cary, NC 27519",http://www.jasondrealty.com/,Jason@JasonDRealty.com,"(919) 961-2003
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Marti Hampton Real Estate,Real estate agency,US,Raleigh,"100 Lynn Rd, Raleigh, NC 27609",http://www.martihampton.com/,support@agentfire.com,"(919) 601-7710
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Coley Group,Real estate agency,US,Raleigh,"4350 Lassiter at North Hills Ave #256, Raleigh, NC 27609",https://thecoleygroup.com/?utm_campaign=gmb&utm_medium=website+button&utm_origin=serp&utm_source=google+my+business,N/A,"(919) 283-5237
+",,🆕 New Lead,
+,The Bhatia Team at eXp Realty,Real estate agency,US,Cary,"520 Slate Creek Pl, Cary, NC 27519",https://www.thebhatiateam.com/?utm_source=google-business&utm_medium=organic,N/A,"(919) 342-6669
+",,🆕 New Lead,
+,"Linda Craft Team, REALTORS",Real estate agency,US,Raleigh,"7300 Six Forks Rd, Raleigh, NC 27615",https://www.lindacraft.com/t?source_string=google-business-page&page_url=/,service@lindacraft.com,"(919) 235-0007
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Clark Team- Real Broker LLC,Real estate agent,US,Cary,"119 SW Maynard Rd Ste 270, Cary, NC 27511",http://www.raleighhomefinder.com/,N/A,"(919) 901-5080
+",,🆕 New Lead,
+,Dwell Real Estate,Real estate agency,US,Carrboro,"407 W Weaver St, Carrboro, NC 27510",http://www.ncdwell.com/,N/A,"(919) 869-7471
+",,🆕 New Lead,
+,"Carolina Collective Realty by Real Broker, LLC",Real estate agency,US,Raleigh,"7200 Creedmoor Rd Suite 306, Raleigh, NC 27613",https://www.carolinacollectiverealty.com/,N/A,"(919) 782-4503
+",,🆕 New Lead,
+,Raleigh Realty,Real estate agency,US,Raleigh,"707 N West St #104, Raleigh, NC 27603",https://raleighrealty.com/,Ryan@raleighrealty.com,"(919) 249-8536
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"All Good Real Estate, LLC.",Real estate agency,US,Raleigh,"4002 Barrett Dr Ste 203, Raleigh, NC 27609",http://www.allgoodsoldit.com/,N/A,"(919) 378-1112
+",,🆕 New Lead,
+,Right Time Realty,Real estate agency,US,Durham,"5007 Southpark Dr #200a, Durham, NC 27713",http://www.timetobuyahouse.com/,kim@timetobuyahouse.com,"(919) 391-8463
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Team Anderson Realty,Real estate agency,US,Holly Springs,"209 Alford St, Holly Springs, NC 27540",http://www.teamandersonrealty.com/,N/A,"(919) 610-5126
+",,🆕 New Lead,
+,"Renee Hillman, Real Estate Broker - Hillman Real Estate Group at eXp Realty",Real estate agency,US,Raleigh,"100 Lynn Rd Suite J, Raleigh, NC 27609",http://www.hregsells.com/,Renee@HREGSells.com,"(919) 873-4415
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,A Cole Realty,Real estate agency,US,Raleigh,"3210 Fairhill Dr, Raleigh, NC 27612",https://www.acolerealty.com/?utm_source=google&utm_medium=organic&utm_term=gbp-listing-cole-realty,N/A,"(919) 578-3128
+",,🆕 New Lead,
+,"The Premier Team of RE/MAX Executive - Charlotte, NC",Real estate agent,US,Charlotte,"12104 Copper Way #100, Charlotte, NC 28277",https://thepremierteamagents.com/,clientcare@thepremierteam.com,"(980) 236-0005
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Shenandoah Realty,Real estate agency,US,Chapel Hill,"101 Glen Lennox Dr Suite 300, Chapel Hill, NC 27517",https://shenrealestate.com/?utm_source=gbp&utm_medium=organic,N/A,"(919) 428-3552
+",,🆕 New Lead,
+,High Performance Real Estate Advisors,Real estate agency,US,Charlotte,"3540 Toringdon Way Suite 200, Charlotte, NC 28277",https://highperformancerealestate.com/,N/A,"(704) 322-3401
+",,🆕 New Lead,
+,The Prosperous Agency | Yoana Nin Realty,Real estate agency,US,Cary,"200 Littleford Ln, Cary, NC 27519",https://theprosperousagency.com/?utm_source=gbp&utm_medium=organic,yoana@theprosperousagency.com,"(919) 694-1901
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Fivewalls Realty,Real estate agency,CA,Toronto,"22 Adelaide St W suite 2710, Toronto, ON M5H 4E3, Canada",https://www.fivewalls.com/,N/A,"(844) 959-2557
+",,🆕 New Lead,
+,Forest Hill Real Estate Brokerage Inc. Yorkville,Real estate agency,CA,Toronto,"28A Hazelton Ave, Toronto, ON M5R 2E2, Canada",http://www.foresthillyorkville.com/,N/A,"1 416-975-5588
+",,🆕 New Lead,
+,Broadview Avenue Group - Toronto Real Estate Agents,Real estate agency,CA,Toronto,"383 Broadview Ave, Toronto, ON M4K 2M7, Canada",https://www.broadviewavenue.ca/,info@broadviewavenue.ca,"1 647-955-8388
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Danielle in the City - Toronto Real Estate Agent,Real estate agency,CA,Toronto,"495 Wellington St W Suite 100, Toronto, ON M5V 1G1, Canada",http://danielleinthecity.ca/,ddemerino@royallepage.ca,"1 416-728-5401
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Compass Team - Safras Lafeer & Bwanka Toronto Real Estate,Real estate agency,CA,Toronto,"495 Wellington St W Suite 100, Toronto, ON M5V 1E9, Canada",http://www.thecompassteam.com/,N/A,"1 647-928-7049
+",,🆕 New Lead,
+,Toronto Realtor,Real estate agency,CA,Toronto,"250 The Esplanade Unit #408, Toronto, ON M5A 4J5, Canada",http://keytorontorealestate.com/,N/A,"1 416-858-8085
+",,🆕 New Lead,
+,"Downtown Toronto Real Estate, Eddie Chan Commercial Specialist",Real estate agent,CA,Toronto,"650 College St, Toronto, ON M6G 1B7, Canada",https://www.downtowntoronto-realestate.com/,john@doe.com,"1 647-281-6109
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rick Aurora - Real Estate Broker,Real estate agency,CA,Toronto,"293 Eglinton Ave E, Toronto, ON M4P 1L3, Canada",https://rickaurora.royallepage.ca/,N/A,"1 416-889-4870
+",,🆕 New Lead,
+,Matthew Fernandes Group - Toronto Real Estate Agent,Real estate agency,CA,Toronto,"300 Geary Ave Suite 104, Toronto, ON M6H 5C5, Canada",http://www.matthewfernandes.ca/,matthew@matthewfernandes.ca,"1 416-937-4510
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Sean Mayers - Toronto Real Estate Agent,Real estate agency,CA,Toronto,"1291 Queen St W, Toronto, ON M6K 1L6, Canada",http://www.seanmayers.com/,Sean.Mayers@Century21.ca,"1 416-849-5360
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Ramos Team | Toronto Real Estate Agents,Real estate agency,CA,Toronto,"1604 Dufferin St, Toronto, ON M6H 3L7, Canada",http://www.theramosteam.com/,N/A,"1 647-973-7355
+",,🆕 New Lead,
+,McLay Real Estate,Real estate agency,CA,Toronto,"187 King St E, Toronto, ON M5A 1J5, Canada",http://tylermclay.com/,N/A,"1 647-991-2432
+",,🆕 New Lead,
+,Fox Marin Associates | Toronto Real Estate Agent Team,Real estate agency,CA,Toronto,"489 College St suite 305, Toronto, ON M6G 1A5, Canada",https://foxmarin.ca/,N/A,"1 416-322-5000
+",,🆕 New Lead,
+,the BREL team East | Toronto Real Estate Agents,Real estate agency,CA,Toronto,"320 Broadview Ave 2nd Floor, Toronto, ON M4M 2G9, Canada",http://www.getwhatyouwant.ca/,brel@getwhatyouwant.ca,"1 416-568-0427
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Wins Lai - Toronto Real Estate Broker,Real estate agency,CA,Toronto,"1170 Bay St. Suite 110, Toronto, ON M5S 2B4, Canada",http://winslai.com/,wins@winslai.com,"1 416-903-7032
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Properly Toronto,Real estate agency,CA,Toronto,"120 Front St E #200, Toronto, ON M5A 1E3, Canada",https://www.properly.ca/,hello@pine.ca,"1 647-372-5188
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Red House Realty Inc., Brokerage",Real estate agency,CA,Toronto,"112 Avenue Road Upper Level, Toronto, ON M5R 2H4, Canada",http://www.redhouserealty.ca/,N/A,"1 416-213-2132
+",,🆕 New Lead,
+,Luxury Listing Specialist,Marketing agency,US,Wheaton,"620 W Roosevelt Rd B-2, Wheaton, IL 60189",https://luxurylistingspecialist.com/,N/A,"(888) 930-8510
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Peak Peninsula Realty,Real estate agency,CA,Port Rowan,"1008 Bay St, Port Rowan, ON N0E 1M0, Canada",http://www.peninsularealty.ca/,Peninsularealty@execulink.com,"1 519-586-2626
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"REALTOR Jagpreet Singh, Real Estate Agent - Commercial & Residential; Kitchener/Woodstock/Cambrigde/Brantford/GTA/London area",Real estate agent,CA,Woodstock,"132 Wedgewood Dr, Woodstock, ON N4T 0K1, Canada",http://www.sellwithjagpreet.com/,N/A,"1 647-675-4330
+",,🆕 New Lead,
+,"Andrew Kulakowsky - Sales Representative | eXp Realty, Brokerage",Real estate agency,CA,St. Catharines,"386 St Paul St Suite 102, St. Catharines, ON L2R 3N2, Canada",https://livinginniagara.com/,N/A,"1 289-241-9095
+",,🆕 New Lead,
+,Upper Canada Real Estate Company Ltd.,Real estate agency,CA,Niagara Falls,"5397 McRae St, Niagara Falls, ON L2E 1R3, Canada",http://uppercanadarealestatecompany.com/,support@webador.com,"1 289-296-3138
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rinehart Realty | 2.99% Total Commission | London ON Real Estate Brokerage,Real estate agency,CA,London,"380 Wellington St 6th Floor, Tower B, London, ON N6A 5B5, Canada",https://rinehartrealty.ca/,info@rinehartrealty.ca,"1 519-601-6199
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Canadian Dream Realty Inc. Brokerage,Real estate agency,CA,London,"247 Adelaide St S, London, ON N5Z 3K7, Canada",http://canadiandreamrealty.ca/,volodymyr@cdream.ca,"1 519-204-4343
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,MULLIGAN REALTY GROUP,Real estate agency,CA,London,"685 Adelaide St N, London, ON N5Y 2L4, Canada",http://mulliganrealtygroup.com/,info@mulliganrealtygroup.com,"1 519-317-7653
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Devin Nadeau - Broker - London Ontario REALTOR,Real estate agency,CA,London,"240 Waterloo St #103, London, ON N6B 2N4, Canada",http://www.nadeaureid.com/,info@nadeaureid.com,"1 519-672-9880
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Ralph Real Estate Team - Century 21 First Canadian Corp,Real estate agent,CA,London,"420 York St, London, ON N6B 3N1, Canada",http://www.theralphrealestateteam.com/,theralphrealestateteam@c21.ca,"1 519-860-4456
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Barry Team | Top Niagara Real Estate Agents,Real estate agency,CA,Niagara Falls,"3483 Portage Rd Unit 5, Niagara Falls, ON L2J 2K5, Canada",https://thebarryteam.ca/,N/A,"1 905-357-8067
+",,🆕 New Lead,
+,Team Glasser Real Estate Brokerage Inc.,Real estate agency,CA,London,"99 Horton St W suite a, London, ON N6J 4Y6, Canada",http://www.teamglasser.com/,N/A,"1 519-670-0385
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Keeping Current Matters,Real estate consultant,US,Richmond,"8720 Stony Point Pkwy, Richmond, VA 23235",https://www.keepingcurrentmatters.com/,kcmcrew@keepingcurrentmatters.com,"(631) 787-6200
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Century 21 First Canadian Corp., Brokerage",Real estate agency,CA,London,"420 York St, London, ON N6B 1R1, Canada",https://c21firstcanadian.c21.ca/,support@moxiworks.com,"1 519-673-3390
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,RE/MAX Elevate,Real estate agency,US,Newport News,"744 Thimble Shoals Blvd, Newport News, VA 23606",https://peninsula-newport-news-va.remax.com/,N/A,"(757) 873-3636
+",,🆕 New Lead,
+,Jerry Pinkas Real Estate Experts,Real estate agent,US,Myrtle Beach,"604 27th Ave N, Myrtle Beach, SC 29577",https://www.homeguidemyrtlebeach.com/,bouncedemail@boomtownroi.com,"(843) 839-9870
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Kristie Weaver Real Estate- SERHANT REALTOR®,Real estate agency,US,Virginia Beach,"780 Lynnhaven Pkwy #400, Virginia Beach, VA 23452",http://www.kristieweaver.com/,N/A,"(757) 613-6978
+",,🆕 New Lead,
+,"Stella Kocharyan, Realtor",Real estate agent,US,Baltimore,"4015 Foster Ave Suite 300, Baltimore, MD 21224",http://www.stellakreale.com/,N/A,"(443) 682-5396
+",,🆕 New Lead,
+,Collins Group Realty,Real estate agency,US,Hilton Head Island,"852 William Hilton Pkwy #2b, Hilton Head Island, SC 29928",http://www.collinsgrouprealty.com/,N/A,"(843) 341-6300
+",,🆕 New Lead,
+,Elena Gorbounova RE/MAX Allegiance,Real estate agent,US,Alexandria,"5100 Leesburg Pike Suite #200, Alexandria, VA 22302",https://www.yourskylineconnection.com/,N/A,"(703) 625-7888
+",,🆕 New Lead,
+,"Debbie Dogrul Associates, LLC. with eXp Realty",Real estate agency,US,Fairfax,"9735 Main St Suite 100, Fairfax, VA 22031",http://www.teamdda.com/,N/A,"(703) 293-5823
+",,🆕 New Lead,
+,Jordan Coons - Niagara Real Estate Agent,Real estate agency,CA,Niagara Falls,"6387 Morrison St, Niagara Falls, ON L2E 7H1, Canada",https://jordancoons.exprealty.com/,N/A,"1 905-371-6112
+",,🆕 New Lead,
+,Stefanie Conley- Keller Williams Great Smokies,Real estate agent,US,Sylva,"96 W Sylva Shopping Area, Sylva, NC 28779",https://stefanie-conley.kw.com/,N/A,"(828) 421-0399
+",,🆕 New Lead,
+,Smith Spencer Real Estate,Real estate agency,US,Charleston,"701 E Bay St #513, Charleston, SC 29403",http://smithspencer.com/,hello@smithspencer.com,"(843) 609-3979
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Shelly German, Realtor & Partner with The Bob Lucido Team of Keller Williams Lucido Agency",Real estate agent,US,Ellicott City,"9251 Baltimore National Pike suite d, Ellicott City, MD 21042",http://shellygermanhomes.com/,N/A,"(443) 500-9405
+",,🆕 New Lead,
+,Realty One Group Dockside - Jessica Burchfield,Real estate agent,US,Myrtle Beach,"2305 N Oak St, Myrtle Beach, SC 29577",https://jessicaburchfield.myrealtyonegroup.com/,N/A,"(843) 424-5149
+",,🆕 New Lead,
+,CENTURY 21 Magnolia,Real estate agency,US,Evans,"609 Ponder Pl Dr Unit B, Evans, GA 30809",http://www.c21magnolia.com/,N/A,"(706) 860-0000
+",,🆕 New Lead,
+,"Karie Salser, Realty ONE Group Pivot",Real estate agent,US,Hendersonville,"319 N King St, Hendersonville, NC 28792",https://kariesalser.myrealtyonegroup.com/,N/A,"(828) 606-7620
+",,🆕 New Lead,
+,Alexandra Schrank RE/MAX Executive,Real estate agent,US,Asheville,"56 Central Ave Ste 101, Asheville, NC 28801",http://www.ashevillerealproperty.com/,brokeralexandra@gmail.com,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rhonda Canada Realtor & Company,Real estate agent,US,Chesterfield,"10310 Memory Ln Suite 1F, Chesterfield, VA 23832",https://www.rcrealtor.co/,Rhonda@RCRealtor.co,"(804) 914-3998
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,DiscoverNChomes,Real estate agency,US,Southport,"4320 Southport-Supply Rd SE Suite 100, Southport, NC 28461",http://www.discovernchomes.com/,frontdesk@discovernchomes.com,"(910) 363-4387
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,INNOVATE Real Estate,Real estate agent,US,Myrtle Beach,"1309 Professional Dr, Myrtle Beach, SC 29577",http://innovateonline.com/,N/A,"(843) 839-3325
+",,🆕 New Lead,
+,Jeff Forman - Keller Williams Innovate South,Real estate agent,US,Myrtle Beach,"601 21st Ave N, Myrtle Beach, SC 29577",http://www.forturro.com/,info@forturro.com,"(843) 902-4325
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Jon Lahey — The Fine Living Group at eXp Realty,Real estate agency,US,Rockville,"401 N Washington St Suite: 600, Rockville, MD 20850",https://www.thefinelivinggroup.com/,N/A,"(301) 651-4900
+",,🆕 New Lead,
+,"Kyle Hawley, Realtor - Dunes Realty Sales",Real estate agent,US,Murrells Inlet,"2851 US-17 BUS, Murrells Inlet, SC 29576",https://kylehawley.dunesrealtysales.com/,N/A,"(843) 241-8684
+",,🆕 New Lead,
+,Waterfront Group,Real estate agency,US,Cornelius,"19421 Liverpool Pkwy, Cornelius, NC 28031",http://www.waterfrontgrp.com/,info@waterfrontgrp.com,"(704) 896-5880
+",,🆕 New Lead,
+,Transworld Business Advisors of Vancouver,Business broker,US,Vancouver,"1220 Main St Suit 400, Vancouver, WA 98660",https://www.tworld.com/locations/vancouver/?utm_campaign=gmb-listing&utm_medium=organic&utm_source=local,N/A,"(360) 952-3000
+",,🆕 New Lead,
+,Parker Jane,Real estate agency,US,Hood River,"2495 Cascade Ave, Hood River, OR 97031",,N/A,"(541) 386-4400
+",,🆕 New Lead,
+,Erica Village,Apartment complex,US,Vancouver,"1115 NE 105th St, Vancouver, WA 98685",https://ericavillageapts.com/?utm_knock=g,covingtonsquare@centromgt.com,"(971) 298-9093
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Jeff Valentino | Winston Salem Realtor,Real estate agent,US,Winston-Salem,"111 N Chestnut St #006, Winston-Salem, NC 27101",https://govalentino.com/,N/A,"(336) 837-5924
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Professional Realty Services International, Inc.",Real estate agency,US,Vancouver,"11109 NE 14th St STE B, Vancouver, WA 98684",http://www.professionalrealtyservices.com/,N/A,"(888) 302-5550
+",,🆕 New Lead,
+,AgencyOne NW,Real estate agency,US,Vancouver,"5910 NE Fourth Plain Blvd #103, Vancouver, WA 98661",,N/A,"(360) 433-2627
+",,🆕 New Lead,
+,"Pro Realty Group NW, LLC",Real estate agency,US,Vancouver,"1212 NW 54th Way, Vancouver, WA 98663",https://www.prorealtygroupnw.com/,N/A,"(360) 828-0538
+",,🆕 New Lead,
+,Jesse Grover Realtor,Real estate agent,US,Vancouver,"1220 Main St Ste 400, Vancouver, WA 98660",http://jessegrover.com/,N/A,"(360) 606-6571
+",,🆕 New Lead,
+,New Tradition Realty,Real estate agency,US,Vancouver,"11815 NE 113th St #110, Vancouver, WA 98662",http://newtraditionrealty.com/,user@domain.com,"(360) 254-9225
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Brenda Wilson, REALTOR - Licensed in Washington and Oregon",Real estate agent,US,Vancouver,"1798 SE Columbia River Dr, Vancouver, WA 98661",,N/A,"(360) 909-4663
+",,🆕 New Lead,
+,Cresa,Commercial real estate agency,US,Portland,"1355 NW Everett St Suite 100, Portland, OR 97209",https://www.cresa.com/Locations/North-America/Oregon/Portland-OR,N/A,"(503) 455-8655
+",,🆕 New Lead,
+,Wilcox Real Estate Group,Real estate agency,US,Gastonia,"4109 S New Hope Rd, Gastonia, NC 28056",https://www.wilcoxre.com/,info@wilcoxre.com,"(704) 909-8600
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Compass Land & Real Estate,Real estate agency,US,Cornelius,"18605 Northline Dr, Cornelius, NC 28031",https://www.compasslandgroup.com/,ben@compasslandgroup.com,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Sarah Bagby,Real estate consultant,US,Vancouver,"2211 E Mill Plain Blvd, Vancouver, WA 98661",,N/A,"(360) 909-8553
+",,🆕 New Lead,
+,Melissa Erickson - Windermere Northwest Living,Real estate agent,US,Kelso,"209 W Main St Ste. 200, Kelso, WA 98626",https://pnwhomesbymelissa.com/,melissaerickson@windermere.com,"(360) 772-1623
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Wojtek Lachowski - YourLKNhouse - brokered by eXp Realty,Real estate agent,US,Charlotte,"10060 Pergola View Ct, Charlotte, NC 28213",http://www.yourlknhouse.com/,DMCAnotice@MLSGrid.com,"(704) 806-0187
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Ritchie Metzler - Urban Pacific Real Estate - Principal Real Estate Broker,Real estate agent,US,Portland,"2033 N Alberta St, Portland, OR 97217",http://www.urbanpacificrealestate.com/,N/A,"(503) 740-2043
+",,🆕 New Lead,
+,REALTY PRO INC,Real estate agency,US,Vancouver,"7710 NE Greenwood Dr Suite 140, Vancouver, WA 98662",https://realtypronw.com/,N/A,"(360) 882-7000
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Crandall Group | Portland Real Estate,Real estate agency,US,Beaverton,"14789 SW Millikan Way, Beaverton, OR 97003",http://crandallgroup.com/,N/A,"(503) 936-0332
+",,🆕 New Lead,
+,Homes With Jan,Real estate agent,US,Vancouver,"201 NE Park Plaza Dr #105, Vancouver, WA 98684",http://homeswithjan.com/,jan.fogg@homeswithjan.com,"(360) 605-1570
+",,🆕 New Lead,
+,Wilmington Real Estate Agent | Danielle Gillespie | Gillespie Group,Real estate agent,US,Carolina Beach,"9 Lake Park Blvd S Suite B1, Carolina Beach, NC 28428",http://daniellegillespiehomes.com/,N/A,"(910) 620-4380
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Fairway Village Realty,Real estate agency,US,Vancouver,"15509 SE Fernwood Dr #1, Vancouver, WA 98683",http://fairwayvillagerealty.com/,karl@karlsellshomes.com,"(360) 816-4455
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Kelly Winn - District Real Estate and Generation Homes NW,Contractor,US,Vancouver,"14300 NE 20th Ave Suite 204B, Vancouver, WA 98686",https://generationhomesnw.com/,N/A,"(360) 903-4100
+",,🆕 New Lead,
+,Delavan Realty Inc.,Real estate agency,US,Tigard,"12909 SW 68th Pkwy #160, Tigard, OR 97223",http://delavan-realty.com/,info@delavan-realty.com,"(503) 966-1448
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Overman Group,Real estate agency,US,Oak Ridge,"2215 Oak Ridge Rd, Oak Ridge, NC 27310",http://theovermangroup.com/,N/A,"(336) 618-7564
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Premiere Property Group, LLC",Real estate agency,US,Vancouver,"7700 NE Parkway Dr #125, Vancouver, WA 98662",https://vancouvermall.premierepropertygroup.com/,INFO@PREMIEREPROPERTYGROUP.COM,"(360) 693-6139
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Alina Shmigel Real Estate Broker,Real estate agent,US,Vancouver,"15524 SE Mill Plain Blvd, Vancouver, WA 98684",,N/A,"(503) 998-2637
+",,🆕 New Lead,
+,Berkshire Hathaway HomeServices Northwest Real Estate Clark County NW Office,Real estate agency,US,Vancouver,"10002 NE 13th Ave Ste. 110, Vancouver, WA 98686",https://ccnw.bhhsnw.com/,N/A,"(360) 574-1381
+",,🆕 New Lead,
+,Johan Henriksbo,Real estate agent,US,Vancouver,"900 Washington St #1030, Vancouver, WA 98660",https://johanhenriksbo-kniperealtyerapowered.sites.erarealestate.com/,support@moxiworks.com,"(360) 600-0587
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Cano Real Estate,Real estate agency,US,Vancouver,"415 E Mill Plain Blvd, Vancouver, WA 98660",http://www.canorealestate.com/,ncopyright@nwmls.com,"(360) 823-3333
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,List4FlatFee,Real estate agency,US,Camas,"330 NE Cedar St #201, Camas, WA 98607",https://list4flatfee.com/,mls@list4flatfee.com,"(425) 344-6779
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Windermere Northwest Living,Real estate agency,US,Vancouver,"1404 NE 134th St #100, Vancouver, WA 98685",https://windermerenorthwestliving.com/,info@windermere.com,"(360) 993-2222
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Bluebird Real Estate,Real estate agency,US,Lake Oswego,"920 SW York Rd, Lake Oswego, OR 97034",http://www.pdxbluebird.com/,N/A,"(503) 341-8221
+",,🆕 New Lead,
+,Azra Ramic,Real estate agent,US,Vancouver,"1498 SE Tech Center Pl suite #290, Vancouver, WA 98683",https://aramic.bhhsnw.com/,N/A,"(360) 977-9601
+",,🆕 New Lead,
+,"Erica Stout, REALTOR® with REMAX",Real estate agent,US,Vancouver,"RE/MAX Equity Group-Van Mall Office, 7701 NE Greenwood Dr Suite 100, Vancouver, WA 98662",https://ericastout.remax.com/,N/A,"(360) 600-6302
+",,🆕 New Lead,
+,Jamie Meushaw Real Estate,Real estate agent,US,Vancouver,"13514 SE 26th Cir, Vancouver, WA 98683",https://jamiemeushaw.exprealty.com/index.php,N/A,"(360) 798-7127
+",,🆕 New Lead,
+,Opt Real Estate,Real estate agency,US,Lake Oswego,"16325 Boones Ferry Rd # 202, Lake Oswego, OR 97035",https://theopt.com/,N/A,"(503) 908-4908
+",,🆕 New Lead,
+,Reyes Home Group,Real estate agent,US,Vancouver,"1401 SE 164th Ave Suite 190, Vancouver, WA 98683",http://reyeshomegroup.com/,support@windermere.com,"(360) 607-9436
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Front Door Realty,Real estate agency,US,Vancouver,"9407 NE Vancouver Mall Dr #102, Vancouver, WA 98662",https://www.frontdoornw.com/,Julie@FrontDoorNW.com,"(360) 450-4486
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Northern Kentucky Association of REALTORS (R),Non-profit organization,US,Florence,"7660 Turfway Rd STE 100, Florence, KY 41042",http://www.nkar.com/,tara.johnson@nkadd.org,"(859) 344-8400
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Terry Summerhays - Brantford Real Estate Agent,Real estate agency,CA,Brantford,"515 Park Rd N, Brantford, ON N3R 7K8, Canada",https://www.viewbrantfordhomes.com/,N/A,"1 519-802-8770
+",,🆕 New Lead,
+,Edge 35,Apartment rental agency,US,Indianapolis,"1224 Prospect St, Indianapolis, IN 46203",https://www.edge35.com/?utm_source=GMB&utm_medium=organic,N/A,"(844) 993-2404
+",,🆕 New Lead,
+,Avison Young,Commercial real estate agency,US,Brentwood,"1401 S Brentwood Blvd # 900, Brentwood, MO 63144",https://www.avisonyoung.us/web/st-louis?utm_source=google&utm_medium=gmb,N/A,"(314) 968-0220
+",,🆕 New Lead,
+,Travelex International,Travel agency,US,Hoffman Estates,"2500 W Higgins Rd Suite 850, Hoffman Estates, IL 60169",https://travelexinternational.com/,concierge@travelexinternational.com,"(847) 565-1559
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,CoStar Group,Corporate office,US,Chicago,"150 North Riverside Drive Suite 5150, Chicago, IL 60606",https://www.costargroup.com/,N/A,"(888) 658-7368
+",,🆕 New Lead,
+,Indy Travel Leaders,Travel agency,US,Indianapolis,"9745 Fall Creek Rd #200, Indianapolis, IN 46256",https://www.indytravelleaders.com/,N/A,"(317) 913-3300
+",,🆕 New Lead,
+,"Danielle Henderson, New Way Realty Partners",Real estate agent,US,Southfield,"24001 Southfield Rd # L100, Southfield, MI 48075",https://www.homesnap.com/Danielle-Henderson/gmb,support@citysnap.com,"(313) 657-0748
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,A. Perry Homes,Custom home builder,US,Wilmette,"1220 Washington Ave, Wilmette, IL 60091",http://www.aperryhomes.com/,info@aperryhomes.com,"(847) 549-0668
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,CL3 Property Management,Property management company,US,Chicago,"1337 W Wrightwood Ave STE 1, Chicago, IL 60614",http://www.cl3pm.com/,Info@CL3pm.com,"(773) 227-2388
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Nelson Property Management,Property management company,US,Fraser,"32631 Utica Rd, Fraser, MI 48026",https://nelsonpropertymanagement.com/,info@sampleaddress.com,"(586) 294-6800
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Nulf Management Services - Pittsburgh Property Management,Property management company,US,Pittsburgh,"600 Waterfront Dr Suite 200, Pittsburgh, PA 15222",https://www.nms.biz/,info@nulfmanagementservices.com,"(412) 228-5783
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Cahill Real Estate Services Lee Searcy, Realtor",Real estate agent,US,Taylor Mill,"5433 Taylor Mill Rd, Taylor Mill, KY 41015",http://www.hasslefreewithlee.com/,Lee@HassleFreeWithLee.com,"(859) 468-0605
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,GRTD Rentals/KMDE,Real estate agency,US,Dubuque,"3250 Kennedy Cir Suite 4, Dubuque, IA 52002",https://www.grtdrentals.com/,N/A,"(563) 556-3645
+",,🆕 New Lead,
+,WMS Real Estate and WMS Auction Services,Real estate agent,US,Upper Sandusky,"400 Comfort Dr, Upper Sandusky, OH 43351",http://www.wmsohio.com/,N/A,"(419) 294-4366
+",,🆕 New Lead,
+,Wiles Hanzie Realty,Real estate agency,US,Orrville,"229 W Market St, Orrville, OH 44667",http://www.wileshanzie.com/,info@wileshanzie.com,"(330) 683-4663
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Network Commercial Real Estate,Commercial real estate agency,US,Frankfort,"19350 S Harlem Ave, Frankfort, IL 60423",http://www.networkregroup.com/,N/A,"(708) 873-5540
+",,🆕 New Lead,
+,Kennemer Realty,Real estate agency,US,Seymour,"109 W Clinton Ave, Seymour, MO 65746",,N/A,"(855) 935-2201
+",,🆕 New Lead,
+,Smarte Realty,Real estate agency,US,Livonia,"39375 Amrhein Rd, Livonia, MI 48150",http://www.hellosmarte.com/,aleca@hellosmarte.com,"(248) 282-4482
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Bright Star Real Estate Services,Real estate agency,US,Middlebury,"55137 IN-13, Middlebury, IN 46540",https://brightstarres.com/,N/A,"(574) 821-7653
+",,🆕 New Lead,
+,Chesney Team Realtors,Real estate agent,US,Ann Arbor,"213 W Liberty St suite 300, Ann Arbor, MI 48104",http://www.chesneyteam.com/,support@moxiworks.com,"(734) 478-3540
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Westfork Auction & Real Estate, LLC",Real estate agency,US,Arcola,"2588 E Co Rd 1900 N, Arcola, IL 61910",https://www.westforkauctions.com/,westforkauctions@gmail.com,"(217) 543-2883
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,United Country Real Estate-Barner Realty & Auction,Real estate agency,US,Anamosa,"211 W Main St, Anamosa, IA 52205",http://www.barnerrealtyauctioninc.com/index.html,unitedsupport@unitedrealestate.com,"(319) 462-4100
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Max Broock REALTORS,Real estate agency,US,Detroit,"3633 Woodward Ave, Detroit, MI 48226",https://www.maxbroock.com/,N/A,"(313) 324-8600
+",,🆕 New Lead,
+,"Stacie McGlone, Always Home Real Estate Services LLC",Real estate agent,US,Frankfort,"408 Center Rd, Frankfort, IL 60423",,N/A,"(773) 213-1150
+",,🆕 New Lead,
+,Wiens & Roth Real Estate,Real estate agency,US,Lambertville,"8204 Secor Rd, Lambertville, MI 48144",https://wiensandroth.com/,aaron@wiensandroth.com,"(419) 777-2106
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,JMG Ohio Tim Ali Team,Real estate agent,US,Middleburg Heights,"19495 Bagley Rd, Middleburg Heights, OH 44130",http://jmgohio.com/,N/A,"(440) 816-1111
+",,🆕 New Lead,
+,All County® NEO Property Management,Property management company,US,Hudson,"10000 Aurora Hudson Rd C, Hudson, OH 44236",https://www.allcountyprop.com/locations/ohio/hudson/,N/A,"(330) 348-5200
+",,🆕 New Lead,
+,M E Realty,Real estate agency,US,Lincoln,"602 Keokuk St, Lincoln, IL 62656",https://merealty.com/,merealty@merealty.com,"(217) 735-5424
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Team Pannell Real Estate,Real estate agency,US,Nicholasville,"131 Old Woods Dr, Nicholasville, KY 40356",https://www.teampannell.com/,N/A,"(859) 800-6548
+",,🆕 New Lead,
+,Rondo Investment,Real estate agency,US,St Clair Shores,"23204 Greater Mack Ave, St Clair Shores, MI 48080",https://www.rondoinvestment.com/,N/A,"(313) 521-6666
+",,🆕 New Lead,
+,Maynes Group,Real estate agency,US,St. Louis,"1717 Hidden Creek Ct, St. Louis, MO 63131",https://maynesgroupstl.com/,N/A,"(314) 504-5566
+",,🆕 New Lead,
+,Jim Abbott Realtor,Real estate agent,US,Chicago,"2526 N Lincoln Ave, Chicago, IL 60614",http://www.jimabbott.bairdwarner.com/,N/A,"(847) 668-8955
+",,🆕 New Lead,
+,Lance Kirshner - LAKE Group,Real estate agency,US,Chicago,"2350 N Lincoln Ave, Chicago, IL 60614",http://www.lakegroupchicago.com/,N/A,"(773) 578-8080
+",,🆕 New Lead,
+,Realtyflo Inc,Real estate agency,US,Detroit,"1001 Woodward Building, Woodward Ave Ste 500, Detroit, MI 48226",https://realtyflo.com/,team@realtyflo.com,"(313) 466-7253
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Best Chicago Properties,Real estate agency,US,Chicago,"847 W Monroe St, Chicago, IL 60607",https://www.bestchicagoproperties.com/,info@bestchicagoproperties.com,"(312) 767-7744
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Janie Luxury Realty,Real estate agent,US,Chicago,"515 N State St, Chicago, IL 60654",https://janieluxuryrealty.com/,janie@apartmentsourcechicago.com,"(773) 599-0509
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Regan + Ferguson Group REALTY,Real estate agency,US,Fort Wayne,"5728 Coventry Ln, Fort Wayne, IN 46804",https://reganfergusongroup.com/,support@agentfire.com,"(260) 207-4648
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,RE/MAX Suburban: Dominick Martelli,Real estate agent,US,Lake Zurich,"444 S Rand Rd, Lake Zurich, IL 60047",http://www.dominickmartelli.com/,N/A,"(847) 340-8863
+",,🆕 New Lead,
+,REMAX Advanced Realty,Real estate agency,US,Indianapolis,"8313 W 10th St, Indianapolis, IN 46234",http://www.indianapolisrealestate.com/,N/A,"(317) 298-0961
+",,🆕 New Lead,
+,Ian Schwartz - The Ian Schwartz Group,Real estate agency,US,Chicago,"1910 N Clybourn Ave, Chicago, IL 60614",http://ianschwartzgroup.wordpress.com/,N/A,"(312) 915-4729
+",,🆕 New Lead,
+,Louisville Real Estate Pros,Real estate agency,US,Louisville,"920 Dupont Rd Suite 200, Louisville, KY 40205",http://www.louisvillerealestatepros.com/,N/A,"(502) 435-5524
+",,🆕 New Lead,
+,Lesley Carrillo Group | Real Estate Agent | Corcoran Urban Real Estate,Real estate agent,US,Chicago,"400 E Randolph St #500, Chicago, IL 60601",http://lesleycarrillogroup.com/,N/A,"(312) 945-2989
+",,🆕 New Lead,
+,Simple Property Management,Property management company,US,Grand Rapids,"1345 Monroe Ave NW UNIT 305, Grand Rapids, MI 49505",https://simplepmgroup.com/,info@simplepmgroup.com,"(616) 329-6318
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Ohio Cashflow,Property investment company,US,Toledo,"2428 W Sylvania Ave, Toledo, OH 43613",http://www.ohiocashflow.com/,N/A,"(844) 289-8876
+",,🆕 New Lead,
+,HUAXIA REAL ESTATE BROKERS - DUBAI | 迪拜华夏地产,Real estate agency,AE,,Park Heights Square 2 Dubai Hills Estate - Office 504 - Hadaeq Sheikh Mohammed Bin Rashid - Dubai - United Arab Emirates,https://www.huaxia.ae/?utm_source=local_maps&utm_medium=gbp&utm_campaign=googlemaps,info@huaxia.ae,"971 4 589 7440
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Emireum Properties | Real estate agency in dubai,Real estate agent,AE,,"Burj Khalifa District, The Opus By Omniyat - Suite A406 - Business Bay - Dubai - United Arab Emirates",https://www.emireumproperties.com/en,info@emireumproperties.com,"971 4 410 7429
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Harbor Real Estate Broker LLC,Real estate consultant,AE,,City Tower - 18th Floor Office#1803 - 2 Sheikh Zayed Rd - Dubai - United Arab Emirates,https://www.harbordubai.com/,info@harbordubai.com,"971 4 325 1616
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Next Level Real Estate - Award Winning Real Estate Agency in Dubai,Real estate agent,AE,,Opal Tower - 1505 - Burj Khalifa Blvd - Business Bay - Dubai - United Arab Emirates,https://www.nextlevelrealestate.ae/?utm_source=google&utm_medium=organic&utm_campaign=googlge_my_business,media@nextlevelrealestate.ae,"971 4 454 2828
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,District Real Estate,Real estate agency,AE,,Prime Tower - 1512 - Business Bay - Dubai - United Arab Emirates,http://www.districtuae.com/,N/A,"971 4 880 0373
+",,🆕 New Lead,
+,ELITE Property Brokerage,Real estate agent,AE,,Onyx Tower - 1 Sheikh Zayed Rd - Al Thanyah Third - Dubai - United Arab Emirates,https://www.elitepropertydxb.com/,N/A,"971 4 770 1087
+",,🆕 New Lead,
+,Xperience​ Realty Real Estate,Real estate agent,AE,,Office 301 & 302 Park Heights Square Building 1 - Dubai Hills - Dubai - United Arab Emirates,https://www.xrealty.ae/,info@xrealty.ae,"971 56 408 0888
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Urban Nest Real Estate Broker LLC,Real estate agent,AE,,I-Rise Tower - Office 11C02 - Hessa St - Al Thanyah First - Barsha Heights - Dubai - United Arab Emirates,http://www.theurbannest.ae/,"user@domain.com  
+hello@theurbannest.ae","971 4 263 3379
+",,🆕 New Lead,
+,Robin Gordon Real Estate Group | Main Line & Philadelphia,Real estate agency,US,Haverford,"338 W Lancaster Ave, Haverford, PA 19041",https://www.robingordon.com/,N/A,"(610) 246-2280
+",,🆕 New Lead,
+,The Donnelly Group of Keller Williams Flagship of Maryland,Real estate agency,US,Annapolis,"339 Buschs Frontage Rd #206, Annapolis, MD 21409",http://www.tdgmoves.com/,N/A,"(443) 308-4918
+",,🆕 New Lead,
+,Johan German - Century 21 A.G. Realty Group,Real estate agent,US,Passaic,"47 Hoover Ave, Passaic, NJ 07055",,N/A,"(862) 290-0105
+",,🆕 New Lead,
+,"Keller Williams, The Downing Group",Real estate agency,US,Columbia,"3790 Fernandina Rd # 300, Columbia, SC 29210",https://www.thedowninggroup.com/?utm_campaign=gmb,N/A,"(803) 381-8950
+",,🆕 New Lead,
+,Germany Andrews Real Estate,Real estate agency,US,Peachtree City,"401 Westpark Ct #200, Peachtree City, GA 30269",https://www.germanyandrews.com/,N/A,"(770) 500-2751
+",,🆕 New Lead,
+,abuda,Real estate agent,DE,Berlin,"Friedrichstr 68 entrance via, Anton-Wilhelm-Amo-Straße 50, 10117 Berlin, Germany",https://abuda.com/,"you@familyoffice.com, hello@abuda.com","49 172 9831161
+",,🆕 New Lead,
+,"Merit Co. Inc., Real Estate",Real estate agency,US,Colorado Springs,"6120 Tutt Blvd, Colorado Springs, CO 80923",https://meritco.com/,busmgr@meritco.com,"(719) 598-4884
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Gold Hill Mesa,Real estate developer,US,Colorado Springs,"142 S Raven Mine Dr STE 200, Colorado Springs, CO 80905",http://goldhillmesa.com/,N/A,"(719) 633-2202
+",,🆕 New Lead,
+,Dorman Real Estate Management,Property management company,US,Colorado Springs,"2760 N Academy Blvd #120, Colorado Springs, CO 80917",http://www.coloradospringsproperty.management/,DRE@DormanRealEstate.com,"(719) 213-9100
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Innovative Group,Real estate agency,US,Colorado Springs,"1295 Kelly Johnson Blvd ste 150, Colorado Springs, CO 80920",https://innovativegroup.com/,N/A,"(719) 749-1744
+",,🆕 New Lead,
+,German Real Estate Immobilien Gruppe,Real estate agency,DE,Bayreuth,"Bürgerreuther Str. 29, 95444 Bayreuth, Germany",,N/A,"49 921 73030800
+",,🆕 New Lead,
+,CONSUS Real Estate AG,Real estate agency,DE,Berlin,"188-189 Kurfürstendamm, Berlin 10707, 10707 Berlin, Germany",,N/A,"49 30 96535790260
+",,🆕 New Lead,
+,"All County Colorado Springs, CRMC",Property management company,US,Colorado Springs,"811 S Tejon St, Colorado Springs, CO 80903",https://allcountycs.com/,N/A,"(719) 445-7172
+",,🆕 New Lead,
+,NOW Real Estate Germany GmbH,Real estate agency,DE,Dresden,"Mendelssohnallee 6, 01309 Dresden, Germany",,N/A,"49 1067
+",,🆕 New Lead,
+,PCS Pro Network - The PCS Pro Team - Military Real Estate - Keller Williams,Real estate agency,US,Colorado Springs,"25 N Spruce St Suite 200, Colorado Springs, CO 80905",https://thepcsproteam.com/,N/A,"(719) 299-1769
+",,🆕 New Lead,
+,"Susanna Haynie, Realtor®",Real estate agent,US,Colorado Springs,"142 S Raven Mine Dr, Colorado Springs, CO 80905",,N/A,"(719) 321-0800
+",,🆕 New Lead,
+,"All Seasons, LLC CRMC",Real estate agency,US,Colorado Springs,"1610 S Tejon St, Colorado Springs, CO 80905",https://www.propertymanagementincoloradosprings.com/,urgent@all-seasons.com,"(719) 632-3368
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"The Lana Rodriguez Group Powered by REAL Broker, LLC.",Real estate agency,US,Colorado Springs,"417 S Cascade Ave, Colorado Springs, CO 80903",http://www.soldbylrg.com/,lrg@pcscolorado.com,"(719) 644-8900
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Kentwood Real Estate Cherry Creek,Real estate agency,US,Denver,"215 St Paul St STE 200, Denver, CO 80206",https://www.kentwood.com/roster/Offices/cherrycreek,N/A,"(303) 331-1400
+",,🆕 New Lead,
+,VALOR PROPERTIES,Real estate agency,US,Colorado Springs,"3975 Wakefield Dr, Colorado Springs, CO 80906",http://www.valorealtor.com/,N/A,"(719) 238-4608
+",,🆕 New Lead,
+,realbest Germany GmbH,Real estate rental agency,DE,Berlin,"Helmholtzstraße 2-9, 10587 Berlin, Germany",https://www.realbest.de/,N/A,"49 30 58581790
+",,🆕 New Lead,
+,RE/MAX Germany,Real estate agent,DE,Leinfelden-Echterdingen,"Kohlhammerstraße 6, 70771 Leinfelden-Echterdingen, Germany",https://www.remax.de/,N/A,"49 711 93326330
+",,🆕 New Lead,
+,Metz Immobilien,Real estate agent,DE,Frankfurt am Main,"Ludwig-Landmann-Straße 9, 60488 Frankfurt am Main, Germany",http://www.metz-immobilien.net/,N/A,"49 69 7807480
+",,🆕 New Lead,
+,Skyline Real Estate GmbH,Real estate agency,DE,Frankfurt am Main,"Zeil 44, 60313 Frankfurt am Main, Germany",http://www.immoskyline.de/,info@immoskyline.com,"49 172 6645661
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Property Connection,Real estate agent,DE,Berlin,"Genthiner Str. 8, 10785 Berlin, Germany",https://www.thepropertyconnection.de/,info@thepropertyconnection.de,"49 1522 8475210
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The Bona Team,Real estate agent,US,Crested Butte,"211 Elk Ave, Crested Butte, CO 81224",http://www.thebonateam.com/,N/A,"(970) 236-6422
+",,🆕 New Lead,
+,Von Albert Real Estate,Real estate agency,DE,Berlin,"Kurfürstendamm 196, 10707 Berlin, Germany",https://www.von-albert.com/,info@vonalbert-realestate.com,"49 30 98351252
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Tupper's Team,Real estate agency,US,Evergreen,"1193 Bergen Pkwy Suite O/P, Evergreen, CO 80439",http://www.tuppersteam.com/,N/A,"(720) 248-8757
+",,🆕 New Lead,
+,The Tiffany Home Team,Real estate agent,US,Colorado Springs,"2727 N Cascade Ave Ste 195, Colorado Springs, CO 80907",http://www.thetiffanyhometeam.com/,N/A,"(719) 232-1564
+",,🆕 New Lead,
+,"Vanessa & Ricky Marquez, REALTORS® | The Marquez Group",Real estate agent,US,Colorado Springs,"142 S Raven Mine Dr Suite 100, Colorado Springs, CO 80905",https://marquezhomegroup.com/,N/A,"(719) 421-0909
+",,🆕 New Lead,
+,Reality Germany Funds,Real estate agency,DE,Berlin,"Marburger Str. 2, 10789 Berlin, Germany",https://reality-fund.com/reality-germany/,office@reality-fund.com,"
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,First Citiz Berlin,Real estate agency,DE,Berlin,"Pappelallee 11, 10437 Berlin, Germany",https://www.firstcitiz.com/,contact@firstcitiz.com,"49 30 41717274
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Livia Luizetto Realtor,Real estate agent,US,Chesapeake,"701 Greenbrier Pkwy, Chesapeake, VA 23320",,N/A,"(774) 644-8898
+",,🆕 New Lead,
+,Ramsy De Paula Realtor,Real estate agent,US,Woodstock,"9860 GA-92, Woodstock, GA 30188",,N/A,"(770) 826-8355
+",,🆕 New Lead,
+,"MoveZen Property Management Raleigh Metro, Wake County",Real estate agency,US,Raleigh,"609 St Marys St, Raleigh, NC 27605",https://movezen360.com/raleigh/,Rent@MoveZen360.com,"(919) 249-8555
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Alex Darst Realtor®,Real estate agent,US,Greenville,"703 Roper Creek Dr, Greenville, SC 29615",http://alex.livegreenville.com/,N/A,"(864) 434-3314
+",,🆕 New Lead,
+,Jadon & Company,Real estate agent,US,Columbia,"1201 Main St Suite 1470, Columbia, SC 29201",http://jadonandcompany.com/,N/A,"(843) 557-3303
+",,🆕 New Lead,
+,"Shannon Heim, Realtor® - Unique Real Estate",Real estate agency,US,Clarksville,"1811 Business Park Dr, Clarksville, TN 37040",https://shannon.uniquere.us/,shannon@uniquere.us,"(585) 305-3906
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Anne Sepko Realty Group North Atlanta,Real estate agent,US,Buford,"4878 Manhattan Dr NE, Buford, GA 30518",https://annesepko.kw.com/,N/A,"(770) 231-2442
+",,🆕 New Lead,
+,"Tom Menges, Howard Perry & Walston Realtor",Real estate agent,US,Raleigh,"5000 Falls of Neuse Rd Ste.100, Raleigh, NC 27609",http://www.tommenges.com/,thmenges@gmail.com,"(919) 274-5645
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Castro Real Estate Team,Real estate agency,US,Jacksonville,"2355 Western Blvd #300, Jacksonville, NC 28546",http://www.dianecastro.com/,N/A,"(910) 546-4479
+",,🆕 New Lead,
+,Claudia Ogrizek - Realtor,Real estate agent,US,Charlotte,"4525 Sharon Rd FL 3, Charlotte, NC 28211",https://www.compass.com/agents/claudia-ogrizek/,N/A,"(704) 995-1300
+",,🆕 New Lead,
+,Republic Flats,Apartment rental agency,US,Durham,"800 Finsbury St, Durham, NC 27703",https://www.republicflats.com/?ilm=obl&utm_source=gmb&utm_medium=organic,N/A,"(855) 909-8826
+",,🆕 New Lead,
+,"Patricia Fagiola, Real Estate Professional",Real estate agent,US,Marietta,"1355 Terrell Mill Rd, Marietta, GA 30067",https://www.searchrealestateatlanta.com/,patriciafagiola@gmail.com,"(678) 409-6656
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Becca Travis Real Estate Group- Coldwell Banker First,Real estate agency,US,Huntsville,"2410 L and N Dr SW suite c, Huntsville, AL 35801",http://beccatravis.com/,becca@beccatravis.com,"(256) 318-9066
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Brad Poole Group | Milton, GA Real Estate Agents",Real estate agency,US,Milton,"3265 Wolf Willow Cl, Milton, GA 30004",https://bradpoolegroup.com/,N/A,"(678) 618-0398
+",,🆕 New Lead,
+,Elizabeth Jones Homes,Real estate agent,US,Fredericksburg,"530 Princess Anne St, Fredericksburg, VA 22401",http://elizabethjoneshomes.com/,N/A,"(610) 451-2396
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Chris Samuels - AugustaGAHomeSearch,Real estate agent,US,Martinez,"3802 Washington Rd, Martinez, GA 30907",http://www.augustagahomesearch.com/,N/A,"(706) 564-5885
+",,🆕 New Lead,
+,3 Options Realty,Real estate agency,US,Roswell,"555 Sun Valley Dr Suite B4, Roswell, GA 30076",https://www.3optionsrealty.com/,graham@3optionsrealty.com,"(678) 397-1282
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,J Exum Group,Real estate consultant,US,Hurstbourne,"240 Whittington Pkwy, Hurstbourne, KY 40222",http://jexumgroup.com/,N/A,"(502) 345-2557
+",,🆕 New Lead,
+,Drew Doheny,Real estate agency,US,Richmond Hill,"17 Richard Davis Dr, Richmond Hill, GA 31324",https://drewsellsga.com/,N/A,"(912) 856-9065
+",,🆕 New Lead,
+,"RE/MAX Town & Country, The Ailion Team",Real estate agency,US,Alpharetta,"12315 Crabapple Rd #136, Alpharetta, GA 30004",https://www.locationlocationlocation.com/,bruce@locationlocationlocation.com,"(404) 978-2281
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Gillespy Group - Lee & Darlene,Real estate agent,US,Atlanta,"1409 Peachtree St NE, Atlanta, GA 30309",https://leeanddarlene.com/?utm_source=gbp&utm_medium=organic,N/A,"(404) 932-3006
+",,🆕 New Lead,
+,Jan Lambert Re/Max Properties,Real estate agency,US,Chattanooga,"2242 Encompass Dr, Chattanooga, TN 37421",http://realtorjanlambert.com/,N/A,"(423) 544-4005
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Carson Cowan | Atlanta Fine Homes Sotheby's International Realty,Real estate agent,US,Atlanta,"1555 W Peachtree St NE, Atlanta, GA 30309",http://carsoncowan.com/,N/A,"(404) 998-9944
+",,🆕 New Lead,
+,Charles Caughman | Caughman Realty,Real estate agency,US,Lexington,"120 Ellis Ave suite c, Lexington, SC 29072",https://caughmanrealty.com/,charles@teamcaughman.com,"(803) 687-4666
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Logan Burke Realtor,Real estate agent,US,Bethany Beach,"39682 Sunrise Ct, Bethany Beach, DE 19930",http://logan-burke.kw.com/,N/A,"(443) 797-9217
+",,🆕 New Lead,
+,"Barker Realty, Inc",Real estate agency,US,Raleigh,"1401 Sunday Dr # 113, Raleigh, NC 27607",https://barker-inc.com/,N/A,"(919) 859-0044
+",,🆕 New Lead,
+,Melloan Real Estate,Real estate agency,US,Elizabethtown,"400 N Mulberry St, Elizabethtown, KY 42701",https://melloan.com/,N/A,"(270) 769-4663
+",,🆕 New Lead,
+,Yuliya Hristov - Outer Banks REALTOR®,Real estate agent,US,Kitty Hawk,"4900 N Croatan Hwy, Kitty Hawk, NC 27949",http://hristovobxrealtor.com/,yuliyahristov@gmail.com,"(252) 305-9619
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Fore Properties,Real estate agency,US,Southern Pines,"1140 Old US Hwy 1, Southern Pines, NC 28387",https://www.foreproperties.com/,N/A,"(910) 692-4211
+",,🆕 New Lead,
+,Better Homes and Gardens Real Estate Go Realty,Real estate agency,US,Holly Springs,"300 Village Walk Dr, Holly Springs, NC 27540",https://www.bhgre.com/better-homes-and-gardens-real-estate-go-realty-7509c?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=2400138,N/A,"(919) 552-8122
+",,🆕 New Lead,
+,8th Day Realty Group LLC,Real estate agency,US,Garner,"1418 Aversboro Rd # 205, Garner, NC 27529",http://www.8dayrealty.com/,N/A,"(919) 822-9800
+",,🆕 New Lead,
+,Envite Realty,Real estate agency,US,Raleigh,"9121 Anson Way Suite 200, Raleigh, NC 27615",https://enviterealty.com/contact-us/,N/A,"(919) 622-5051
+",,🆕 New Lead,
+,Flat Fee Real Estate Birmingham,Real estate agency,US,Vestavia Hills,"2828 Old 280 Ct Suite 136, Vestavia Hills, AL 35243",http://www.flatfeerealestatebirmingham.com/?utm_source=gmb&utm_medium=organic,amy@flatfeebirmingham.com,"(205) 222-7109
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Adriana Reyes Realty,Real estate agency,US,High Point,"2125 Eastchester Dr Suite 105A, High Point, NC 27265",https://adrianareyesrealty.com/,N/A,"(336) 410-4474
+",,🆕 New Lead,
+,Derya Martin,Real estate consultant,US,Augusta,"104 Warren Rd, Augusta, GA 30907",http://www.augustagahome.com/,support@moxiworks.com,"(706) 664-7774
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rose Holuba - BOULEVARD,Real estate agent,US,Charleston,"89 1/2 Wentworth St, Charleston, SC 29401",https://roseholubarealestate.com/,rose@roseholubarealestate.com,"(843) 919-0636
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,757Move,Real estate agency,US,Virginia Beach,"4416 Expressway Dr, Virginia Beach, VA 23452",http://www.757move.com/,kristin.dickens@atlanticsir.com,"(757) 288-2805
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,MGN Fine Homes,Real estate agency,US,Atlanta,"1820 The Exchange SE Suite 550, Atlanta, GA 30339",https://mgnfinehomes.com/,live@mgnfinehomes.com,"(678) 809-9319
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Rhyne Haus Properties,Real estate agency,US,Charleston,"170 Meeting St Suite 304, Charleston, SC 29401",https://sethrhyne.com/,N/A,"(843) 708-5975
+",,🆕 New Lead,
+,"The Douglas Realty Group - Darlene and Doug Harrings, Realtors",Real estate agent,US,Cary,"107 W Chatham St, Cary, NC 27511",http://www.tallestteam.com/,darlene@tallestteam.com,"(919) 633-0427
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Tim Baird Group,Real estate agent,US,Cumming,"Castleberry Rd, Cumming, GA 30040",http://www.timbairdgroup.com/,impallari@gmail.com,"(203) 586-9364
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Greeneville Real Estate & Auction Team,Real estate agency,US,Greeneville,"210 W Summer St, Greeneville, TN 37743",http://www.greenevilleteam.com/?utm_source=GMB&utm_id=Website,N/A,"(423) 525-5341
+",,🆕 New Lead,
+,Jar House LLC,Real estate agency,US,Atlanta,"3520 Piedmont Rd NE #415, Atlanta, GA 30305",http://jarhouse.com/,N/A,"(470) 639-8910
+",,🆕 New Lead,
+,Brianna D’Alessandri | Lexington Realtor,Real estate agent,US,Georgetown,"115 N Broadway, Georgetown, KY 40324",https://www.indigoandco.realty/brianna-dalessandri,kristine@indigoandco.realty,"(859) 609-0800
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Coldwell Banker Stuart & Watts Real Estate,Real estate agency,US,Lewisburg,"174 Northridge Dr, Lewisburg, WV 24901",https://www.stuartandwattsrealestate.com/,cbswhomes@gmail.com,"(304) 645-1242
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Erin Hurst-Realtor,Real estate agent,US,Lexington,"854 E High St, Lexington, KY 40502",http://erinsellsky.com/,erin.hurst1@gmail.com,"(859) 519-5393
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Abigail Hale - REALTOR,Real estate agent,US,Nashville,"4025 Hillsboro Pike #601, Nashville, TN 37215",http://www.abigailhale.com/,N/A,"(615) 653-2883
+",,🆕 New Lead,
+,New Coast Collective powered by KW Lowcountry,Real estate agent,US,Ridgeland,"3273 Argent Blvd Suite 101, Ridgeland, SC 29936",https://newcoastcollective.com/?utm_source=gbp&utm_medium=organic,N/A,"(843) 929-6834
+",,🆕 New Lead,
+,Home Forward,Real estate agent,US,Lexington,"356 Longview Plaza #140, Lexington, KY 40503",https://www.home-forward.com/,info@home-forward.com,"(859) 216-2052
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,UKMVP,Apartment rental agency,US,Lexington,"127 Gazette Ave, Lexington, KY 40508",http://www.bluegrassrentalproperties.com/uk-campus-apartments/medical-view-properties/,N/A,"(859) 252-5858
+",,🆕 New Lead,
+,Steve Rice - Rice Collaborative - COMPASS RE,Real estate agent,US,Franklin,"138 3rd Ave N, Franklin, TN 37064",http://www.compass.com/agents/steve-rice,N/A,"(615) 948-6007
+",,🆕 New Lead,
+,The Dwight Price Group,Real estate agency,US,Maryville,"527 W Lamar Alexander Pkwy, Maryville, TN 37801",https://www.dwightprice.com/,dwight@dwightprice.com,"(865) 888-7653
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Elbie du Toit - Keller Williams North Atlanta,Real estate agent,US,Alpharetta,"925 North Point Pkwy #200, Alpharetta, GA 30005",https://elbiedutoit.kw.com/,N/A,"(404) 825-6157
+",,🆕 New Lead,
+,Paige Bird | RE/MAX Southern Shores,Real estate agent,US,Myrtle Beach,"186 Fresh Dr, Myrtle Beach, SC 29579",https://www.paigebird.com/,N/A,"(843) 450-4773
+",,🆕 New Lead,
+,Marcus Hammond Realtor,Real estate agent,US,Lexington,"1999 Richmond Rd STE 400, Lexington, KY 40502",https://www.sothebysrealty.com/bluegrasssir/eng/associate/792-a-1345-4039545/marcus-hammond,N/A,"(859) 321-9955
+",,🆕 New Lead,
+,Elmore Real Estate,Real estate agency,US,Glasgow,"605 N Race St, Glasgow, KY 42141",,N/A,"(270) 651-5202
+",,🆕 New Lead,
+,PURE Property Management of Kentucky,Property management company,US,Lexington,"250 E Short St #320, Lexington, KY 40507",https://ky.purepm.co/,lexington@purepm.co,"(859) 309-9648
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Kymberly McCreary (Clem), Valor Homes Team brokered by eXp Realty",Real estate agency,US,Lexington,"1792 Alysheba Way # 160, Lexington, KY 40509",https://www.valorhomesky.com/,kymberly@vhthomes.com,"(859) 248-1142
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Maggie Wells, Realtor | Live in Kentucky Homes",Real estate agent,US,Lexington,"366 Waller Ave #107, Lexington, KY 40504",https://liveinkentuckyhomes.com/?utm_source=gbp,maggie@liveinkentuckyhomes.com,"(859) 402-4766
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Sell 4 Free Real Estate Welsh Realty Corp,Real estate agency,US,Jasper,"216 W 6th St, Jasper, IN 47546",https://sell-4free.net/,N/A,"(812) 634-6969
+",,🆕 New Lead,
+,Susie Rodes - REALTOR Berkshire Hathaway de Movellan Properties,Real estate agent,US,Lexington,"171 Prosperous Pl, Lexington, KY 40509",http://www.homesinlex.com/,N/A,"(859) 619-8730
+",,🆕 New Lead,
+,The Gomes Agency,Real estate agency,US,Nashville,"1131 4th Ave S Unit 230, Nashville, TN 37210",https://www.gomesagency.com/,N/A,"(615) 968-9539
+",,🆕 New Lead,
+,Premier Sotheby's International Realty,Real estate agency,US,Asheville,"10 Brook St Suite 130, Asheville, NC 28803",https://www.premiersothebysrealty.com/real-estate-office/128/asheville,tyler.kardos@premiersir.com,"(828) 277-3238
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Oceanwide Properties - UK Office,Real estate agency,GB,London,"87 Bayham St, London NW1 0AG, United Kingdom",http://www.oceanwideproperties.co.uk/,N/A,"44 20 7424 7892
+",,🆕 New Lead,
+,UK Real Estate,Real estate agency,GB,London,"20-22 Wenlock Rd, London N1 7GU, United Kingdom",,N/A,"44 7305 168601
+",,🆕 New Lead,
+,Whitney Pannell Real Estate Agent,Real estate agent,US,Lexington,"251 Larue #206, Lexington, KY 40503",https://www.livelovelex.com/,N/A,"(859) 800-6823
+",,🆕 New Lead,
+,UK Homes,Real estate agency,GB,London,"276-278 Old Brompton Rd, London SW5 9HR, United Kingdom",http://www.ukhomesent.com/,N/A,"44 20 7602 2060
+",,🆕 New Lead,
+,Iron Oak Properties,Real estate agency,US,Conway,"1805 Mcdermott St, Conway, SC 29526",http://www.movetoconway.com/,N/A,"(843) 488-0589
+",,🆕 New Lead,
+,Real Estates,Real estate agent,GB,London,"14-14A, Walmington Fold, London N12 7HX, United Kingdom",http://www.realestates-wsp.co.uk/,N/A,"44 20 8445 6387
+",,🆕 New Lead,
+,Estate Agent Near Me,Advertising agency,GB,London,"98 Hendon Ln, London N3 3SL, United Kingdom",https://www.estateagentnearme.com/,N/A,"44 20 8950 4598
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Temporary Living Company,Apartment rental agency,US,Raleigh,"8831 Westgate Park Dr, Raleigh, NC 27617",http://www.temporarylivingcompany.com/,N/A,"(919) 881-2364
+",,🆕 New Lead,
+,Real Estate Agents London,Real estate agent,GB,London,"75A Barking Rd, London E16 4HB, United Kingdom",https://realestateagentslondon.co.uk/,info@realestateagentslondon.co.uk,"44 20 7055 0441
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Dolce Vita | Luxury Real Estate London,Real estate agency,GB,London,"Berkeley Square House, Berkeley Square, London W1J 6BD, United Kingdom",https://dolcevita.vip/,contact@dolcevita.vip,"44 20 8870 5665
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Team Harris Real Estate,Real estate agency,US,Fayetteville,"1400 Hope Mills Rd, Fayetteville, NC 28304",https://www.teamharris.com/,N/A,"(910) 433-2724
+",,🆕 New Lead,
+,"Louise Beck Properties, Inc.",Property management company,US,Chapel Hill,"319 Providence Rd, Chapel Hill, NC 27514",https://www.louisebeckproperties.com/,info@louisebeckproperties.com,"(919) 401-9300
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Brian Pate, Realtor",Real estate agent,US,Youngsville,"104 Blue Finch Ct, Youngsville, NC 27596",https://www.paterealty.com/,brian@paterealty.com,"(919) 669-4575
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Berkshire Hathaway HomeServices Georgia Properties - Luxury Division,Real estate agency,US,Atlanta,"3744 Roswell Rd NE, Atlanta, GA 30342",https://www.bhhsgeorgia.com/luxury-division-office?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing,N/A,"(404) 671-4195
+",,🆕 New Lead,
+,The Prud'homme Team at William Raveis,Real estate agency,US,Hilton Head Island,"3 Executive Park Rd, Hilton Head Island, SC 29928",http://www.theprudhommeteam.com/,N/A,"(843) 341-5660
+",,🆕 New Lead,
+,Residential Realtors Estate Agents,Real estate agency,GB,London,"28-30 Harper Rd, London SE1 6AD, United Kingdom",http://www.residentialrealtors.co.uk/,N/A,"44 20 7096 8131
+",,🆕 New Lead,
+,White Stag Realty Low Commission Real Estate Agent in Charlotte | North Carolina Reduced Fee Brokers | Discount Realtor,Real estate agency,US,Charlotte,"1026 Jay St Suite B165, Charlotte, NC 28208",http://www.whitestagrealtync.com/,joshdilmaghani@whitestagrealty.com,"(980) 777-4440
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Suzanne Elliott,Real estate agent,US,Lexington,"620 Perimeter Dr, Lexington, KY 40517",http://www.suzanneelliott.com/,N/A,"(859) 806-6234
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Forest Real Estate,Commercial real estate agency,GB,London,"55 St John St, London EC1M 4AN, United Kingdom",http://www.forestrealestate.co.uk/,N/A,"44 20 3355 1555
+",,🆕 New Lead,
+,Uk Realty Management T/A Nestly Estate Agent,Real estate agency,GB,Harrow,"213 Kenton Rd, Harrow HA3 0HD, United Kingdom",https://www.ukrealtymgmt.co.uk/,N/A,"44 20 8907 1111
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Maison Realty Group,Real estate agency,US,Southern Pines,"120 N Ashe St, Southern Pines, NC 28387",http://www.maisonteam.com/,N/A,"(910) 684-8674
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Premier Real Estate Of The Sandhills,Real estate agency,US,Southern Pines,"1010 Old US Hwy 1, Southern Pines, NC 28387",http://www.sellsouthernpines.com/,N/A,"(910) 704-5076
+",,🆕 New Lead,
+,PPA Properties,Real estate agency,US,Durham,"3717 University Dr suite c, Durham, NC 27707",https://www.ppapropertiesnc.com/,info@ppapropertiesnc.com,"(919) 477-4499
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Oak City Properties Realty & Management, LLC",Real estate agency,US,Raleigh,"4818 Six Forks Rd STE 104, Raleigh, NC 27609",https://www.oakcityproperties.com/,contact@oakcityproperties.com,"(919) 232-9222
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,MasterKey Property Management,Property management company,US,Cary,"150 Cornerstone Dr #202, Cary, NC 27519",http://www.masterkeypm.com/,info@MasterKeyPM.com,"(919) 655-3950
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Lisa Southern Real Estate,Real estate agency,US,Raleigh,"15 E Martin St, Raleigh, NC 27601",http://www.lisasouthern.com/,N/A,"(919) 800-0880
+",,🆕 New Lead,
+,Associated Realty of Scotland,Real estate agency,US,Laurinburg,"717 S Main St, Laurinburg, NC 28352",https://www.associatedrealtyscotlandcounty.com/,N/A,"(910) 276-1200
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Berkshire Hathaway Homeservices York Simpson Underwood,Real estate agency,US,Raleigh,"3700 Computer Dr Suite 100, Raleigh, NC 27609",https://raleigh.bhhscarolinas.com/,N/A,"(919) 782-6641
+",,🆕 New Lead,
+,"Long & Foster Durham, NC - Realty",Real estate agency,US,Durham,"600 Park Offices Dr Suite 120, Durham, NC 27709",https://www.longandfoster.com/bio/durham-nc-realty,N/A,"(919) 493-4434
+",,🆕 New Lead,
+,Inn at Aspen,Resort hotel,US,Aspen,"38750 CO-82, Aspen, CO 81611",https://www.innataspen.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing,info@innataspen.com,"(970) 925-1500
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Green-Acres,Real estate agency,FR,Paris,"100 Bd du Montparnasse, 75014 Paris, France",https://www.green-acres.fr/,N/A,"33 1 83 64 83 30
+",,🆕 New Lead,
+,Real Estate Paris,Real estate agency,FR,Paris,"26 Rue Cadet, 75009 Paris, France",,N/A,"33 1 48 00 80 40
+",,🆕 New Lead,
+,Agent France SAS,Real estate agency,FR,Paris,"23/25 Rue Jean-Jacques Rousseau, 75001 Paris, France",https://www.agentmandataire.fr/,contact@agentmandataire.fr,"33 800 94 82 26
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Aspen Glenwood MLS,Industrial real estate agency,US,Carbondale,"345 Colorado Ave UNIT 107, Carbondale, CO 81623",https://www.aspenglenwoodmls.com/,N/A,"(970) 963-3173
+",,🆕 New Lead,
+,56Paris Real Estate,Real estate agency,FR,Paris,"56 Rue de Verneuil, 75007 Paris, France",https://www.56paris.com/,N/A,"(917) 746-8056
+",,🆕 New Lead,
+,Agence Real Estate Immo,Real estate agency,FR,Paris,"19 Rue de Turin, 75008 Paris, France",http://www.agencerealestateimmo.com/,N/A,"33 7 81 14 14 49
+",,🆕 New Lead,
+,Realty'z,Real estate agency,FR,Paris,"54 Rue Saint-Lazare, 75009 Paris, France",http://www.realtyz.fr/,N/A,"33 1 40 35 93 45
+",,🆕 New Lead,
+,VINGT Paris,Real estate agency,FR,Paris,"253 Rue Saint-Honoré 4th Floor, 75001 Paris, France",https://www.vingtparis.com/,N/A,"33 6 17 40 82 04
+",,🆕 New Lead,
+,Nice Homes,Real estate agency,FR,Nice,"15 Bd Lech Walesa, 06300 Nice, France",https://nicehomes.fr/en/,N/A,"33 9 83 65 74 04
+",,🆕 New Lead,
+,Luc MAFFLI - Real Estate Paris,Real estate agent,FR,Paris,"33 Rue des Deux Ponts, 75004 Paris, France",,N/A,"33 6 79 03 10 22
+",,🆕 New Lead,
+,A1 Paris Apartments,Real estate agency,FR,Paris,"15 Rue Chapon, 75003 Paris, France",https://www.a1realestate.paris/,,"33 1 86 26 02 04
+",,🆕 New Lead,
+,Maëlys Real Estate,Real estate agency,FR,Paris,"9 Rue de l'Odéon, 75006 Paris, France",http://www.maelysimmobilier.com/,contact@maelysimmobilier.com,"33 1 71 37 35 61
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,FRENCH ESTATE - Agence Immobilière,Real estate agency,FR,Paris,"229 Rue Saint-Honoré, 75001 Paris, France",http://french-estate.fr/,contact@french-estate.fr,"33 6 76 91 26 46
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,French Partners Real Estate,Real estate agency,FR,Nice,"3 Pl. Charles Félix, 06300 Nice, France",https://frenchpartnersrealestate.com/fr/,david.cohen@frenchpartnersrealestate.com,"33 6 27 01 68 47
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,DRN REAL ESTATE FRANCE,Real estate agency,FR,Boulogne-Billancourt,"39 Rte de la Reine, 92100 Boulogne-Billancourt, France",https://dubairealestate.net/,N/A,"33 1 42 53 00 62
+",,🆕 New Lead,
+,Talvan's International - Real Estate In Paris & France,Real estate agency,FR,Paris,"8 Quai Louis Blériot, 75016 Paris, France",https://www.talvans.com/,sylvain@talvans.com,"33 6 58 49 85 16
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Engel & Völkers Paris,Real estate agency,FR,Paris,"170 Rue du Faubourg Saint-Honoré, 75008 Paris, France",https://www.engelvoelkers.com/fr/fr/shops/paris,N/A,"33 1 45 64 30 30
+",,🆕 New Lead,
+,Nicolay Real Estate Paris,Real estate agency,FR,Paris,"8 Rue du Bouquet de Longchamp, 75116 Paris, France",http://www.nicolay.paris/,N/A,"33 6 11 97 40 24
+",,🆕 New Lead,
+,"The Home Team Realty Group, LLC",Real estate agency,US,Fort Washington,"11414 Livingston Rd, Fort Washington, MD 20744",https://thtrealtygroup.com/,info@thtrealtygroup.com,"(240) 767-4503
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Washington Fine Properties - Alan Zuschlag, Realtor",Real estate agency,US,Washington,"322 Main St, Washington, VA 22747",http://www.farms-estates.com/,N/A,"(540) 270-8150
+",,🆕 New Lead,
+,The ONE Street Company,Real estate agency,US,Washington,"1725 I St NW #125, Washington, DC 20006",https://www.onestreet.one/,contact@onestreet.one,"(202) 847-5573
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Nomadic Real Estate,Real estate consultant,US,Washington,"727 15th St NW 2nd floor, Washington, DC 20005",https://www.nomadicrealestate.com/?utm_source=gmb&utm_medium=organic&utm_campaign=washington-dc,support@nomadicrealestate.com,"(202) 223-9019
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Engel & Völkers Washington DC,Real estate agency,US,Washington,"2216 14th St NW, Washington, DC 20009",https://washingtondc.evrealestate.com/,N/A,"(202) 525-5236
+",,🆕 New Lead,
+,Canopy Property Group at EXP Realty,Real estate consultant,US,Washington,"800 Maine Ave SW #200, Washington, DC 20024",https://canopy-re.com/?utm_source=gbp&utm_medium=organic,N/A,"(202) 979-9561
+",,🆕 New Lead,
+,"Jason Skipworth - REALTOR/Real Estate Agent in DC, VA, & MD",Real estate consultant,US,Washington,"45 Sutton Square SW #904, Washington, DC 20024",http://jasonskipworth.com/,jason.skipworth@rlahre.com,"(202) 302-4938
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Daryl Judy, Washington Fine Properties, LLC",Real estate agency,US,Washington,"1604 14th St NW, Washington, DC 20009",https://www.daryljudyrealestate.com/,N/A,"(202) 380-7219
+",,🆕 New Lead,
+,The Rich Company,Real estate consultant,US,Washington,"1468 Carolina Ave, Washington, NC 27889",https://www.therichcompany.com/,N/A,"(800) 849-2456
+",,🆕 New Lead,
+,CENTURY 21 The Realty Group,Real estate agency,US,Washington,"162 W Main St, Washington, NC 27889",http://therealtygroup.sites.c21.homes/,N/A,"(252) 946-2121
+",,🆕 New Lead,
+,SumnerBaird Real Estate,Real estate agent,US,Washington,"124 S Market St, Washington, NC 27889",https://sumnerbaird.com/?utm_source=gbp&utm_medium=organic,N/A,"(252) 833-0684
+",,🆕 New Lead,
+,2 Rivers Team @ Compass Real Estate,Real estate consultant,US,Washington,"1313 14th St NW, Washington, DC 20005",https://www.2riversteam.com/,N/A,"(202) 341-7530
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Coldwell Banker Sea Coast Advantage - Washington,Real estate agency,US,Washington,"239 W Main St, Washington, NC 27889",http://seacoastrealty.com/,N/A,"(252) 975-8010
+",,🆕 New Lead,
+,Experience Realty,Real estate agency,US,Washington,"409 W Main St, Washington, NC 27889",http://www.experiencerealty.com/,N/A,"(252) 975-0777
+",,🆕 New Lead,
+,United Country - Respess Real Estate,Real estate consultant,US,Washington,"248 W Main St, Washington, NC 27889",https://www.easterncarolinaproperty.com/index.html?utm_source=website&utm_medium=GMB,chris@chrisrespess.com,"(252) 623-2060
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Daniel Hill | Keller Williams Inner Banks Realty,Real estate agent,US,Washington,"411 W Main St, Washington, NC 27889",https://daniel-hill.kw.com/,N/A,"(919) 999-7330
+",,🆕 New Lead,
+,"Michelle Vanderwolf, Realtor - Georgia Homes On My Mind - Keller Williams Realty Atlanta Partners",Real estate agency,US,Buford,"Georgia Homes On My Mind, 4878 Manhattan Dr NE, Buford, GA 30518",http://georgiahomesonmymind.com/,mvanderwolf@kw.com,"(404) 786-2719
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Carolinas Luxury Realty,Real estate agent,US,Charlotte,"5925 Carnegie Blvd #250, Charlotte, NC 28209",http://www.carolinasluxuryrealty.com/,N/A,"(980) 306-4173
+",,🆕 New Lead,
+,"Luxus Manhattan Realty, llc",Real estate agent,US,New York,"477 Madison Ave 6th floor, New York, NY 10022",http://www.luxusmanhattan.com/,N/A,"(212) 655-9655
+",,🆕 New Lead,
+,Sofia Falleroni Senior Global Real Estate Advisor - Associate Broker at Sotheby's International Realty,Real estate agent,US,New York,"650 Madison Ave, New York, NY 10022",https://sofiafalleroni.com/,N/A,"(347) 446-9088
+",,🆕 New Lead,
+,Elan Benjamin Nyc Luxury Real Estate Broker,Real estate agent,US,New York,"140 Franklin St, New York, NY 10013",https://www.elliman.com/agent/elan-benjamin-urisoff/1245288,elan.urisoff@elliman.com,"(347) 780-8893
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,The NYC Luxury Homes (By Appointment Only),Real estate agency,US,New York,"129 1st Ave, New York, NY 10003",https://www.thenycluxuryhomes.com/,impallari@gmail.com,"(917) 750-3207
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Matthew Hughes - Top NYC Real Estate Broker,Real estate agent,US,New York,"445 Park Ave 12th Floor, New York, NY 10022",https://www.bhsusa.com/real-estate-agent/matthew-hughes/,N/A,"(212) 906-9351
+",,🆕 New Lead,
+,Luxury NYC Living,Real estate agent,US,New York,"1 Rockefeller Plaza #2402, New York, NY 10020",https://luxurynycliving.com/?utm_source=gbp&utm_medium=organic,smithar@christiesrealestategroup.com,"(973) 953-7777
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Brian K. Lewis | NYC Luxury Property Sales,Real estate agent,US,New York,"2150 Broadway 2nd floor, New York, NY 10023",http://brianklewis.com/,N/A,"(646) 228-7241
+",,🆕 New Lead,
+,Sere Conde Luxury Realtor,Real estate agent,US,New York,"936 Broadway, New York, NY 10010",https://www.sereluxuryrealestate.com/,N/A,"(917) 238-0350
+",,🆕 New Lead,
+,Bryan Pulgarin | NYC Luxury Real Estate Agent | Compass,Real estate agent,US,New York,"2150 Broadway Floor 1, New York, NY 10023",https://bryanpulgarin.com/,bryan.pulgarin@compass.com,"(917) 935-5292
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,LEVEN Real Estate,Real estate agency,US,New York,"12 E 49th St 22nd floor, New York, NY 10017",http://www.leven.re/,N/A,"(917) 967-0526
+",,🆕 New Lead,
+,Most NYC Realty 뉴욕부동산,Real estate agency,US,New York,"268 W 44th St 4th fl, New York, NY 10036",http://www.mostnyc.com/,N/A,"(917) 553-1324
+",,🆕 New Lead,
+,Franklin Johnson Commercial Real Estate,Commercial real estate agency,US,Fayetteville,"2547 Ravenhill Dr, Fayetteville, NC 28303",https://www.franklinjohnsoncommercial.com/,info@franklinjohnsoncommercial.com,"(910) 864-2626
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Roman Voronin - Voronin Realty | Commercial Real Estate,Commercial real estate agency,US,Charlotte,"7733 Ballantyne Commons Pkwy #201J, Charlotte, NC 28277",https://www.voroninrealty.com/,N/A,"(704) 312-0226
+",,🆕 New Lead,
+,"York Properties, Inc.",Commercial real estate agency,US,Raleigh,"2108 Clark Ave, Raleigh, NC 27605",http://www.yorkproperties.com/,info@yorkproperties.com,"(919) 821-1350
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,KW Commercial | Carolinas Division | National Advisory Team,Commercial real estate agency,US,Mooresville,"130 Plantation Ridge Dr #200, Mooresville, NC 28117",https://www.kwcnational.com/,N/A,"(980) 766-8797
+",,🆕 New Lead,
+,Noah & Co.,Commercial real estate agency,US,New York,"600 5th Ave, New York, NY 10020",https://noahre.com/,officespace@noahre.com,"(212) 947-7120
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Long & Foster Cary, NC - Realty",Commercial real estate agency,US,Cary,"1903 High House Rd, Cary, NC 27519",https://www.longandfoster.com/bio/cary-nc-realty,N/A,"(919) 469-6300
+",,🆕 New Lead,
+,G Brokerage Commercial Real Estate Brokers & Listings,Commercial real estate agency,US,Cornelius,"19900 W Catawba Ave Suite 103 B, Cornelius, NC 28031",http://www.gbrokerage.com/,N/A,"(704) 325-8005
+",,🆕 New Lead,
+,"Commercial Realty Advisors, LLC",Commercial real estate agency,US,Winston-Salem,"751 W 4th St Suite 310, Winston-Salem, NC 27101",https://www.commercialrealtync.com/,info@commercialrealtync.com,"(336) 793-0890
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Joubran Commercial Properties,Commercial real estate agency,US,Greensboro,"609 State St #101, Greensboro, NC 27405",https://joubrancommercial.com/,N/A,"(336) 270-9775
+",,🆕 New Lead,
+,The Nichols Company,Commercial real estate agency,US,Charlotte,"1204 Central Ave #201, Charlotte, NC 28204",https://thenicholscompany.com/,info@thenicholscompany.com,"(704) 373-9797
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Ardor Commercial Advisors,Commercial real estate agency,US,Charlotte,"6230 Fairview Rd #102, Charlotte, NC 28210",https://ardorcre.com/,N/A,"(704) 885-5552
+",,🆕 New Lead,
+,Cole Commercial Real Estate,Commercial real estate agency,US,Charlotte,"814 Tyvola Rd #104, Charlotte, NC 28217",http://www.colecre.com/,N/A,"(704) 337-5000
+",,🆕 New Lead,
+,Sido New York Real Estate,Commercial real estate agency,US,New York,"147 W 35th St #402, New York, NY 10001",https://sidonyre.com/,N/A,"(212) 706-9079
+",,🆕 New Lead,
+,Tri State Commercial Realty LLC,Commercial real estate agency,US,Brooklyn,"148 39th St 3rd floor, Suite A07, Brooklyn, NY 11232",https://tristatecr.com/,N/A,"(212) 433-3355
+",,🆕 New Lead,
+,Park Commercial Real Estate,Commercial real estate agency,US,Charlotte,"230 Peterson Dr Suite A, Charlotte, NC 28217",http://www.parkcre.com/,info@parkcre.com,"(704) 218-9204
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Queen City Commercial LLC,Commercial real estate agency,US,Charlotte,"2029 Birchside Dr, Charlotte, NC 28205",http://www.queencitycre.com/,N/A,"(704) 503-9608
+",,🆕 New Lead,
+,KW Commercial / ThisPropertyAvailable.com,Commercial real estate agency,US,Raleigh,"4700 Homewood Ct Suite 200, Raleigh, NC 27609",http://thispropertyavailable.com/,user@domain.com,"(919) 675-2750
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Regent Commercial Real Estate,Commercial real estate agency,US,Charlotte,"6047 Tyvola Glen Cir Suite 467, Charlotte, NC 28217",https://regentcre.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_charlotte&utm_content=main_button,brian@regentcre.com,"(704) 910-9518
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,SVN Raleigh,Commercial real estate agency,US,Raleigh,"701 Corporate Center Dr #460, Raleigh, NC 27607",http://phoenixcommercialnc.com/,N/A,"(919) 896-6497
+",,🆕 New Lead,
+,BOLD Commercial Real Estate,Commercial real estate agency,US,Chapel Hill,"50051 Governors Dr Ste B, Chapel Hill, NC 27517",https://www.boldcre.com/,N/A,"(919) 883-5502
+",,🆕 New Lead,
+,Blue Ridge Brokerage,Commercial real estate agency,US,Boone,"4417 NC-105, Boone, NC 28607",http://www.blueridgebrokerage.com/,N/A,"(828) 265-2199
+",,🆕 New Lead,
+,Verv Commercial Real Estate,Commercial real estate agency,US,Charlotte,"1449 S Church St, Charlotte, NC 28203",https://www.vervcre.com/,N/A,"(704) 796-4885
+",,🆕 New Lead,
+,Nick Krautter,Commercial real estate agency,US,Portland,"35 NE Weidler St, Portland, OR 97232",https://sellpdx.com/,info@companyname.com,"(503) 901-8100
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Eddie Chanez, All Professionals Real Estate",Real estate agent,US,Beaverton,"20001 SW Tualatin Valley Hwy, Beaverton, OR 97006",https://www.homesnap.com/Eddie-Chanez/gmb,support@citysnap.com,"(503) 597-9005
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,PDX Renovations LLC - Portland OR-| Cash Home Buyer,Real estate consultant,US,Portland,"5934 N Greeley Ave F, Portland, OR 97217",https://pdxrenovations.com/,jtaylor@pdxrenovations.com,"(503) 560-6620
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Golden Oak Insurance Services (Insurance Brokers),Home insurance agency,US,Beaverton,"4145 SW Watson Ave #350, Beaverton, OR 97005",http://goldenoakinsurance.com/,N/A,"(503) 720-1985
+",,🆕 New Lead,
+,Envision Home Properties Inc. Group of More Realty,Commercial real estate agency,US,Portland,"1225 NW Murray Rd #214, Portland, OR 97229",http://www.envisionhomeproperties.com/,michele@brokermichele.com,"(503) 746-6627
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,"Ginger Townsend, Mt Hood Realty, LLC",Real estate agent,US,Camas,"2005 SE 192nd Ave Suite 200, Camas, WA 98607",https://www.homesnap.com/Ginger-Townsend/gmb,support@citysnap.com,"(360) 901-6548
+",,🆕 New Lead,
+,,,,,#ERROR!,,,,EMAIL SENT,,
+,Jonathan Nikfarjam – South Bay & Los Angeles Apartment Broker | Shield Commercial Real Estate,Commercial real estate agency,US,Los Angeles,"11150 W Olympic Blvd #1090, Los Angeles, CA 90064",http://www.shieldcre.com/,"user@domain.com
+contact@shieldcre.com","(310) 593-9868
+",,🆕 New Lead,
