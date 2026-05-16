@@ -13,6 +13,11 @@ import './visual-placement.css';
 import './visual-clean.css';
 import './hero-orbit.css';
 import './hero-redesign.css';
+import './tailwind.css';
+import './premium-sections.css';
+import { Spotlight } from './ui/Spotlight';
+import { OrbitingCircles } from './ui/OrbitingCircles';
+import { getCalApi } from '@calcom/embed-react';
 
 const HeroScene3D = React.lazy(() => import('./HeroScene3D.jsx'));
 
@@ -62,6 +67,17 @@ export default function AgencyApp() {
     return () => ctx.revert();
   }, []);
 
+  React.useEffect(() => {
+    (async () => {
+      const cal = await getCalApi();
+      cal('ui', {
+        theme: 'dark',
+        styles: { branding: { brandColor: '#ff7a18' } },
+        hideEventTypeDetails: false,
+      });
+    })();
+  }, []);
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -82,6 +98,7 @@ export default function AgencyApp() {
       </nav>
 
       <section id="top" className="agencyHero">
+        <Spotlight className="-tw-top-40 tw-left-0 md:-tw-top-20 md:tw-left-60" fill="#ff7a18" />
         <div className="agencyHeroNoise" />
         <div className="agencyHeroGlow" />
         <motion.div className="agencyHeroLeft" initial="hidden" animate="visible" variants={fadeUp}>
@@ -158,16 +175,40 @@ export default function AgencyApp() {
 
       <section id="plans" className="agencySection">
         <div className="agencySectionHead"><p>Automated lead generation plans</p><h2>Choose the plan that matches how you want to grow.</h2><span>Each plan gives you targeted buyer contacts, a clean Google Sheet dashboard, and the automation level that matches your growth stage.</span></div>
-        <div className="agencyPricingGrid">{plans.map(([name, price, label, stats, description, features, featured]) => <motion.article className={`agencyPriceCard ${featured ? 'agencyFeatured' : ''}`} key={name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><div className="agencyPlanTop"><span>{label}</span><h3>{name}</h3><strong>{price}</strong><p className="agencyPlanDescription">{description}</p></div><div className="agencyPlanStats">{stats.map((item) => <b key={item}>{item}</b>)}</div><ul>{features.map((item) => <li key={item}><Check size={18} />{item}</li>)}</ul><a className={featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'} href={`https://wa.me/447735390520?text=${encodeURIComponent(`Hi VARPEC, I'd like to start the ${name} plan.`)}`} target="_blank" rel="noopener noreferrer">Reserve {name} on WhatsApp</a></motion.article>)}</div>
+        <div className="agencyPricingGrid">{plans.map(([name, price, label, stats, description, features, featured]) => <motion.article className={`agencyPriceCard ${featured ? 'agencyFeatured' : ''}`} key={name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><div className="agencyPlanTop"><span>{label}</span><h3>{name}</h3><strong>{price}</strong><p className="agencyPlanDescription">{description}</p></div><div className="agencyPlanStats">{stats.map((item) => <b key={item}>{item}</b>)}</div><ul>{features.map((item) => <li key={item}><Check size={18} />{item}</li>)}</ul><a className={featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'} href={`https://wa.me/447735390520?text=${encodeURIComponent(`Hi VARPEC, I'd like to start the ${name} plan.`)}`} target="_blank" rel="noopener noreferrer">Reserve {name}</a></motion.article>)}</div>
       </section>
 
       <section className="agencyPayments"><h2>Payment routes for fast buyers</h2><div>{payments.map(([Icon, label]) => <span key={label}><Icon />{label}</span>)}</div></section>
 
       <section className="agencySection agencyProof"><div className="agencyProofCard agencyPremiumCard"><p>Trusted positioning</p><h2>Make cold outreach feel like a strategic asset, not spam.</h2><span>Clients want confidence. They want to believe the system is controlled, premium, and built by people who understand attention. VARPEC now speaks like a high-level automation partner, not a small vendor.</span></div><div className="agencyProofStats"><div><b>01</b><span>Clear market targeting</span></div><div><b>02</b><span>Automated email movement</span></div><div><b>03</b><span>Call-ready opportunity flow</span></div></div></section>
 
+      <section className="tw-relative tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-overflow-hidden tw-py-24 tw-px-6">
+        <div className="agencySectionHead"><p>Tools we orchestrate</p><h2>An ecosystem built for delivery, not demos.</h2><span>Every plan runs on enterprise-grade tooling, wired together with custom n8n automation flows.</span></div>
+        <div className="tw-relative tw-flex tw-h-[480px] tw-w-full tw-max-w-[640px] tw-items-center tw-justify-center tw-mt-10">
+          <span className="tw-pointer-events-none tw-whitespace-pre-wrap tw-bg-gradient-to-b tw-from-white tw-to-white/40 tw-bg-clip-text tw-text-center tw-text-6xl tw-font-bold tw-leading-none tw-text-transparent md:tw-text-7xl">VARPEC</span>
+          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={20} radius={120}><b className="tw-text-xs">n8n</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={10} radius={120}><b className="tw-text-xs">OpenAI</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={5} radius={120}><b className="tw-text-xs">Stripe</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={15} radius={120}><b className="tw-text-xs">Apollo</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={0} radius={210}><b className="tw-text-xs">Instantly</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={7} radius={210}><b className="tw-text-xs">WhatsApp</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={14} radius={210}><b className="tw-text-xs">Vapi</b></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={21} radius={210}><b className="tw-text-xs">Sheets</b></OrbitingCircles>
+        </div>
+      </section>
+
+      <section className="agencyBookSection">
+        <div className="agencyBookCard">
+          <p className="agencyBookEyebrow">Discovery call</p>
+          <h2>Book a 15-minute call with the founder.</h2>
+          <span>Walk through your market, see if VARPEC fits, and reserve a slot before onboarding closes.</span>
+          <button className="agencyPrimaryBtn" data-cal-link="varpec/discovery" data-cal-namespace="discovery" data-cal-config='{"layout":"month_view"}'>Book a Discovery Call <ArrowRight size={18} /></button>
+        </div>
+      </section>
+
       <section id="faq" className="agencySection agencyFaq"><div className="agencySectionHead"><p>Buyer confidence</p><h2>Questions that remove friction.</h2></div><div className="agencyFaqList">{faqs.map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
 
-      <section id="contact" className="agencyFinalCta"><p>Order window</p><h2>If you want more interested business conversations, this is the moment to build the machine.</h2><a className="agencyPrimaryBtn" href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%27d%20like%20to%20reserve%20a%20growth%20slot." target="_blank" rel="noopener noreferrer">Reserve on WhatsApp <ArrowRight size={18} /></a></section>
+      <section id="contact" className="agencyFinalCta"><p>Order window</p><h2>If you want more interested business conversations, this is the moment to build the machine.</h2><a className="agencyPrimaryBtn" href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%27d%20like%20to%20reserve%20a%20growth%20slot." target="_blank" rel="noopener noreferrer">Reserve Your Slot <ArrowRight size={18} /></a></section>
 
       <footer className="agencyFooter"><b>VARPEC AUTOMATIONS</b><span>Automation agency for lead generation, cold outreach systems, and monthly opportunity creation.</span></footer>
     </main>
