@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Landmark, Mail, Orbit, PhoneCall, Radar, ShieldCheck, Target, TrendingUp, Zap } from 'lucide-react';
+import { ArrowRight, Banknote, Bitcoin, Bot, Brain, Check, ChevronRight, CreditCard, Database, FileSpreadsheet, Flame, Landmark, Mail, MessageCircle, Network, Orbit, PhoneCall, Radar, Send, ShieldCheck, Sparkles, Target, TrendingUp, Workflow, Zap } from 'lucide-react';
 import laptopFull from '../assets/laptop-full.png';
 import laptopHalf from '../assets/laptop-half-top-view.png';
 import './agency.css';
@@ -17,6 +17,8 @@ import './tailwind.css';
 import './premium-sections.css';
 import { Spotlight } from './ui/Spotlight';
 import { OrbitingCircles } from './ui/OrbitingCircles';
+import { Badge } from './ui/Badge';
+import { Accordion } from './ui/Accordion';
 import { getCalApi } from '@calcom/embed-react';
 
 const HeroScene3D = React.lazy(() => import('./HeroScene3D.jsx'));
@@ -174,7 +176,17 @@ export default function AgencyApp() {
       <section className="agencyScarcityBand"><div><p>Scarcity without begging</p><h2>We only want clients who are ready to move. Slow decision makers leave the market open for faster competitors.</h2></div><a className="agencyPrimaryBtn" href="#contact">Ask for onboarding availability <ArrowRight size={18} /></a></section>
 
       <section id="plans" className="agencySection">
-        <div className="agencySectionHead"><p>Automated lead generation plans</p><h2>Choose the plan that matches how you want to grow.</h2><span>Each plan gives you targeted buyer contacts, a clean Google Sheet dashboard, and the automation level that matches your growth stage.</span></div>
+        <div className="agencySectionHead">
+          <div className="tw-flex tw-justify-center tw-mb-3"><Badge><Flame size={11} /> Limited monthly slots</Badge></div>
+          <p>Automated lead generation plans</p>
+          <h2>Choose the plan that matches how you want to grow.</h2>
+          <span>Each plan gives you targeted buyer contacts, a clean Google Sheet dashboard, and the automation level that matches your growth stage.</span>
+          <div className="tw-flex tw-flex-wrap tw-justify-center tw-gap-2 tw-mt-5">
+            <Badge variant="outline"><ShieldCheck size={11} /> Cancel anytime</Badge>
+            <Badge variant="outline"><Zap size={11} /> 24h onboarding</Badge>
+            <Badge variant="success"><Check size={11} /> 4.9/5 rated</Badge>
+          </div>
+        </div>
         <div className="agencyPricingGrid">{plans.map(([name, price, label, stats, description, features, featured]) => <motion.article className={`agencyPriceCard ${featured ? 'agencyFeatured' : ''}`} key={name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><div className="agencyPlanTop"><span>{label}</span><h3>{name}</h3><strong>{price}</strong><p className="agencyPlanDescription">{description}</p></div><div className="agencyPlanStats">{stats.map((item) => <b key={item}>{item}</b>)}</div><ul>{features.map((item) => <li key={item}><Check size={18} />{item}</li>)}</ul><a className={featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'} href={`https://wa.me/447735390520?text=${encodeURIComponent(`Hi VARPEC, I'd like to start the ${name} plan.`)}`} target="_blank" rel="noopener noreferrer">Reserve {name}</a></motion.article>)}</div>
       </section>
 
@@ -183,17 +195,32 @@ export default function AgencyApp() {
       <section className="agencySection agencyProof"><div className="agencyProofCard agencyPremiumCard"><p>Trusted positioning</p><h2>Make cold outreach feel like a strategic asset, not spam.</h2><span>Clients want confidence. They want to believe the system is controlled, premium, and built by people who understand attention. VARPEC now speaks like a high-level automation partner, not a small vendor.</span></div><div className="agencyProofStats"><div><b>01</b><span>Clear market targeting</span></div><div><b>02</b><span>Automated email movement</span></div><div><b>03</b><span>Call-ready opportunity flow</span></div></div></section>
 
       <section className="tw-relative tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-overflow-hidden tw-py-24 tw-px-6">
-        <div className="agencySectionHead"><p>Tools we orchestrate</p><h2>An ecosystem built for delivery, not demos.</h2><span>Every plan runs on enterprise-grade tooling, wired together with custom n8n automation flows.</span></div>
-        <div className="tw-relative tw-flex tw-h-[480px] tw-w-full tw-max-w-[640px] tw-items-center tw-justify-center tw-mt-10">
-          <span className="tw-pointer-events-none tw-whitespace-pre-wrap tw-bg-gradient-to-b tw-from-white tw-to-white/40 tw-bg-clip-text tw-text-center tw-text-6xl tw-font-bold tw-leading-none tw-text-transparent md:tw-text-7xl">VARPEC</span>
-          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={20} radius={120}><b className="tw-text-xs">n8n</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={10} radius={120}><b className="tw-text-xs">OpenAI</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={5} radius={120}><b className="tw-text-xs">Stripe</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[44px] tw-w-[44px] tw-border-white/15 tw-text-white" duration={20} delay={15} radius={120}><b className="tw-text-xs">Apollo</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={0} radius={210}><b className="tw-text-xs">Instantly</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={7} radius={210}><b className="tw-text-xs">WhatsApp</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={14} radius={210}><b className="tw-text-xs">Vapi</b></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-[#ff7a18]/30 tw-text-[#ffb878]" reverse duration={28} delay={21} radius={210}><b className="tw-text-xs">Sheets</b></OrbitingCircles>
+        <div className="agencySectionHead"><p>Tools we orchestrate</p><h2>An ecosystem built for delivery, not demos.</h2><span>Every plan runs on enterprise-grade tooling, wired together with custom automation flows.</span></div>
+        <div className="tw-relative tw-flex tw-h-[520px] tw-w-full tw-max-w-[680px] tw-items-center tw-justify-center tw-mt-10">
+          <div className="tw-pointer-events-none tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-center">
+            <span className="tw-text-[10px] tw-tracking-[0.32em] tw-text-[#ff8a18] tw-font-semibold tw-mb-2">CORE ENGINE</span>
+            <span className="tw-bg-gradient-to-b tw-from-white tw-to-white/40 tw-bg-clip-text tw-text-5xl tw-font-black tw-leading-none tw-text-transparent md:tw-text-6xl tw-tracking-tighter">VARPEC</span>
+          </div>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={0} radius={140}><Workflow className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={5.5} radius={140}><Brain className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={11} radius={140}><Send className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={16.5} radius={140}><Database className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={0} radius={230}><Mail className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={5} radius={230}><MessageCircle className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={10} radius={230}><PhoneCall className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={15} radius={230}><FileSpreadsheet className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={20} radius={230}><Bot className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
+          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={25} radius={230}><Sparkles className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
+        </div>
+        <div className="tw-mt-8 tw-flex tw-flex-wrap tw-justify-center tw-gap-2">
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Workflow size={12} className="tw-text-[#ff8a18]" /> Workflow</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Brain size={12} className="tw-text-[#ff8a18]" /> AI Models</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Mail size={12} className="tw-text-[#ff8a18]" /> Email Engine</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><MessageCircle size={12} className="tw-text-[#ff8a18]" /> WhatsApp API</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><PhoneCall size={12} className="tw-text-[#ff8a18]" /> Voice Bot</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><FileSpreadsheet size={12} className="tw-text-[#ff8a18]" /> Dashboards</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Database size={12} className="tw-text-[#ff8a18]" /> Lead Database</span>
+          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Bot size={12} className="tw-text-[#ff8a18]" /> AI Agents</span>
         </div>
       </section>
 
@@ -206,7 +233,7 @@ export default function AgencyApp() {
         </div>
       </section>
 
-      <section id="faq" className="agencySection agencyFaq"><div className="agencySectionHead"><p>Buyer confidence</p><h2>Questions that remove friction.</h2></div><div className="agencyFaqList">{faqs.map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
+      <section id="faq" className="agencySection agencyFaq"><div className="agencySectionHead"><p>Buyer confidence</p><h2>Questions that remove friction.</h2></div><div className="tw-mx-auto tw-w-full tw-max-w-3xl"><Accordion items={faqs} /></div></section>
 
       <section id="contact" className="agencyFinalCta"><p>Order window</p><h2>If you want more interested business conversations, this is the moment to build the machine.</h2><a className="agencyPrimaryBtn" href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%27d%20like%20to%20reserve%20a%20growth%20slot." target="_blank" rel="noopener noreferrer">Reserve Your Slot <ArrowRight size={18} /></a></section>
 
