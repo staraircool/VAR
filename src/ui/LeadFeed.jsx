@@ -96,7 +96,8 @@ export const LeadFeed = () => {
   const livePulseIdx = filtered.length ? tick % filtered.length : 0;
 
   return (
-    <section id="dashboard" className="tw-relative tw-mx-auto tw-w-full tw-max-w-6xl tw-px-5 tw-py-24">
+    <section id="dashboard" className="tw-relative tw-w-full tw-bg-black tw-py-24">
+      <div className="tw-mx-auto tw-w-full tw-max-w-6xl tw-px-5">
       <div className="agencySectionHead">
         <div className="tw-flex tw-justify-center tw-mb-3">
           <span className="tw-inline-flex tw-items-center tw-gap-2 tw-rounded-full tw-border tw-border-emerald-500/30 tw-bg-emerald-500/10 tw-px-3 tw-py-1 tw-text-[11px] tw-font-semibold tw-text-emerald-300">
@@ -242,6 +243,7 @@ export const LeadFeed = () => {
           </span>
           <span>Phone digits anonymised in preview · Live Sheet shared with your team day one</span>
         </div>
+      </div>
       </div>
     </section>
   );
