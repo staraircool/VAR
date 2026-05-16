@@ -20,14 +20,7 @@
 }
 
 .agencyBrand i {
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 10px !important;
-  letter-spacing: .32em !important;
-  color: rgba(255, 255, 255, .42) !important;
-  text-transform: uppercase !important;
-  padding-left: 4px;
-  border-left: 1px solid rgba(255, 122, 24, .4);
+  display: none !important;
 }
 
 .agencyBrand span {

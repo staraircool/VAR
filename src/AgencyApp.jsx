@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Landmark, Mail, Orbit, PhoneCall, Radar, ShieldCheck, Target, TrendingUp, Zap } from 'lucide-react';
 import laptopFull from '../assets/laptop-full.png';
 import laptopHalf from '../assets/laptop-half-top-view.png';
+import varpecLogo from '../assets/logo.png';
 import './agency.css';
 import './agency-performance.css';
 import './visual-sections.css';
@@ -297,7 +298,16 @@ export default function AgencyApp() {
 
       <section id="contact" className="agencyFinalCta"><p>Order window</p><h2>If you want more interested business conversations, this is the moment to build the machine.</h2><a className="agencyPrimaryBtn" onClick={reserveToast} href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%27d%20like%20to%20reserve%20a%20growth%20slot." target="_blank" rel="noopener noreferrer">Reserve Your Slot <ArrowRight size={18} /></a></section>
 
-      <footer className="agencyFooter"><b>VARPEC AUTOMATIONS</b><span>Automation agency for lead generation, cold outreach systems, and monthly opportunity creation.</span></footer>
+      <footer className="agencyFooter">
+        <img src={varpecLogo} alt="VARPEC AUTOMATIONS" className="agencyFooterLogo" />
+        <span>Automation agency for lead generation, cold outreach systems, and monthly opportunity creation.</span>
+        <div className="agencyFooterMeta">
+          <span>&copy; {new Date().getFullYear()} VARPEC AUTOMATIONS</span>
+          <a href="https://wa.me/447735390520" target="_blank" rel="noopener noreferrer">Contact</a>
+          <a href="#plans">Plans</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </footer>
     </main>
   );
 }

@@ -66,3 +66,70 @@
   align-items: center;
   gap: 8px;
 }
+
+/* === FOOTER WITH LOGO === */
+.agencyFooter {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 18px !important;
+  padding: 60px 24px 50px !important;
+  text-align: center !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+.agencyFooterLogo {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 24px rgba(255, 122, 24, 0.25));
+  opacity: 0.95;
+}
+
+.agencyFooter > span {
+  max-width: 540px;
+  font-size: 14px !important;
+  color: rgba(255, 255, 255, 0.55) !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+.agencyFooterMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 14px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+  max-width: 720px;
+}
+
+.agencyFooterMeta span,
+.agencyFooterMeta a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color .2s ease;
+}
+
+.agencyFooterMeta a:hover {
+  color: #ff8a18;
+}
+
+/* === MOBILE NAV: ensure brand stays clean === */
+@media (max-width: 768px) {
+  .agencyNav {
+    padding: 14px 18px !important;
+  }
+  .agencyNavLinks,
+  .agencyNavCta {
+    display: none !important;
+  }
+  .agencyBrand em {
+    font-size: 18px !important;
+  }
+}

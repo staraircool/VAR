@@ -206,7 +206,7 @@
   .agencyHero {
     grid-template-columns: 1fr !important;
     gap: 30px !important;
-    padding: 90px 24px 60px !important;
+    padding: 130px 24px 60px !important;
   }
 
   .agencyHeroLeft {
@@ -237,7 +237,7 @@
 
 @media (max-width: 540px) {
   .agencyHero {
-    padding: 80px 20px 50px !important;
+    padding: 120px 20px 50px !important;
   }
 
   .agencyHeroVisual {
