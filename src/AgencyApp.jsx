@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { ArrowRight, Banknote, Bitcoin, Bot, Brain, Check, ChevronRight, CreditCard, Database, FileSpreadsheet, Flame, Landmark, Mail, MessageCircle, Network, Orbit, PhoneCall, Radar, Send, ShieldCheck, Sparkles, Target, TrendingUp, Workflow, Zap } from 'lucide-react';
+import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Landmark, Mail, Orbit, PhoneCall, Radar, ShieldCheck, Target, TrendingUp, Zap } from 'lucide-react';
 import laptopFull from '../assets/laptop-full.png';
 import laptopHalf from '../assets/laptop-half-top-view.png';
 import './agency.css';
@@ -16,9 +16,15 @@ import './hero-redesign.css';
 import './tailwind.css';
 import './premium-sections.css';
 import { Spotlight } from './ui/Spotlight';
-import { OrbitingCircles } from './ui/OrbitingCircles';
 import { Badge } from './ui/Badge';
 import { Accordion } from './ui/Accordion';
+import { Dialog } from './ui/Dialog';
+import { Sheet } from './ui/Sheet';
+import { Tooltip } from './ui/Tooltip';
+import { ScrollProgress } from './ui/ScrollProgress';
+import { CursorGlow } from './ui/CursorGlow';
+import { useToast } from './ui/Toast';
+import { Menu, Info } from 'lucide-react';
 import { getCalApi } from '@calcom/embed-react';
 
 const HeroScene3D = React.lazy(() => import('./HeroScene3D.jsx'));
@@ -60,6 +66,40 @@ const faqs = [
 ];
 
 export default function AgencyApp() {
+  const { toast } = useToast();
+  const [menuOpen, setMenuOpen] = React.useState(false);
+  const [leadOpen, setLeadOpen] = React.useState(false);
+  const [leadEmail, setLeadEmail] = React.useState('');
+  const [leadLoading, setLeadLoading] = React.useState(false);
+
+  // Auto-trigger lead capture after 25s on first visit
+  React.useEffect(() => {
+    if (sessionStorage.getItem('varpec_lead_shown')) return;
+    const t = setTimeout(() => {
+      setLeadOpen(true);
+      sessionStorage.setItem('varpec_lead_shown', '1');
+    }, 25000);
+    return () => clearTimeout(t);
+  }, []);
+
+  const submitLead = async (e) => {
+    e.preventDefault();
+    if (!leadEmail || !leadEmail.includes('@')) {
+      toast({ title: 'Enter a valid email', variant: 'error' });
+      return;
+    }
+    setLeadLoading(true);
+    await new Promise((r) => setTimeout(r, 700));
+    setLeadLoading(false);
+    setLeadOpen(false);
+    setLeadEmail('');
+    toast({ title: 'Playbook on its way', description: 'Check your inbox in the next minute.', variant: 'success' });
+  };
+
+  const reserveToast = () => {
+    toast({ title: 'Opening WhatsApp', description: 'A growth advisor will reply shortly.', variant: 'info' });
+  };
+
   React.useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.to('.agencyTickerTrack', { xPercent: -50, duration: 18, repeat: -1, ease: 'none' });
@@ -92,12 +132,62 @@ export default function AgencyApp() {
   return (
     <main className="agencyPage">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <ScrollProgress />
+      <CursorGlow />
       <div className="agencyScanBeam" />
       <nav className="agencyNav">
         <a className="agencyBrand" href="#top"><em>VARPEC</em><i>AUTOMATIONS</i></a>
         <div className="agencyNavLinks"><a href="#system">System</a><a href="#process">Process</a><a href="#plans">Plans</a><a href="#contact">Order</a></div>
         <a className="agencyNavCta" href="#plans">View Plans</a>
+        <button
+          type="button"
+          aria-label="Open menu"
+          onClick={() => setMenuOpen(true)}
+          className="tw-ml-2 md:tw-hidden tw-flex tw-h-10 tw-w-10 tw-items-center tw-justify-center tw-rounded-lg tw-border tw-border-white/10 tw-bg-white/5 tw-text-white tw-backdrop-blur-md hover:tw-bg-white/10"
+        >
+          <Menu size={20} />
+        </button>
       </nav>
+
+      <Sheet open={menuOpen} onClose={() => setMenuOpen(false)} side="right">
+        <div className="tw-mt-2 tw-flex tw-items-baseline tw-gap-2">
+          <span className="tw-text-2xl tw-font-black tw-tracking-widest tw-text-white">VARPEC</span>
+          <span className="tw-text-[10px] tw-tracking-[0.32em] tw-text-white/40 tw-border-l tw-border-white/15 tw-pl-2">AUTOMATIONS</span>
+        </div>
+        <nav className="tw-mt-10 tw-flex tw-flex-col tw-gap-1">
+          {[['#system', 'System'], ['#process', 'Process'], ['#plans', 'Plans'], ['#faq', 'FAQ'], ['#contact', 'Order']].map(([href, label]) => (
+            <a key={href} href={href} onClick={() => setMenuOpen(false)} className="tw-group tw-flex tw-items-center tw-justify-between tw-rounded-lg tw-px-3 tw-py-3 tw-text-base tw-font-semibold tw-text-white/80 tw-transition hover:tw-bg-white/5 hover:tw-text-white">
+              <span>{label}</span>
+              <ArrowRight size={16} className="tw-text-[#ff8a18] tw-opacity-0 -tw-translate-x-2 tw-transition group-hover:tw-opacity-100 group-hover:tw-translate-x-0" />
+            </a>
+          ))}
+        </nav>
+        <div className="tw-mt-8 tw-flex tw-flex-col tw-gap-3">
+          <a href="https://wa.me/447735390520" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="agencyPrimaryBtn tw-w-full tw-justify-center">Reserve Your Slot <ArrowRight size={16} /></a>
+          <button type="button" onClick={() => { setMenuOpen(false); setLeadOpen(true); }} className="agencySecondaryBtn tw-w-full tw-justify-center">Free Playbook</button>
+        </div>
+        <p className="tw-mt-10 tw-text-xs tw-text-white/40 tw-leading-relaxed">Premium B2B automation agency. AI email, WhatsApp, and phone outreach for serious growth teams.</p>
+      </Sheet>
+
+      <Dialog open={leadOpen} onClose={() => setLeadOpen(false)}>
+        <div className="tw-mb-1 tw-text-[10px] tw-font-semibold tw-tracking-[0.32em] tw-text-[#ff8a18]">FREE PLAYBOOK</div>
+        <h3 className="tw-text-2xl tw-font-black tw-leading-tight tw-text-white">Get the VARPEC outbound playbook.</h3>
+        <p className="tw-mt-2 tw-text-sm tw-text-white/65">A 12-page breakdown of the exact stack, sequences, and triggers we run for B2B growth teams.</p>
+        <form onSubmit={submitLead} className="tw-mt-5 tw-flex tw-flex-col tw-gap-2">
+          <input
+            type="email"
+            required
+            value={leadEmail}
+            onChange={(e) => setLeadEmail(e.target.value)}
+            placeholder="founder@yourcompany.com"
+            className="tw-w-full tw-rounded-lg tw-border tw-border-white/10 tw-bg-white/5 tw-px-4 tw-py-3 tw-text-sm tw-text-white tw-placeholder-white/35 tw-outline-none tw-transition focus:tw-border-[#ff7a18] focus:tw-bg-white/[0.07]"
+          />
+          <button type="submit" disabled={leadLoading} className="agencyPrimaryBtn tw-w-full tw-justify-center disabled:tw-opacity-60">
+            {leadLoading ? 'Sending…' : (<>Send me the playbook <ArrowRight size={16} /></>)}
+          </button>
+          <p className="tw-mt-1 tw-text-[11px] tw-text-white/40 tw-text-center">No spam. One email, then nothing unless you reply.</p>
+        </form>
+      </Dialog>
 
       <section id="top" className="agencyHero">
         <Spotlight className="-tw-top-40 tw-left-0 md:-tw-top-20 md:tw-left-60" fill="#ff7a18" />
@@ -187,42 +277,12 @@ export default function AgencyApp() {
             <Badge variant="success"><Check size={11} /> 4.9/5 rated</Badge>
           </div>
         </div>
-        <div className="agencyPricingGrid">{plans.map(([name, price, label, stats, description, features, featured]) => <motion.article className={`agencyPriceCard ${featured ? 'agencyFeatured' : ''}`} key={name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><div className="agencyPlanTop"><span>{label}</span><h3>{name}</h3><strong>{price}</strong><p className="agencyPlanDescription">{description}</p></div><div className="agencyPlanStats">{stats.map((item) => <b key={item}>{item}</b>)}</div><ul>{features.map((item) => <li key={item}><Check size={18} />{item}</li>)}</ul><a className={featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'} href={`https://wa.me/447735390520?text=${encodeURIComponent(`Hi VARPEC, I'd like to start the ${name} plan.`)}`} target="_blank" rel="noopener noreferrer">Reserve {name}</a></motion.article>)}</div>
+        <div className="agencyPricingGrid">{plans.map(([name, price, label, stats, description, features, featured]) => <motion.article className={`agencyPriceCard ${featured ? 'agencyFeatured' : ''}`} key={name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><div className="agencyPlanTop"><span>{label}</span><h3>{name}</h3><strong>{price}</strong><p className="agencyPlanDescription">{description}</p></div><div className="agencyPlanStats">{stats.map((item) => <b key={item}>{item}</b>)}</div><ul>{features.map((item) => <li key={item}><Check size={18} />{item}<Tooltip content="Included on every plan day one" side="top"><span className="tw-ml-1 tw-inline-flex tw-cursor-help tw-text-white/30 hover:tw-text-[#ff8a18] tw-transition"><Info size={12} /></span></Tooltip></li>)}</ul><a className={featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'} onClick={reserveToast} href={`https://wa.me/447735390520?text=${encodeURIComponent(`Hi VARPEC, I'd like to start the ${name} plan.`)}`} target="_blank" rel="noopener noreferrer">Reserve {name}</a></motion.article>)}</div>
       </section>
 
       <section className="agencyPayments"><h2>Payment routes for fast buyers</h2><div>{payments.map(([Icon, label]) => <span key={label}><Icon />{label}</span>)}</div></section>
 
       <section className="agencySection agencyProof"><div className="agencyProofCard agencyPremiumCard"><p>Trusted positioning</p><h2>Make cold outreach feel like a strategic asset, not spam.</h2><span>Clients want confidence. They want to believe the system is controlled, premium, and built by people who understand attention. VARPEC now speaks like a high-level automation partner, not a small vendor.</span></div><div className="agencyProofStats"><div><b>01</b><span>Clear market targeting</span></div><div><b>02</b><span>Automated email movement</span></div><div><b>03</b><span>Call-ready opportunity flow</span></div></div></section>
-
-      <section className="tw-relative tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-overflow-hidden tw-py-24 tw-px-6">
-        <div className="agencySectionHead"><p>Tools we orchestrate</p><h2>An ecosystem built for delivery, not demos.</h2><span>Every plan runs on enterprise-grade tooling, wired together with custom automation flows.</span></div>
-        <div className="tw-relative tw-flex tw-h-[520px] tw-w-full tw-max-w-[680px] tw-items-center tw-justify-center tw-mt-10">
-          <div className="tw-pointer-events-none tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-center">
-            <span className="tw-text-[10px] tw-tracking-[0.32em] tw-text-[#ff8a18] tw-font-semibold tw-mb-2">CORE ENGINE</span>
-            <span className="tw-bg-gradient-to-b tw-from-white tw-to-white/40 tw-bg-clip-text tw-text-5xl tw-font-black tw-leading-none tw-text-transparent md:tw-text-6xl tw-tracking-tighter">VARPEC</span>
-          </div>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={0} radius={140}><Workflow className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={5.5} radius={140}><Brain className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={11} radius={140}><Send className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[52px] tw-w-[52px] tw-border-white/15 tw-bg-black/50 tw-text-white" duration={22} delay={16.5} radius={140}><Database className="tw-h-5 tw-w-5 tw-text-[#ff8a18]" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={0} radius={230}><Mail className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={5} radius={230}><MessageCircle className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={10} radius={230}><PhoneCall className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={15} radius={230}><FileSpreadsheet className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={20} radius={230}><Bot className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
-          <OrbitingCircles className="tw-h-[60px] tw-w-[60px] tw-border-[#ff7a18]/30 tw-bg-black/60 tw-text-[#ffb878]" reverse duration={30} delay={25} radius={230}><Sparkles className="tw-h-6 tw-w-6 tw-text-white" /></OrbitingCircles>
-        </div>
-        <div className="tw-mt-8 tw-flex tw-flex-wrap tw-justify-center tw-gap-2">
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Workflow size={12} className="tw-text-[#ff8a18]" /> Workflow</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Brain size={12} className="tw-text-[#ff8a18]" /> AI Models</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Mail size={12} className="tw-text-[#ff8a18]" /> Email Engine</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><MessageCircle size={12} className="tw-text-[#ff8a18]" /> WhatsApp API</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><PhoneCall size={12} className="tw-text-[#ff8a18]" /> Voice Bot</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><FileSpreadsheet size={12} className="tw-text-[#ff8a18]" /> Dashboards</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Database size={12} className="tw-text-[#ff8a18]" /> Lead Database</span>
-          <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-white/10 tw-bg-white/5 tw-px-3 tw-py-1.5 tw-text-xs tw-font-medium tw-text-white/70"><Bot size={12} className="tw-text-[#ff8a18]" /> AI Agents</span>
-        </div>
-      </section>
 
       <section className="agencyBookSection">
         <div className="agencyBookCard">
@@ -235,7 +295,7 @@ export default function AgencyApp() {
 
       <section id="faq" className="agencySection agencyFaq"><div className="agencySectionHead"><p>Buyer confidence</p><h2>Questions that remove friction.</h2></div><div className="tw-mx-auto tw-w-full tw-max-w-3xl"><Accordion items={faqs} /></div></section>
 
-      <section id="contact" className="agencyFinalCta"><p>Order window</p><h2>If you want more interested business conversations, this is the moment to build the machine.</h2><a className="agencyPrimaryBtn" href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%27d%20like%20to%20reserve%20a%20growth%20slot." target="_blank" rel="noopener noreferrer">Reserve Your Slot <ArrowRight size={18} /></a></section>
+      <section id="contact" className="agencyFinalCta"><p>Order window</p><h2>If you want more interested business conversations, this is the moment to build the machine.</h2><a className="agencyPrimaryBtn" onClick={reserveToast} href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%27d%20like%20to%20reserve%20a%20growth%20slot." target="_blank" rel="noopener noreferrer">Reserve Your Slot <ArrowRight size={18} /></a></section>
 
       <footer className="agencyFooter"><b>VARPEC AUTOMATIONS</b><span>Automation agency for lead generation, cold outreach systems, and monthly opportunity creation.</span></footer>
     </main>
