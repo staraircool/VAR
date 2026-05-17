@@ -120,6 +120,24 @@
   color: #ff8a18;
 }
 
+/* === EMAIL VISUAL DASHBOARD OVERRIDE === */
+.agencyEmailVisualDashboard {
+  position: relative !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 56px 0 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  pointer-events: auto !important;
+  z-index: 5 !important;
+}
+.agencyEmailVisualDashboard::before,
+.agencyEmailVisualDashboard::after { display: none !important; }
+.agencyEmailVisualDashboard img { display: none !important; }
+
 /* === MOBILE NAV: ensure brand stays clean === */
 @media (max-width: 768px) {
   .agencyNav {

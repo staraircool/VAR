@@ -20,6 +20,7 @@ import { Spotlight } from './ui/Spotlight';
 import { Badge } from './ui/Badge';
 import { Accordion } from './ui/Accordion';
 import { LeadFeed } from './ui/LeadFeed';
+import { EmailFeed } from './ui/EmailFeed';
 import { Dialog } from './ui/Dialog';
 import { Sheet } from './ui/Sheet';
 import { Tooltip } from './ui/Tooltip';
@@ -225,8 +226,8 @@ export default function AgencyApp() {
           <div><strong>02</strong><b>Personalised Outreach</b><span>Tailored messaging written for each buyer profile.</span></div>
           <div><strong>03</strong><b>Interested Lead Alerts</b><span>Instant signals when a buyer replies or shows intent.</span></div>
         </div>
-        <div className="agencyEmailVisual">
-          <img src={laptopHalf} alt="VARPEC delivered email outreach list preview" />
+        <div className="agencyEmailVisual agencyEmailVisualDashboard">
+          <EmailFeed />
         </div>
       </section>
 
