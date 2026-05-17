@@ -25,5 +25,5 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://varpecautomations.com/sitemap.xml
-Host: https://varpecautomations.com
+Sitemap: https://varpec.app/sitemap.xml
+Host: https://varpec.app

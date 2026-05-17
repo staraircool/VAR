@@ -1,6 +1,6 @@
-Contact: mailto:security@varpecautomations.com
+Contact: mailto:security@varpec.app
 Contact: https://wa.me/447735390520
 Expires: 2027-01-01T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://varpecautomations.com/.well-known/security.txt
-Policy: https://varpecautomations.com/security-policy
+Canonical: https://varpec.app/.well-known/security.txt
+Policy: https://varpec.app/security-policy

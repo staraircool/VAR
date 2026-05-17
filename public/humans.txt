@@ -1,7 +1,7 @@
 /* TEAM */
 Agency: VARPEC AUTOMATIONS
-Site: https://varpecautomations.com
-Contact: hello [at] varpecautomations.com
+Site: https://varpec.app
+Contact: hello [at] varpec.app
 WhatsApp: +44 7735 390520
 Location: United Kingdom — Serving Worldwide
 

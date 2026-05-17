@@ -21,6 +21,7 @@ import { Badge } from './ui/Badge';
 import { Accordion } from './ui/Accordion';
 import { LeadFeed } from './ui/LeadFeed';
 import { EmailFeed } from './ui/EmailFeed';
+import { SystemMap } from './ui/SystemMap';
 import { Dialog } from './ui/Dialog';
 import { Sheet } from './ui/Sheet';
 import { Tooltip } from './ui/Tooltip';
@@ -231,12 +232,7 @@ export default function AgencyApp() {
         </div>
       </section>
 
-      <section id="system" className="agencySection">
-        <motion.div className="agencySectionHead" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-          <p>How it works</p><h2>Targeted buyers found, contacted, and qualified every day.</h2><span>Depending on your plan, we either deliver contacts to your dashboard, send outreach on your behalf, or run a fully automated campaign across email, WhatsApp, and phone calls.</span>
-        </motion.div>
-        <div className="agencyFeatureGrid">{services.map(([Icon, title, text]) => <motion.article className="agencyFeatureCard agencyPremiumCard" key={title} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-80px' }} variants={fadeUp}><div className="agencyIconBox"><Icon /></div><h3>{title}</h3><p>{text}</p></motion.article>)}</div>
-      </section>
+      <SystemMap />
 
       <section className="agencyOpportunityWall">
         <div className="agencyWallCopy"><p>Hidden opportunity gap</p><h2>Most businesses are not losing because their offer is bad. They are losing because nobody sees it often enough.</h2></div>
