@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Landmark, Orbit, ShieldCheck, TrendingUp, Zap } from 'lucide-react';
+import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Globe, Landmark, Lock, Orbit, ShieldCheck, Sparkles, TrendingUp, Zap } from 'lucide-react';
 import varpecLogo from '../assets/logo.png';
 import './agency.css';
 import './agency-performance.css';
@@ -12,6 +12,7 @@ import './visual-placement.css';
 import './visual-clean.css';
 import './hero-orbit.css';
 import './hero-redesign.css';
+import './agency-plans-v2.css';
 import './tailwind.css';
 import './premium-sections.css';
 import { Spotlight } from './ui/Spotlight';
@@ -38,7 +39,7 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.75, ease: [0.16, 1, 0.3, 1] } }
 };
 
-const signals = ['50 to 145 daily contacts', '300+ to 1,000+ weekly contacts', 'AI email outreach', 'AI WhatsApp outreach', 'AI phone call bot', 'Interested lead alerts', 'Google Sheet dashboard', '5,000+ monthly contacts'];
+const signals = ['50 to 300 daily leads', '300+ to 2,500+ weekly leads', '1,500 to 10,000 monthly leads', 'AI email outreach', 'AI WhatsApp outreach', 'AI phone call bot', 'Interested lead alerts', 'Google Sheet dashboard', '20 countries  ·  unlimited cities'];
 
 const process = [
   ['01', 'Position', 'We make your offer easy to understand and attractive to the right business buyer.'],
@@ -48,18 +49,90 @@ const process = [
 ];
 
 const plans = [
-  ['Starter', '$99 / month', 'For self-managed outreach', ['50 daily contacts', '300+ weekly contacts', '1,500+ monthly contacts'], 'Best for businesses that want to handle their own outreach but need a consistent daily supply of targeted contacts.', ['Targeted lead list', 'Name, phone, email and business category', 'Google Sheet dashboard', 'You decide how and when to reach out']],
-  ['Growth', '$199 / month', 'Most chosen automation plan', ['70 daily contacts', '500+ weekly contacts', '2,500+ monthly contacts'], 'Best for businesses that want leads found and contacted automatically without lifting a finger.', ['Targeted lead list', 'AI personalised email outreach', 'Interested lead alerts', 'Google Sheet dashboard'], true],
-  ['Premium', '$399 / month', 'Fully automated sales machine', ['145 daily contacts', '1,000+ weekly contacts', '5,000+ monthly contacts'], 'Best for businesses that want a fully automated sales machine running around the clock.', ['Targeted lead list', 'AI email outreach', 'AI WhatsApp outreach', 'AI phone call bot', 'Interested lead alerts', 'Google Sheet dashboard']]
+  {
+    name: 'Starter',
+    price: '$99',
+    period: '/month',
+    label: 'For founders ready to start outbound',
+    headline: 'Daily lead supply. You run the calls.',
+    stats: ['50 leads delivered daily', '300+ leads weekly', '1,500+ leads monthly'],
+    description: 'Built for founders and small teams who want a steady, verified pipeline of buyer contacts every day. You handle the outreach. We handle the heavy lifting of finding them.',
+    features: [
+      'Worldwide scraping, up to 20 countries, unlimited cities',
+      'Sources: Google Maps, Apollo, Yellow Pages, Europages (mixed by niche)',
+      'Verified name, business, category, phone, website, business email',
+      'Live Google Sheet dashboard, refreshed every morning',
+      'Dead-lead replacement within 24 hours, no charge',
+      'Targeting locked to your exact buyer profile',
+      'Onboarding strategy call (45 minutes)',
+      'Cancel anytime, no long-term contract'
+    ],
+    outcome: 'Close 1 deal per month at $3K average and this plan returns 30x its cost.',
+    slotStatus: 'FEW SLOTS LEFT',
+    slotColor: 'amber',
+    cta: 'BOOK NOW'
+  },
+  {
+    name: 'Growth',
+    price: '$199',
+    period: '/month',
+    label: 'Most chosen plan. Built for revenue.',
+    headline: 'We find them. We pitch them. You close.',
+    badge: 'MOST CHOSEN',
+    stats: ['100 leads delivered daily', '700+ leads weekly', '3,500+ leads monthly'],
+    description: 'Built for growth-stage teams who want leads found AND contacted automatically. We send 25 to 30 personalised AI emails on your behalf every day, then route only the hot replies straight to your inbox.',
+    features: [
+      'Everything in Starter, plus the actual outreach engine:',
+      '25 to 30 personalised AI emails sent on your behalf daily',
+      '200+ outreach emails per week, fully managed',
+      '3-step follow-up sequence per prospect (auto-sent over 7 days)',
+      'Inbox warm-up and deliverability monitoring included',
+      'Real-time interested-lead alerts straight to your inbox',
+      'Weekly performance report (reply rate, ROI, top copy)',
+      'Daily ops check by our team, no babysitting needed'
+    ],
+    outcome: 'Most Growth clients see their first booked call inside 6 working days.',
+    slotStatus: 'FEW SLOTS LEFT',
+    slotColor: 'amber',
+    cta: 'BOOK NOW',
+    featured: true
+  },
+  {
+    name: 'Elite',
+    price: '$799',
+    period: '/month',
+    label: 'For teams that want a closing machine',
+    headline: 'A full outbound team, on autopilot.',
+    stats: ['300 leads delivered daily', '2,500+ leads weekly', '10,000+ leads monthly'],
+    description: 'Built for high-ticket B2B and teams that want every channel firing at once. Email, WhatsApp, AI phone calls and SMS all working in sequence until the buyer responds.',
+    features: [
+      'Everything in Growth, plus full multi-channel power:',
+      'AI phone bot calls qualified leads and books meetings',
+      'WhatsApp Business campaigns with sequenced touches',
+      'SMS and phone message broadcasts',
+      'Smart orchestration: email then WhatsApp then call then SMS',
+      'Dedicated campaign manager (Slack + WhatsApp, 4h response)',
+      'Custom AI voice option (clone your closer\u2019s voice)',
+      'A/B testing framework with weekly winners report',
+      'Priority lead queue, your scrape runs first every day',
+      'White-glove 90-minute strategy onboarding'
+    ],
+    outcome: 'Built for high-ticket B2B with $5K+ deal sizes. Designed to feed a 3-person sales team.',
+    slotStatus: 'FULLY BOOKED',
+    slotColor: 'red',
+    cta: 'JOIN WAITLIST',
+    soldOut: true
+  }
 ];
 
 const payments = [[Bitcoin, 'Crypto'], [Landmark, 'Bank Transfer'], [CreditCard, 'Card Payment'], [Banknote, 'Western Union']];
 
 const faqs = [
-  ['How do the plans work?', 'Starter delivers contacts to your dashboard. Growth adds AI email outreach. Premium adds email, WhatsApp, and AI phone call automation.'],
-  ['What is included in each contact?', 'Starter contacts include name, phone number, email address, and business category delivered to your Google Sheet dashboard.'],
-  ['What happens when a buyer is interested?', 'Growth and Premium clients receive interested lead alerts with the buyer details, so they only speak with people who are already showing interest.'],
-  ['Which payment methods are available?', 'Crypto, bank transfer, card payment, and Western Union are available for approved onboarding slots.']
+  ['How do the plans work?', 'Starter delivers 50 verified leads per day to your dashboard. Growth steps up to 100 daily leads plus 25 to 30 AI emails sent for you. Elite runs 300 daily leads across email, WhatsApp, AI phone calls and SMS.'],
+  ['Where do you scrape the leads from?', 'Every plan pulls from Google Maps, Apollo, Yellow Pages and Europages, mixed automatically based on your niche and target geography for the cleanest possible match.'],
+  ['Which countries do you cover?', 'Worldwide. Each client can target up to 20 countries and unlimited cities at no extra cost.'],
+  ['What happens when a buyer is interested?', 'Growth and Elite clients receive real-time interested-lead alerts straight to their inbox, so they only speak with people already showing intent.'],
+  ['Which payment methods are available?', 'Crypto, bank transfer, card payment and Western Union are all available for approved onboarding slots.']
 ];
 
 export default function AgencyApp() {
@@ -195,7 +268,7 @@ export default function AgencyApp() {
           <h1>The <em>automated lead machine</em> your competitors hope you <em>never install.</em></h1>
           <p>Targeted buyers found, contacted, and qualified. Every single day.</p>
           <div className="agencyHeroActions"><a className="agencyPrimaryBtn" href="#plans">Claim a Growth Slot <ArrowRight size={18} /></a><a className="agencySecondaryBtn" href="#system">See the System <ChevronRight size={18} /></a></div>
-          <div className="agencyTrustRow"><span><ShieldCheck size={14} /> Targeted buyers</span><span><Orbit size={14} /> Sheet dashboard</span><span><TrendingUp size={14} /> 5,000+ monthly contacts</span></div>
+          <div className="agencyTrustRow"><span><ShieldCheck size={14} /> 4 source feeds</span><span><Orbit size={14} /> 20 countries</span><span><TrendingUp size={14} /> Up to 10,000 monthly leads</span></div>
         </motion.div>
         <motion.div className="agencyHeroVisual" initial={{ opacity: 0, scale: 0.88 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}>
           <React.Suspense fallback={<div className="agencySceneFallback"><div /></div>}>
@@ -266,7 +339,77 @@ export default function AgencyApp() {
             <Badge variant="success"><Check size={11} /> 4.9/5 rated</Badge>
           </div>
         </div>
-        <div className="agencyPricingGrid">{plans.map(([name, price, label, stats, description, features, featured]) => <motion.article className={`agencyPriceCard ${featured ? 'agencyFeatured' : ''}`} key={name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}><div className="agencyPlanTop"><span>{label}</span><h3>{name}</h3><strong>{price}</strong><p className="agencyPlanDescription">{description}</p></div><div className="agencyPlanStats">{stats.map((item) => <b key={item}>{item}</b>)}</div><ul>{features.map((item) => <li key={item}><Check size={18} />{item}<Tooltip content="Included on every plan day one" side="top"><span className="tw-ml-1 tw-inline-flex tw-cursor-help tw-text-white/30 hover:tw-text-[#ff8a18] tw-transition"><Info size={12} /></span></Tooltip></li>)}</ul><a className={featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'} onClick={reserveToast} href={`https://wa.me/447735390520?text=${encodeURIComponent(`Hi VARPEC, I'd like to start the ${name} plan.`)}`} target="_blank" rel="noopener noreferrer">Reserve {name}</a></motion.article>)}</div>
+        <div className="agencyPricingGrid">
+          {plans.map((plan) => {
+            const cardClass = [
+              'agencyPriceCard',
+              plan.featured && 'agencyFeatured',
+              plan.soldOut && 'agencySoldOut'
+            ].filter(Boolean).join(' ');
+            const waText = plan.soldOut
+              ? `Hi VARPEC, the Elite plan is fully booked. Please add me to the waitlist.`
+              : `Hi VARPEC, I'd like to book the ${plan.name} plan.`;
+            return (
+              <motion.article
+                className={cardClass}
+                key={plan.name}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeUp}
+              >
+                {plan.badge && <div className="agencyPlanRibbon">{plan.badge}</div>}
+                <div className={`agencyPlanSlotPill agencyPlanSlot--${plan.slotColor}`}>
+                  {plan.slotColor === 'red' ? <Lock size={10} /> : <Flame size={10} />}
+                  {plan.slotStatus}
+                </div>
+
+                <div className="agencyPlanTop">
+                  <span>{plan.label}</span>
+                  <h3>{plan.name}</h3>
+                  <div className="agencyPlanPriceRow">
+                    <strong>{plan.price}</strong>
+                    <span className="agencyPlanPeriod">{plan.period}</span>
+                  </div>
+                  <p className="agencyPlanHeadline">{plan.headline}</p>
+                  <p className="agencyPlanDescription">{plan.description}</p>
+                </div>
+
+                <div className="agencyPlanStats">
+                  {plan.stats.map((item) => <b key={item}>{item}</b>)}
+                </div>
+
+                <div className="agencyPlanScope">
+                  <Globe size={11} />
+                  <span>Worldwide, up to <b>20 countries</b>, unlimited cities</span>
+                </div>
+
+                <ul>
+                  {plan.features.map((item, i) => (
+                    <li key={i} className={item.startsWith('Everything in') ? 'agencyPlanFeatureGroup' : ''}>
+                      <Check size={16} />{item}
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="agencyPlanOutcome">
+                  <Sparkles size={12} />
+                  <span>{plan.outcome}</span>
+                </div>
+
+                <a
+                  className={plan.featured ? 'agencyPrimaryBtn agencyFull' : 'agencySecondaryBtn agencyFull'}
+                  onClick={reserveToast}
+                  href={`https://wa.me/447735390520?text=${encodeURIComponent(waText)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {plan.cta} <ArrowRight size={16} />
+                </a>
+              </motion.article>
+            );
+          })}
+        </div>
       </section>
 
       <section className="agencyPayments"><h2>Payment routes for fast buyers</h2><div>{payments.map(([Icon, label]) => <span key={label}><Icon />{label}</span>)}</div></section>

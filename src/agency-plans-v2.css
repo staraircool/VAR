@@ -1,0 +1,240 @@
+/* ============================================================================
+   PLANS V2  ·  Premium pricing cards
+   ----------------------------------------------------------------------------
+   Builds on the existing .agencyPriceCard / .agencyFeatured visual base and
+   adds: slot status pills, MOST CHOSEN ribbon, structured price row,
+   headline line, worldwide-scope chip, outcome callout, sold-out treatment.
+   ========================================================================== */
+
+.agencyPriceCard {
+  position: relative;
+  overflow: visible;
+}
+
+/* ---- Slot status pill (top-right corner) -------------------------------- */
+.agencyPlanSlotPill {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  line-height: 1;
+}
+
+.agencyPlanSlot--amber {
+  background: rgba(255, 122, 24, 0.12);
+  border-color: rgba(255, 122, 24, 0.38);
+  color: #ffb878;
+}
+.agencyPlanSlot--amber::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #ff7a18;
+  margin-right: 2px;
+  box-shadow: 0 0 8px rgba(255, 122, 24, 0.8);
+  animation: agencyPulse 1.6s ease-in-out infinite;
+}
+
+.agencyPlanSlot--red {
+  background: rgba(239, 68, 68, 0.14);
+  border-color: rgba(239, 68, 68, 0.45);
+  color: #fca5a5;
+}
+.agencyPlanSlot--red::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #ef4444;
+  margin-right: 2px;
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.7);
+}
+
+@keyframes agencyPulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.45; }
+}
+
+/* ---- MOST CHOSEN ribbon (only on featured) ------------------------------ */
+.agencyPlanRibbon {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff8a18, #ff5a00);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  box-shadow:
+    0 10px 30px -8px rgba(255, 122, 24, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+  white-space: nowrap;
+}
+
+/* ---- Price row (big price + small period) ------------------------------- */
+.agencyPlanPriceRow {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: 10px;
+}
+.agencyPlanPriceRow strong {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.agencyPlanPeriod {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* ---- Headline line (bold orange one-liner) ------------------------------ */
+.agencyPlanHeadline {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  color: #ffb878;
+  line-height: 1.35;
+}
+
+/* ---- Worldwide scope chip ----------------------------------------------- */
+.agencyPlanScope {
+  margin: 14px 0 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.agencyPlanScope svg {
+  color: #7dd3fc;
+  flex-shrink: 0;
+}
+.agencyPlanScope b {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* ---- Feature group header (the "Everything in X" rows) ------------------ */
+.agencyPriceCard ul li.agencyPlanFeatureGroup {
+  margin-top: 6px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  font-weight: 700;
+  color: #ffb878 !important;
+}
+.agencyPriceCard ul li.agencyPlanFeatureGroup svg {
+  color: #ffb878 !important;
+}
+
+/* ---- Outcome callout (the closing line above the CTA) ------------------- */
+.agencyPlanOutcome {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 11px 13px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255, 122, 24, 0.08), rgba(255, 122, 24, 0.02));
+  border: 1px solid rgba(255, 122, 24, 0.22);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+}
+.agencyPlanOutcome svg {
+  color: #ffb878;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ---- Sold-out treatment (Elite plan) ------------------------------------ */
+.agencySoldOut {
+  position: relative;
+}
+.agencySoldOut::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(239, 68, 68, 0.02) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 1;
+}
+.agencySoldOut .agencyPlanPriceRow strong {
+  color: rgba(255, 255, 255, 0.95);
+}
+.agencySoldOut .agencyPlanOutcome {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05), rgba(239, 68, 68, 0.01));
+  border-color: rgba(239, 68, 68, 0.22);
+}
+.agencySoldOut .agencyPlanOutcome svg {
+  color: #fca5a5;
+}
+
+/* CTA on the sold-out card: red-tinted secondary */
+.agencySoldOut .agencySecondaryBtn {
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #fca5a5;
+}
+.agencySoldOut .agencySecondaryBtn:hover {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: rgba(239, 68, 68, 0.6);
+  color: #fecaca;
+}
+
+/* Featured card slightly elevated, ribbon-friendly extra top space */
+.agencyFeatured {
+  margin-top: 6px;
+}
+
+/* Mobile / tablet polish ----------------------------------------------- */
+@media (max-width: 980px) {
+  .agencyPlanRibbon {
+    top: -10px;
+    font-size: 9px;
+    padding: 5px 12px;
+  }
+  .agencyPlanSlotPill {
+    top: 12px;
+    right: 12px;
+    font-size: 8px;
+  }
+  .agencyPlanPriceRow strong {
+    font-size: 38px;
+  }
+}
