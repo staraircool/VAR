@@ -22,6 +22,7 @@ const LeadFeed = React.lazy(() => import('./ui/LeadFeed').then((m) => ({ default
 const EmailFeed = React.lazy(() => import('./ui/EmailFeed').then((m) => ({ default: m.EmailFeed })));
 const SystemMap = React.lazy(() => import('./ui/SystemMap').then((m) => ({ default: m.SystemMap })));
 const WhatYouGet = React.lazy(() => import('./ui/WhatYouGet').then((m) => ({ default: m.WhatYouGet })));
+const LiveFootage = React.lazy(() => import('./ui/LiveFootage').then((m) => ({ default: m.LiveFootage })));
 import { Dialog } from './ui/Dialog';
 import { Sheet } from './ui/Sheet';
 import { Tooltip } from './ui/Tooltip';
@@ -208,6 +209,10 @@ export default function AgencyApp() {
 
       <React.Suspense fallback={<div style={{ minHeight: 600 }} />}>
         <WhatYouGet />
+      </React.Suspense>
+
+      <React.Suspense fallback={<div style={{ minHeight: 700 }} />}>
+        <LiveFootage />
       </React.Suspense>
 
       <React.Suspense fallback={<div style={{ minHeight: 600 }} />}>
