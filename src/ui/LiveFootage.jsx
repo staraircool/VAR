@@ -1,291 +1,148 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import {
-  ArrowRight, Lock, Circle, ShieldCheck, Sparkles, Activity, Zap, Eye, MapPin
-} from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Activity, Eye, MailX, Search, Sparkles, MessageSquare, Zap, Filter } from 'lucide-react';
+import { KpiCard, Ticker, makeSpark } from './dashboard-ui';
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Floating data chips that animate in/out around the video
-// ──────────────────────────────────────────────────────────────────────────────
-const FLOATING_CHIPS = [
-  { icon: Sparkles, color: '#ffb878', text: '+1 hot lead added', position: 'top-right',    delay: 1.2 },
-  { icon: ShieldCheck, color: '#7dd3fc', text: 'Phone verified  ·  Athena Derma', position: 'bottom-left', delay: 2.6 },
-  { icon: Eye,      color: '#a78bfa',  text: 'Row 247 of 5,000 shown',      position: 'top-left',     delay: 3.8 },
-  { icon: Zap,      color: '#6ee7b7',  text: 'Reply from 888 Lots  ·  6h ago', position: 'bottom-right', delay: 5.0 },
-  { icon: MapPin,   color: '#ffb878',  text: 'Buyer found in Madrid',        position: 'top-right',    delay: 6.4 },
-  { icon: Activity, color: '#7dd3fc',  text: 'Scroll velocity  ·  12 rows/s', position: 'bottom-left',  delay: 7.8 },
-];
-
-const POSITION_STYLES = {
-  'top-left':     'tw-top-3 tw-left-3 sm:tw-top-6 sm:tw-left-6',
-  'top-right':    'tw-top-3 tw-right-3 sm:tw-top-6 sm:tw-right-6',
-  'bottom-left':  'tw-bottom-3 tw-left-3 sm:tw-bottom-6 sm:tw-left-6',
-  'bottom-right': 'tw-bottom-3 tw-right-3 sm:tw-bottom-6 sm:tw-right-6',
-};
-
-// ──────────────────────────────────────────────────────────────────────────────
-// Single floating chip with its own visibility cycle
-// ──────────────────────────────────────────────────────────────────────────────
-const FloatingChip = ({ chip, idx }) => {
-  const Icon = chip.icon;
-  const [visible, setVisible] = React.useState(false);
-  React.useEffect(() => {
-    const showAt = setTimeout(() => setVisible(true), chip.delay * 1000);
-    const cycle = setInterval(() => {
-      setVisible((v) => !v);
-    }, 5500 + idx * 400);
-    return () => { clearTimeout(showAt); clearInterval(cycle); };
-  }, [chip.delay, idx]);
-
-  return (
-    <AnimatePresence>
-      {visible && (
-        <motion.div
-          key={chip.text}
-          initial={{ opacity: 0, scale: 0.85, y: chip.position.includes('top') ? -10 : 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.85, y: chip.position.includes('top') ? -10 : 10 }}
-          transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
-          className={`tw-pointer-events-none tw-absolute ${POSITION_STYLES[chip.position]} tw-z-20 tw-flex tw-items-center tw-gap-2 tw-rounded-full tw-border tw-border-white/15 tw-bg-black/75 tw-px-3 tw-py-1.5 tw-text-[11px] tw-font-bold tw-text-white tw-backdrop-blur-md`}
-          style={{ boxShadow: `0 10px 30px -10px ${chip.color}66` }}
-        >
-          <Icon size={11} style={{ color: chip.color }} />
-          <span>{chip.text}</span>
-        </motion.div>
-      )}
-    </AnimatePresence>
-  );
-};
-
-// ──────────────────────────────────────────────────────────────────────────────
-// MAIN
+// MAIN  ·  Same visual language as LeadFeed / EmailFeed / SystemMap dashboards
 // ──────────────────────────────────────────────────────────────────────────────
 export const LiveFootage = () => {
   const videoRef = React.useRef(null);
-  const containerRef = React.useRef(null);
-  const [tilt, setTilt] = React.useState({ x: 0, y: 0 });
-  const [recTime, setRecTime] = React.useState(0);
 
-  // Play/pause based on viewport visibility - saves CPU and data
+  // Auto play/pause when scrolled in/out of viewport - saves CPU + data
   React.useEffect(() => {
     if (!videoRef.current) return;
     const v = videoRef.current;
     const obs = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) v.play().catch(() => {});
-        else v.pause();
-      },
+      ([e]) => { if (e.isIntersecting) v.play().catch(() => {}); else v.pause(); },
       { threshold: 0.2 }
     );
     obs.observe(v);
     return () => obs.disconnect();
   }, []);
 
-  // REC timer that loops
-  React.useEffect(() => {
-    const id = setInterval(() => setRecTime((t) => (t + 1) % 600), 1000);
-    return () => clearInterval(id);
-  }, []);
-
-  // 3D parallax on mouse move (desktop only)
-  const handleMove = (e) => {
-    if (window.matchMedia('(hover: none)').matches) return;
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = (e.clientX - rect.left) / rect.width - 0.5;
-    const y = (e.clientY - rect.top) / rect.height - 0.5;
-    setTilt({ x: y * -2.5, y: x * 2.5 });
-  };
-  const handleLeave = () => setTilt({ x: 0, y: 0 });
-
-  const minutes = String(Math.floor(recTime / 60)).padStart(2, '0');
-  const seconds = String(recTime % 60).padStart(2, '0');
+  // Live event ticker (same component used by LeadFeed/EmailFeed)
+  const tickerItems = [
+    <><Sparkles size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">+1 hot lead</b> added · Athena Dermatology Clinic</span></>,
+    <><MessageSquare size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">Reply received</b> · 888 Lots · 6h ago</span></>,
+    <><Eye size={11} className="tw-text-violet-300" /><span><b className="tw-text-violet-300">184 rows</b> scrolled in this clip</span></>,
+    <><Zap size={11} className="tw-text-sky-300" /><span><b className="tw-text-sky-300">Sheet auto-syncing</b> · last update 12s ago</span></>,
+  ];
 
   return (
-    <section id="footage" className="tw-relative tw-w-full tw-overflow-hidden tw-bg-black tw-py-20 sm:tw-py-28">
-      {/* ambient orange floor glow */}
-      <div className="tw-pointer-events-none tw-absolute tw-bottom-0 tw-left-1/2 tw-h-[400px] tw-w-[800px] tw--translate-x-1/2 tw-translate-y-1/2 tw-rounded-full tw-bg-[#ff7a18]/15 tw-blur-[120px]" />
+    <section id="footage" className="tw-relative tw-w-full tw-bg-black tw-py-24">
+      <div className="tw-mx-auto tw-w-full tw-max-w-6xl tw-px-5">
 
-      <div className="tw-relative tw-mx-auto tw-w-full tw-max-w-6xl tw-px-4 sm:tw-px-6">
+        {/* SECTION HEAD - matches LeadFeed/EmailFeed/SystemMap */}
+        <div className="agencySectionHead">
+          <div className="tw-mb-3 tw-flex tw-justify-center">
+            <span className="tw-inline-flex tw-items-center tw-gap-2 tw-rounded-full tw-border tw-border-emerald-500/30 tw-bg-emerald-500/10 tw-px-3 tw-py-1 tw-text-[11px] tw-font-semibold tw-text-emerald-300">
+              <span className="tw-relative tw-flex tw-h-2 tw-w-2">
+                <span className="tw-absolute tw-inline-flex tw-h-full tw-w-full tw-animate-ping tw-rounded-full tw-bg-emerald-400 tw-opacity-75" />
+                <span className="tw-relative tw-inline-flex tw-h-2 tw-w-2 tw-rounded-full tw-bg-emerald-400" />
+              </span>
+              LIVE FOOTAGE
+            </span>
+          </div>
+          <p>Behind the screen</p>
+          <h2>The actual sheet a paying client sees.</h2>
+          <span>Real Google Sheet, scrolling live. Phones blurred. Email column blurred. Everything else is real.</span>
+        </div>
 
-        {/* HEADER */}
+        {/* KPI ROW - same KpiCard component as the other dashboards */}
+        <div className="tw-mt-10 tw-grid tw-grid-cols-2 tw-gap-3 md:tw-grid-cols-4">
+          <KpiCard value={184}  label="Rows In Clip"     accent="tw-text-white"       sparkColor="#ffffff" spark={makeSpark(5,  12, 'up')} delta={24} />
+          <KpiCard value={1247} label="Buyers In Sheet"  accent="tw-text-sky-300"     sparkColor="#7dd3fc" spark={makeSpark(11, 12, 'up')} delta={18} suffix="/5K" />
+          <KpiCard value={12}   label="Replies This Week"accent="tw-text-emerald-300" sparkColor="#6ee7b7" spark={makeSpark(19, 12, 'up')} delta={42} />
+          <KpiCard value={99}   label="Sync Uptime"      accent="tw-text-[#ffb878]"   sparkColor="#ffb878" spark={makeSpark(27, 12, 'up')} delta={1}  suffix="%" />
+        </div>
+
+        {/* MAIN PANEL - identical chrome / shadow / border to the other dashboards */}
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.55 }}
-          className="tw-mx-auto tw-max-w-3xl tw-text-center"
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="tw-mt-8 tw-overflow-hidden tw-rounded-2xl tw-border tw-border-white/10 tw-bg-gradient-to-b tw-from-white/[0.04] tw-to-white/[0.01] tw-shadow-[0_30px_80px_rgba(0,0,0,0.55)] tw-backdrop-blur-md"
         >
-          <div className="tw-inline-flex tw-items-center tw-gap-2 tw-rounded-full tw-border tw-border-red-500/30 tw-bg-red-500/[0.08] tw-px-3 tw-py-1.5 tw-text-[10px] tw-font-bold tw-tracking-[0.25em] tw-text-red-300">
-            <span className="tw-relative tw-flex tw-h-2 tw-w-2">
-              <span className="tw-absolute tw-inline-flex tw-h-full tw-w-full tw-animate-ping tw-rounded-full tw-bg-red-500 tw-opacity-75" />
-              <span className="tw-relative tw-inline-flex tw-h-2 tw-w-2 tw-rounded-full tw-bg-red-500" />
-            </span>
-            LIVE PRODUCTION FEED  ·  UNCUT  ·  NO EDITS
-          </div>
-
-          <h2 className="tw-mt-5 tw-text-3xl tw-font-black tw-leading-[1.1] tw-tracking-tight tw-text-white sm:tw-text-5xl">
-            We weren't going to <span className="tw-text-[#ffb878]">show you this.</span>
-          </h2>
-          <p className="tw-mx-auto tw-mt-4 tw-max-w-xl tw-text-[15px] tw-leading-relaxed tw-text-white/65 sm:tw-text-base">
-            Real Google Sheet from a paying client. Phones blurred. Names blurred.
-            Everything else? Live.
-          </p>
-        </motion.div>
-
-        {/* CINEMATIC VIDEO FRAME */}
-        <motion.div
-          ref={containerRef}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          onMouseMove={handleMove}
-          onMouseLeave={handleLeave}
-          className="tw-relative tw-mx-auto tw-mt-12 tw-max-w-5xl"
-          style={{ perspective: '1500px' }}
-        >
-          {/* outer device frame with 3D tilt */}
-          <div
-            className="tw-relative tw-overflow-hidden tw-rounded-[20px] tw-border tw-border-white/15 tw-bg-gradient-to-b tw-from-[#1a1a1a] tw-to-[#0a0a0a] tw-shadow-[0_60px_120px_-30px_rgba(255,122,24,0.35),0_30px_60px_-20px_rgba(0,0,0,0.9)] tw-transition-transform tw-duration-300 tw-ease-out"
-            style={{
-              transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
-              transformStyle: 'preserve-3d',
-            }}
-          >
-            {/* BROWSER CHROME / TOP BAR */}
-            <div className="tw-flex tw-items-center tw-justify-between tw-gap-3 tw-border-b tw-border-white/10 tw-bg-black/40 tw-px-3 tw-py-2.5 sm:tw-px-5 sm:tw-py-3">
-              <div className="tw-flex tw-items-center tw-gap-3">
-                <div className="tw-flex tw-gap-1.5">
-                  <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-red-500/80" />
-                  <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-yellow-500/80" />
-                  <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-green-500/80" />
-                </div>
-                <div className="tw-hidden tw-items-center tw-gap-1.5 tw-rounded-md tw-border tw-border-white/10 tw-bg-white/[0.04] tw-px-2.5 tw-py-1 tw-text-[10px] tw-font-mono tw-text-white/55 sm:tw-flex">
-                  <Lock size={10} className="tw-text-emerald-400" />
-                  <span>docs.google.com/spreadsheets/d/</span>
-                  <span className="tw-text-white/30">██████████/edit</span>
-                </div>
+          {/* Window chrome */}
+          <div className="tw-flex tw-items-center tw-justify-between tw-gap-3 tw-border-b tw-border-white/10 tw-bg-black/30 tw-px-5 tw-py-3">
+            <div className="tw-flex tw-items-center tw-gap-3">
+              <div className="tw-flex tw-gap-1.5">
+                <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-red-500/70" />
+                <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-yellow-500/70" />
+                <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-green-500/70" />
               </div>
-              <div className="tw-flex tw-items-center tw-gap-2">
-                <span className="tw-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-red-500/40 tw-bg-red-500/15 tw-px-2 tw-py-0.5 tw-font-mono tw-text-[10px] tw-font-bold tw-text-red-300">
-                  <Circle size={7} className="tw-animate-pulse tw-fill-red-500 tw-text-red-500" />
-                  REC  {minutes}:{seconds}
+              <span className="tw-text-xs tw-font-semibold tw-text-white/60">FOOTAGE · Varpec · Live Sheet Capture</span>
+              <span className="tw-hidden tw-rounded tw-bg-white/[0.05] tw-px-1.5 tw-py-0.5 tw-text-[9px] tw-font-mono tw-text-white/45 sm:tw-inline">sheet · live</span>
+            </div>
+            <div className="tw-hidden tw-items-center tw-gap-2 sm:tw-flex">
+              <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-md tw-border tw-border-white/10 tw-bg-white/5 tw-px-2 tw-py-1 tw-text-[10px] tw-text-white/55"><Search size={10} /> Search</span>
+              <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-md tw-border tw-border-white/10 tw-bg-white/5 tw-px-2 tw-py-1 tw-text-[10px] tw-text-white/55"><Filter size={10} /> Replied</span>
+              <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-emerald-500/30 tw-bg-emerald-500/10 tw-px-2.5 tw-py-1 tw-text-[10px] tw-font-semibold tw-text-emerald-300">
+                <span className="tw-relative tw-flex tw-h-1.5 tw-w-1.5">
+                  <span className="tw-absolute tw-inline-flex tw-h-full tw-w-full tw-animate-ping tw-rounded-full tw-bg-emerald-400 tw-opacity-75" />
+                  <span className="tw-relative tw-inline-flex tw-h-1.5 tw-w-1.5 tw-rounded-full tw-bg-emerald-400" />
                 </span>
-                <span className="tw-hidden tw-h-7 tw-w-7 tw-overflow-hidden tw-rounded-full tw-border tw-border-white/15 tw-bg-gradient-to-br tw-from-[#ff8a18] tw-to-[#ff5a00] tw-text-center tw-text-[10px] tw-font-black tw-leading-7 tw-text-white sm:tw-block">V</span>
-              </div>
-            </div>
-
-            {/* VIDEO + OVERLAYS */}
-            <div className="tw-relative tw-aspect-video tw-w-full tw-overflow-hidden tw-bg-black">
-              <video
-                ref={videoRef}
-                src="/video.mp4"
-                poster="/og-cover.jpg"
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="auto"
-                className="tw-block tw-h-full tw-w-full tw-object-cover"
-                aria-label="Live footage of a real VARPEC client Google Sheet"
-              />
-
-              {/* corner vignettes */}
-              <div className="tw-pointer-events-none tw-absolute tw-inset-0" style={{
-                background: 'radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.55) 100%)',
-              }} />
-
-              {/* horizontal scan line that drops periodically */}
-              <motion.div
-                className="tw-pointer-events-none tw-absolute tw-inset-x-0 tw-h-px tw-bg-gradient-to-r tw-from-transparent tw-via-[#ff7a18]/40 tw-to-transparent"
-                animate={{ top: ['0%', '100%'] }}
-                transition={{ duration: 6, repeat: Infinity, ease: 'linear' }}
-              />
-
-              {/* watermark */}
-              <div className="tw-pointer-events-none tw-absolute tw-bottom-3 tw-right-3 tw-flex tw-items-center tw-gap-1.5 tw-rounded tw-bg-black/60 tw-px-2 tw-py-1 tw-text-[9px] tw-font-bold tw-tracking-[0.25em] tw-text-white/55 tw-backdrop-blur-md">
-                <span className="tw-h-1.5 tw-w-1.5 tw-rounded-full tw-bg-[#ff7a18]" />
-                VARPEC.APP
-              </div>
-
-              {/* floating data chips */}
-              {FLOATING_CHIPS.map((chip, i) => (
-                <FloatingChip key={i} chip={chip} idx={i} />
-              ))}
-            </div>
-
-            {/* BOTTOM STATUS BAR */}
-            <div className="tw-flex tw-flex-wrap tw-items-center tw-justify-between tw-gap-2 tw-border-t tw-border-white/10 tw-bg-black/40 tw-px-4 tw-py-2.5 tw-text-[10px] tw-text-white/55 sm:tw-px-5">
-              <span className="tw-inline-flex tw-items-center tw-gap-1.5">
-                <Activity size={11} className="tw-text-emerald-400" />
-                Auto-syncing  ·  last update 12s ago  ·  1,247 rows visible
+                LIVE
               </span>
-              <span className="tw-hidden tw-font-mono sm:tw-inline">phones anonymised in this clip  ·  your live sheet is private</span>
             </div>
           </div>
 
-          {/* REFLECTION FLOOR */}
-          <div
-            aria-hidden="true"
-            className="tw-pointer-events-none tw-mx-auto tw-mt-1 tw-h-24 tw-w-[92%] tw-overflow-hidden tw-rounded-b-[20px]"
-            style={{
-              background: 'linear-gradient(to bottom, rgba(255,122,24,0.18) 0%, transparent 100%)',
-              filter: 'blur(8px)',
-              transform: 'scaleY(-0.5)',
-              opacity: 0.5,
-              maskImage: 'linear-gradient(to bottom, black 0%, transparent 100%)',
-              WebkitMaskImage: 'linear-gradient(to bottom, black 0%, transparent 100%)',
-            }}
-          />
-        </motion.div>
+          {/* Ticker row - same pattern as LeadFeed */}
+          <div className="tw-flex tw-flex-wrap tw-items-center tw-justify-between tw-gap-3 tw-border-b tw-border-white/5 tw-bg-black/20 tw-px-5 tw-py-2">
+            <Ticker items={tickerItems} />
+            <span className="tw-hidden tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-[#ff7a18]/25 tw-bg-[#ff7a18]/[0.06] tw-px-2.5 tw-py-1 tw-text-[10px] tw-font-bold tw-tracking-[0.15em] tw-text-[#ffb878] sm:tw-inline-flex">
+              <MailX size={10} /> EMAIL COLUMN  ·  PRIVACY GLASS
+            </span>
+          </div>
 
-        {/* QUICK STATS STRIP */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="tw-mx-auto tw-mt-10 tw-grid tw-max-w-3xl tw-grid-cols-2 tw-gap-3 sm:tw-grid-cols-3"
-        >
-          {[
-            { label: 'Rows in this clip', value: '184', color: '#ffb878' },
-            { label: 'Buyers in the live sheet', value: '1,247', color: '#7dd3fc' },
-            { label: 'Average reply', value: '6h 23m', color: '#6ee7b7' },
-          ].map((s, i) => (
+          {/* VIDEO - lightweight, autoplays muted, IntersectionObserver play/pause */}
+          <div className="tw-relative tw-aspect-video tw-w-full tw-overflow-hidden tw-bg-black">
+            <video
+              ref={videoRef}
+              src="/video.mp4"
+              poster="/og-cover.jpg"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              className="tw-block tw-h-full tw-w-full tw-object-cover"
+              aria-label="Live footage of a real client Google Sheet"
+            />
+
+            {/* Privacy frosted-glass strip over the email column.
+                Adjust `left` and `width` if your sheet has the email column elsewhere. */}
             <div
-              key={s.label}
-              className={`tw-rounded-xl tw-border tw-border-white/10 tw-bg-white/[0.025] tw-px-4 tw-py-3 tw-text-center tw-backdrop-blur-md ${i === 2 ? 'tw-col-span-2 sm:tw-col-span-1' : ''}`}
-            >
-              <span className="tw-block tw-text-[9px] tw-font-bold tw-tracking-[0.25em] tw-text-white/45">
-                {s.label.toUpperCase()}
-              </span>
-              <span className="tw-mt-1 tw-block tw-text-2xl tw-font-black tw-tabular-nums" style={{ color: s.color }}>
-                {s.value}
-              </span>
+              className="tw-pointer-events-none tw-absolute tw-top-0 tw-bottom-0 tw-z-10"
+              style={{
+                left: '44%',
+                width: '28%',
+                backdropFilter: 'blur(14px) saturate(1.05)',
+                WebkitBackdropFilter: 'blur(14px) saturate(1.05)',
+                background: 'linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02))',
+                borderLeft: '1px solid rgba(255,122,24,0.18)',
+                borderRight: '1px solid rgba(255,122,24,0.18)',
+              }}
+            />
+
+            {/* Tiny label to make it clear what's blurred (mobile + desktop) */}
+            <div className="tw-pointer-events-none tw-absolute tw-top-3 tw-left-1/2 tw-z-20 tw--translate-x-1/2 tw-rounded-full tw-border tw-border-white/15 tw-bg-black/70 tw-px-2.5 tw-py-1 tw-text-[9px] tw-font-bold tw-tracking-[0.2em] tw-text-white/70 tw-backdrop-blur-md">
+              <MailX size={9} className="tw-mr-1 tw-mb-0.5 tw-inline tw-text-[#ffb878]" />
+              EMAILS  ·  BLURRED FOR PRIVACY
             </div>
-          ))}
+          </div>
+
+          {/* Footer - same as LeadFeed */}
+          <div className="tw-flex tw-flex-wrap tw-items-center tw-justify-between tw-gap-3 tw-border-t tw-border-white/10 tw-bg-black/30 tw-px-5 tw-py-3 tw-text-[11px] tw-text-white/50">
+            <span className="tw-inline-flex tw-items-center tw-gap-1.5">
+              <Activity size={12} className="tw-text-emerald-400" /> Auto-syncing  ·  last update 12s ago  ·  1,247 of 5,000 buyers visible
+            </span>
+            <span>Phones and email column anonymised in preview  ·  Your live sheet is private</span>
+          </div>
         </motion.div>
 
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.45 }}
-          className="tw-mt-9 tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-3 sm:tw-flex-row sm:tw-gap-4"
-        >
-          <a
-            href="https://wa.me/447735390520?text=Hi%20VARPEC%2C%20I%20want%20a%20live%20sheet%20like%20the%20one%20in%20the%20footage."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="agencyPrimaryBtn tw-inline-flex tw-items-center tw-gap-2"
-          >
-            Get your own live sheet <ArrowRight size={18} />
-          </a>
-          <a href="#dashboard" className="tw-inline-flex tw-items-center tw-gap-1.5 tw-text-[13px] tw-font-semibold tw-text-white/65 tw-transition hover:tw-text-white">
-            Or scroll the interactive version <ArrowRight size={14} />
-          </a>
-        </motion.div>
       </div>
     </section>
   );
