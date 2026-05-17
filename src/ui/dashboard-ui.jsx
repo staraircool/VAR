@@ -4,7 +4,7 @@ import { ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Sparkline — micro SVG trendline (no deps)
+// Sparkline - micro SVG trendline (no deps)
 // ──────────────────────────────────────────────────────────────────────────────
 export const Sparkline = ({ data, color = '#ff7a18', width = 64, height = 18 }) => {
   const safeData = data && data.length ? data : [1, 2, 1, 3, 2, 4, 3, 5];
@@ -36,7 +36,7 @@ export const Sparkline = ({ data, color = '#ff7a18', width = 64, height = 18 }) 
 };
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Donut — circular progress
+// Donut - circular progress
 // ──────────────────────────────────────────────────────────────────────────────
 export const Donut = ({ value, max = 100, color = '#6ee7b7', size = 56, label }) => {
   const r = size / 2 - 4;
@@ -79,7 +79,7 @@ export const Donut = ({ value, max = 100, color = '#6ee7b7', size = 56, label })
 };
 
 // ──────────────────────────────────────────────────────────────────────────────
-// KpiCard — counter + sparkline + delta
+// KpiCard - counter + sparkline + delta
 // ──────────────────────────────────────────────────────────────────────────────
 export const KpiCard = ({ value, label, accent = 'tw-text-white', sparkColor = '#ff7a18', spark, delta, deltaSuffix = '%', suffix }) => {
   const [n, setN] = React.useState(0);
@@ -127,7 +127,7 @@ export const KpiCard = ({ value, label, accent = 'tw-text-white', sparkColor = '
 };
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Live ticker — animated single-line activity ticker
+// Live ticker - animated single-line activity ticker
 // ──────────────────────────────────────────────────────────────────────────────
 export const Ticker = ({ items, interval = 2800 }) => {
   const [i, setI] = React.useState(0);
@@ -154,7 +154,7 @@ export const Ticker = ({ items, interval = 2800 }) => {
 };
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Geo chip stack — flag + count with subtle bar
+// Geo chip stack - flag + count with subtle bar
 // ──────────────────────────────────────────────────────────────────────────────
 export const GeoStack = ({ data }) => {
   const max = Math.max(...data.map((d) => d.count));
@@ -176,7 +176,7 @@ export const GeoStack = ({ data }) => {
 };
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Funnel — horizontal progression with conversion %
+// Funnel - horizontal progression with conversion %
 // ──────────────────────────────────────────────────────────────────────────────
 export const Funnel = ({ steps, title }) => {
   const top = steps[0]?.value || 1;

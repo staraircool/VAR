@@ -63,7 +63,7 @@ const STAGES = [
     accentBorder: 'tw-border-emerald-500/30',
     metric: '6h 23m',
     metricLabel: 'avg first reply',
-    desc: 'Hot leads ping your team with the full record — name, channel, message — so closers focus only on real interest.',
+    desc: 'Hot leads ping your team with the full record. Name, channel, message. Closers only focus on real interest.',
     chips: ['Live alerts', 'Hot lead routing', 'Sheet sync'],
     spark: makeSpark(404, 12, 'up'),
     delta: 41,
@@ -194,7 +194,7 @@ const StageCard = ({ stage, index }) => {
 // ──────────────────────────────────────────────────────────────────────────────
 const Cell = ({ value }) => {
   if (value === true) return <CheckCircle2 size={14} className="tw-mx-auto tw-text-emerald-400" aria-label="Included" />;
-  if (value === false) return <span className="tw-text-white/20">—</span>;
+  if (value === false) return <span className="tw-text-white/20">-</span>;
   return <span className="tw-font-bold tw-tabular-nums tw-text-white">{value}</span>;
 };
 
@@ -206,7 +206,7 @@ export const SystemMap = () => {
     <><Sparkles size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">42 new contacts</b> discovered in the last hour</span></>,
     <><CheckCircle2 size={11} className="tw-text-sky-300" /><span><b className="tw-text-sky-300">31 records</b> enriched with phone + website</span></>,
     <><Send size={11} className="tw-text-violet-300" /><span><b className="tw-text-violet-300">Day 3 sequence</b> dispatched to 87 buyers</span></>,
-    <><Zap size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">Hot lead</b> · Athena Dermatology — routed to closer</span></>,
+    <><Zap size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">Hot lead</b> · Athena Dermatology · routed to closer</span></>,
     <><Activity size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">7 automations</b> running across email · WhatsApp · phone</span></>,
   ];
 
@@ -221,11 +221,11 @@ export const SystemMap = () => {
             </span>
           </div>
           <p>How it works</p>
-          <h2>Targeted buyers found, contacted, and qualified — every day.</h2>
-          <span>A four-stage automation pipeline that runs on autopilot. Discover, enrich, outreach, convert — across email, WhatsApp, and AI phone calls.</span>
+          <h2>Targeted buyers found, contacted, and qualified every day.</h2>
+          <span>A four-stage automation pipeline that runs on autopilot. Discover, enrich, outreach, convert. Across email, WhatsApp, and AI phone calls.</span>
         </div>
 
-        {/* PIPELINE — 4 stage cards with connecting beams */}
+        {/* PIPELINE - 4 stage cards with connecting beams */}
         <div className="tw-mt-12 tw-relative">
           {/* Desktop horizontal layout */}
           <div className="tw-hidden lg:tw-grid lg:tw-grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] lg:tw-items-stretch lg:tw-gap-3">
@@ -248,7 +248,7 @@ export const SystemMap = () => {
           </div>
         </div>
 
-        {/* SYSTEM CONSOLE — runtime telemetry panel */}
+        {/* SYSTEM CONSOLE - runtime telemetry panel */}
         <div className="tw-mt-10 tw-overflow-hidden tw-rounded-2xl tw-border tw-border-white/10 tw-bg-gradient-to-b tw-from-white/[0.04] tw-to-white/[0.01] tw-shadow-[0_30px_80px_rgba(0,0,0,0.55)] tw-backdrop-blur-md">
           {/* chrome */}
           <div className="tw-flex tw-items-center tw-justify-between tw-gap-3 tw-border-b tw-border-white/10 tw-bg-black/30 tw-px-5 tw-py-3">
@@ -258,7 +258,7 @@ export const SystemMap = () => {
                 <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-yellow-500/70" />
                 <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-green-500/70" />
               </div>
-              <span className="tw-text-xs tw-font-semibold tw-text-white/60"><Cpu size={11} className="tw-mb-0.5 tw-mr-1 tw-inline" />SYSTEM — varpec.app · runtime telemetry</span>
+              <span className="tw-text-xs tw-font-semibold tw-text-white/60"><Cpu size={11} className="tw-mb-0.5 tw-mr-1 tw-inline" />SYSTEM · varpec.app · runtime telemetry</span>
               <span className="tw-hidden tw-rounded tw-bg-white/[0.05] tw-px-1.5 tw-py-0.5 tw-text-[9px] tw-font-mono tw-text-white/45 sm:tw-inline">healthy · 99.97% uptime</span>
             </div>
             <span className="tw-inline-flex tw-items-center tw-gap-1.5 tw-rounded-full tw-border tw-border-emerald-500/30 tw-bg-emerald-500/10 tw-px-2.5 tw-py-1 tw-text-[10px] tw-font-semibold tw-text-emerald-300">

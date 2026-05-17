@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <title>VARPEC AUTOMATIONS — Automated B2B Lead Generation Agency | AI Email, WhatsApp & Phone Outreach</title>
-  <meta name="description" content="VARPEC AUTOMATIONS is a premium B2B automation agency. We deliver 50–145 targeted buyer contacts daily, Google Sheet dashboards, AI email outreach, WhatsApp campaigns, and AI phone call bots for serious growth teams worldwide." />
+  <title>VARPEC AUTOMATIONS | Automated B2B Lead Generation Agency, AI Email, WhatsApp and Phone Outreach</title>
+  <meta name="description" content="VARPEC AUTOMATIONS is a premium B2B automation agency. We deliver 50 to 145 targeted buyer contacts daily, Google Sheet dashboards, AI email outreach, WhatsApp campaigns, and AI phone call bots for serious growth teams worldwide." />
   <meta name="keywords" content="automation agency, B2B lead generation agency, automated lead generation, AI email outreach, AI cold email agency, WhatsApp outreach automation, AI phone call bot, lead generation service, targeted buyer contacts, sales automation, growth automation agency, n8n automation agency, marketing automation UK, outbound automation agency, AI sales agent" />
   <meta name="author" content="VARPEC AUTOMATIONS" />
   <meta name="publisher" content="VARPEC AUTOMATIONS" />
@@ -50,14 +50,14 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="VARPEC AUTOMATIONS" />
   <meta property="og:url" content="https://varpec.app/" />
-  <meta property="og:title" content="VARPEC AUTOMATIONS — Automated B2B Lead Generation Agency" />
-  <meta property="og:description" content="50–145 targeted buyer contacts daily. AI email outreach, WhatsApp and phone bot campaigns. Premium automation built for B2B growth teams." />
+  <meta property="og:title" content="VARPEC AUTOMATIONS | Automated B2B Lead Generation Agency" />
+  <meta property="og:description" content="50 to 145 targeted buyer contacts daily. AI email outreach, WhatsApp and phone bot campaigns. Premium automation built for B2B growth teams." />
   <meta property="og:image" content="https://varpec.app/og-cover.jpg" />
   <meta property="og:image:secure_url" content="https://varpec.app/og-cover.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="VARPEC AUTOMATIONS — Premium automation agency dashboard" />
+  <meta property="og:image:alt" content="VARPEC AUTOMATIONS | Premium automation agency dashboard" />
   <meta property="og:locale" content="en_GB" />
   <meta property="og:locale:alternate" content="en_US" />
 
@@ -65,7 +65,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@varpec_app" />
   <meta name="twitter:creator" content="@varpec_app" />
-  <meta name="twitter:title" content="VARPEC AUTOMATIONS — B2B Automation Agency" />
+  <meta name="twitter:title" content="VARPEC AUTOMATIONS | B2B Automation Agency" />
   <meta name="twitter:description" content="Automated lead generation, AI email outreach, WhatsApp and phone campaigns. Premium growth machine for serious B2B teams." />
   <meta name="twitter:image" content="https://varpec.app/og-cover.jpg" />
   <meta name="twitter:image:alt" content="VARPEC AUTOMATIONS dashboard and outreach engine preview" />
@@ -131,7 +131,7 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "@id": "https://varpec.app/#service",
-    "name": "VARPEC AUTOMATIONS — B2B Lead Generation Agency",
+    "name": "VARPEC AUTOMATIONS | B2B Lead Generation Agency",
     "url": "https://varpec.app/",
     "image": "https://varpec.app/og-cover.jpg",
     "priceRange": "$$$",
@@ -254,5 +254,40 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/bootstrap.jsx"></script>
+
+  <!-- ANALYTICS - paste any of these IDs to activate. Empty = no tracking, no scripts loaded. -->
+  <script>
+    // 1) Google Analytics 4. Get yours at https://analytics.google.com (Admin > Data Streams > Web).
+    window.GA_ID = '';            // example: 'G-XXXXXXXXXX'
+    // 2) Cloudflare Web Analytics (free, no cookies). Token at https://dash.cloudflare.com > Web Analytics.
+    window.CF_BEACON = '';        // example: 'a1b2c3d4...'
+    // 3) Plausible (privacy-friendly). Just set your site domain.
+    window.PLAUSIBLE_DOMAIN = ''; // example: 'varpec.app'
+
+    if (window.GA_ID) {
+      var ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.GA_ID;
+      document.head.appendChild(ga);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', window.GA_ID, { anonymize_ip: true });
+    }
+    if (window.CF_BEACON) {
+      var cf = document.createElement('script');
+      cf.defer = true;
+      cf.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      cf.setAttribute('data-cf-beacon', JSON.stringify({ token: window.CF_BEACON }));
+      document.head.appendChild(cf);
+    }
+    if (window.PLAUSIBLE_DOMAIN) {
+      var pl = document.createElement('script');
+      pl.defer = true;
+      pl.src = 'https://plausible.io/js/script.js';
+      pl.setAttribute('data-domain', window.PLAUSIBLE_DOMAIN);
+      document.head.appendChild(pl);
+    }
+  </script>
 </body>
 </html>

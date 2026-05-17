@@ -27,7 +27,7 @@
   display: none !important;
 }
 
-/* === HERO ORBIT LABELS — replace the old metric/live panels === */
+/* === HERO ORBIT LABELS: replace the old metric/live panels === */
 .agencyMetricPanel,
 .agencyLivePanel {
   display: none !important;

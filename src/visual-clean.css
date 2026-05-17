@@ -1,4 +1,4 @@
-/* FINAL CLEAN OVERRIDE — full laptop card has no circle/glow, half laptop only covered by thin straight strip */
+/* FINAL CLEAN OVERRIDE: full laptop card has no circle/glow, half laptop only covered by thin straight strip */
 
 .agencyDashboardSection {
   background: linear-gradient(180deg, #070707, #030303) !important;
@@ -39,7 +39,7 @@
   display: none !important;
 }
 
-/* Half laptop — thin straight bottom edge only, no curve, no half cover */
+/* Half laptop: thin straight bottom edge only, no curve, no half cover */
 
 .agencyEmailSection::before,
 .agencyEmailSection::after {

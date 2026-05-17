@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a0e05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.22" r="0.6">
+      <stop offset="0%" stop-color="#ff7a18" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#ff7a18" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff7a18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a18"/>
+      <stop offset="100%" stop-color="#ff5a00"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7a18" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff7a18" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 L0 40" fill="none" stroke="rgba(255,255,255,0.025)" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- ambient orange orb -->
+  <circle cx="980" cy="120" r="180" fill="#ff7a18" opacity="0.18" filter="url(#blur)"/>
+
+  <!-- LEFT: brand + headline -->
+  <g transform="translate(80, 90)">
+    <!-- eyebrow pill -->
+    <g>
+      <rect x="0" y="0" width="220" height="32" rx="16" fill="rgba(255,122,24,0.12)" stroke="rgba(255,122,24,0.4)"/>
+      <circle cx="18" cy="16" r="4" fill="#22c55e"/>
+      <text x="32" y="21" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#ffb878" letter-spacing="2">LIVE  ·  TAKING  CLIENTS</text>
+    </g>
+
+    <!-- brand -->
+    <g transform="translate(0, 56)">
+      <text font-family="-apple-system, Segoe UI, sans-serif" font-size="42" font-weight="900" fill="#ffffff" letter-spacing="6">VARPEC</text>
+      <text x="170" y="0" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="rgba(255,255,255,0.4)" letter-spacing="6">AUTOMATIONS</text>
+    </g>
+
+    <!-- headline -->
+    <g transform="translate(0, 110)">
+      <text font-family="-apple-system, Segoe UI, sans-serif" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="-1.5">
+        <tspan x="0" dy="0">The automated lead</tspan>
+        <tspan x="0" dy="64">machine your rivals</tspan>
+        <tspan x="0" dy="64" fill="#ffb878">hope you never install.</tspan>
+      </text>
+    </g>
+
+    <!-- subline -->
+    <g transform="translate(0, 320)">
+      <text font-family="-apple-system, Segoe UI, sans-serif" font-size="19" font-weight="500" fill="rgba(255,255,255,0.65)">
+        <tspan x="0" dy="0">50 to 145 buyers found, contacted, and qualified.</tspan>
+        <tspan x="0" dy="28">Every single day. Email, WhatsApp, AI phone.</tspan>
+      </text>
+    </g>
+
+    <!-- stat chips -->
+    <g transform="translate(0, 405)">
+      <g>
+        <rect x="0" y="0" width="120" height="40" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="14" y="26" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" font-weight="800" fill="#ffffff">200<tspan fill="rgba(255,255,255,0.5)" font-weight="500"> sent/day</tspan></text>
+      </g>
+      <g transform="translate(132, 0)">
+        <rect x="0" y="0" width="138" height="40" rx="20" fill="rgba(125,211,252,0.08)" stroke="rgba(125,211,252,0.25)"/>
+        <text x="14" y="26" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" font-weight="800" fill="#7dd3fc">94%<tspan fill="rgba(255,255,255,0.5)" font-weight="500"> accuracy</tspan></text>
+      </g>
+      <g transform="translate(282, 0)">
+        <rect x="0" y="0" width="135" height="40" rx="20" fill="rgba(110,231,183,0.08)" stroke="rgba(110,231,183,0.25)"/>
+        <text x="14" y="26" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" font-weight="800" fill="#6ee7b7">6h 23m<tspan fill="rgba(255,255,255,0.5)" font-weight="500"> reply</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT: dashboard preview -->
+  <g transform="translate(680, 130)">
+    <!-- main panel -->
+    <rect x="0" y="0" width="440" height="370" rx="18" fill="url(#card)" stroke="rgba(255,255,255,0.1)"/>
+
+    <!-- chrome -->
+    <g>
+      <circle cx="22" cy="22" r="5" fill="#ef4444" opacity="0.7"/>
+      <circle cx="40" cy="22" r="5" fill="#eab308" opacity="0.7"/>
+      <circle cx="58" cy="22" r="5" fill="#22c55e" opacity="0.7"/>
+      <text x="80" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="rgba(255,255,255,0.55)">OUTREACH  ·  Varpec</text>
+
+      <!-- live badge -->
+      <g transform="translate(320, 12)">
+        <rect x="0" y="0" width="100" height="22" rx="11" fill="rgba(34,197,94,0.1)" stroke="rgba(34,197,94,0.3)"/>
+        <circle cx="14" cy="11" r="3" fill="#22c55e"/>
+        <text x="24" y="15" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" font-weight="800" fill="#6ee7b7" letter-spacing="1">SENDING</text>
+      </g>
+    </g>
+
+    <!-- KPI mini cards -->
+    <g transform="translate(16, 56)">
+      <g>
+        <rect x="0" y="0" width="98" height="60" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+        <text x="10" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="8" font-weight="700" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">SENT</text>
+        <text x="10" y="44" font-family="-apple-system, Segoe UI, sans-serif" font-size="22" font-weight="900" fill="#ffffff">200</text>
+        <polyline points="58,48 64,42 70,44 76,38 82,40 88,32" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(102, 0)">
+        <rect x="0" y="0" width="98" height="60" rx="10" fill="rgba(125,211,252,0.05)" stroke="rgba(125,211,252,0.2)"/>
+        <text x="10" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="8" font-weight="700" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">DELIVERED</text>
+        <text x="10" y="44" font-family="-apple-system, Segoe UI, sans-serif" font-size="22" font-weight="900" fill="#7dd3fc">196</text>
+        <polyline points="58,48 64,40 70,42 76,36 82,34 88,28" fill="none" stroke="#7dd3fc" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(204, 0)">
+        <rect x="0" y="0" width="98" height="60" rx="10" fill="rgba(167,139,250,0.05)" stroke="rgba(167,139,250,0.2)"/>
+        <text x="10" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="8" font-weight="700" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">OPENED</text>
+        <text x="10" y="44" font-family="-apple-system, Segoe UI, sans-serif" font-size="22" font-weight="900" fill="#a78bfa">89</text>
+        <polyline points="58,48 64,44 70,38 76,40 82,32 88,26" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(306, 0)">
+        <rect x="0" y="0" width="98" height="60" rx="10" fill="rgba(110,231,183,0.05)" stroke="rgba(110,231,183,0.2)"/>
+        <text x="10" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="8" font-weight="700" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">REPLIED</text>
+        <text x="10" y="44" font-family="-apple-system, Segoe UI, sans-serif" font-size="22" font-weight="900" fill="#6ee7b7">18</text>
+        <polyline points="58,48 64,46 70,40 76,34 82,30 88,22" fill="none" stroke="#6ee7b7" stroke-width="1.5"/>
+      </g>
+    </g>
+
+    <!-- Email rows mock -->
+    <g transform="translate(16, 138)">
+      <!-- row 1 highlighted -->
+      <g>
+        <rect x="0" y="0" width="408" height="46" rx="10" fill="rgba(255,122,24,0.06)" stroke="rgba(255,122,24,0.2)"/>
+        <rect x="0" y="0" width="3" height="46" rx="2" fill="#ff7a18"/>
+        <circle cx="26" cy="23" r="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+        <text x="22" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="11">🇦🇪</text>
+        <text x="50" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Quick question for Athena</text>
+        <text x="50" y="36" font-family="ui-monospace, monospace" font-size="9" fill="rgba(255,255,255,0.5)">info@ath████derma.com  ·  Day 3 follow-up</text>
+
+        <rect x="296" y="14" width="68" height="18" rx="9" fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.3)"/>
+        <text x="306" y="26" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" font-weight="700" fill="#6ee7b7">Replied</text>
+        <text x="375" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)">12s</text>
+      </g>
+
+      <!-- row 2 -->
+      <g transform="translate(0, 56)">
+        <rect x="0" y="0" width="408" height="46" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+        <circle cx="26" cy="23" r="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+        <text x="22" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="11">🇺🇸</text>
+        <text x="50" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Helping Supreme get more buyers</text>
+        <text x="50" y="36" font-family="ui-monospace, monospace" font-size="9" fill="rgba(255,255,255,0.5)">sales@sup████le.com  ·  Day 1 intro</text>
+
+        <rect x="296" y="14" width="68" height="18" rx="9" fill="rgba(167,139,250,0.12)" stroke="rgba(167,139,250,0.3)"/>
+        <text x="306" y="26" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" font-weight="700" fill="#a78bfa">Opened</text>
+        <text x="375" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)">3m</text>
+      </g>
+
+      <!-- row 3 -->
+      <g transform="translate(0, 112)">
+        <rect x="0" y="0" width="408" height="46" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+        <circle cx="26" cy="23" r="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+        <text x="22" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="11">🇪🇸</text>
+        <text x="50" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Worth a 15-min look?</text>
+        <text x="50" y="36" font-family="ui-monospace, monospace" font-size="9" fill="rgba(255,255,255,0.5)">info@imd████da.es  ·  Day 7 follow-up</text>
+
+        <rect x="296" y="14" width="68" height="18" rx="9" fill="rgba(125,211,252,0.12)" stroke="rgba(125,211,252,0.3)"/>
+        <text x="306" y="26" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" font-weight="700" fill="#7dd3fc">Delivered</text>
+        <text x="375" y="27" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)">8m</text>
+      </g>
+    </g>
+
+    <!-- footer band -->
+    <g transform="translate(16, 322)">
+      <rect x="0" y="0" width="408" height="32" rx="8" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.06)"/>
+      <circle cx="14" cy="16" r="3" fill="#22c55e"/>
+      <text x="24" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="rgba(255,255,255,0.6)">Live queue  ·  200 emails delivered today</text>
+      <text x="290" y="20" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)">varpec.app</text>
+    </g>
+  </g>
+
+  <!-- bottom-left URL pill -->
+  <g transform="translate(80, 555)">
+    <rect x="0" y="0" width="160" height="34" rx="17" fill="url(#orange)"/>
+    <text x="80" y="22" text-anchor="middle" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" font-weight="900" fill="#ffffff" letter-spacing="2">VARPEC.APP</text>
+  </g>
+  <g transform="translate(260, 555)">
+    <text y="22" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.45)">B2B lead automation  ·  Worldwide  ·  Reserve a slot</text>
+  </g>
+</svg>

@@ -8,12 +8,12 @@ import { cn } from '../lib/utils';
 import { Sparkline, KpiCard, Ticker, GeoStack, Funnel, Kbd, makeSpark } from './dashboard-ui';
 
 // ──────────────────────────────────────────────────────────────────────────────
-// Anonymized sample from running campaign — US wholesale + UAE/EU dermatology
+// Anonymized sample from running campaign (US wholesale + UAE/EU dermatology)
 // ──────────────────────────────────────────────────────────────────────────────
 const LEADS = [
-  { name: 'Supreme Wholesale Liquidation',     cat: 'Wholesaler',         region: 'US', city: 'Wayne, NJ',           web: '—',                              phone: '(718) ███-9279', status: 'new' },
+  { name: 'Supreme Wholesale Liquidation',     cat: 'Wholesaler',         region: 'US', city: 'Wayne, NJ',           web: '-',                              phone: '(718) ███-9279', status: 'new' },
   { name: 'Bargain Central Warehouse',         cat: 'Discount Store',     region: 'US', city: 'Mesa, AZ',            web: 'bargaincentralwarehouse.com',    phone: '(480) ███-6155', status: 'contacted' },
-  { name: 'Cactus Liquidation Inc',            cat: 'Liquidator',         region: 'US', city: 'Glendale, AZ',        web: '—',                              phone: '(602) ███-7018', status: 'new' },
+  { name: 'Cactus Liquidation Inc',            cat: 'Liquidator',         region: 'US', city: 'Glendale, AZ',        web: '-',                              phone: '(602) ███-7018', status: 'new' },
   { name: 'America Wholesale Furniture',       cat: 'Furniture & Décor',  region: 'US', city: 'Phoenix, AZ',         web: 'americawholesalefurniture.com',  phone: '(602) ███-4122', status: 'replied' },
   { name: 'Coast-to-Coast Liquidators',        cat: 'Discount Store',     region: 'US', city: 'Phoenix, AZ',         web: 'coastliquidation.com',           phone: '(602) ███-8741', status: 'contacted' },
   { name: 'Las Vegas Liquidation Pallets',     cat: 'Liquidator',         region: 'US', city: 'Las Vegas, NV',       web: 'lasvegasliquidationpallets.com', phone: '(702) ███-3333', status: 'new' },
@@ -22,10 +22,10 @@ const LEADS = [
   { name: 'Perla Dermatology Clinic',          cat: 'Dermatologue',       region: 'AE', city: 'Dubai · Al Wasl',     web: 'perla-dc.com',                   phone: '+971 4 ███-7711', status: 'new' },
   { name: 'Athena Dermatology Clinic',         cat: 'Dermatologue',       region: 'AE', city: 'Dubai · Sheikh Zayed',web: 'athenaderma.com',                phone: '+971 4 ███-8090', status: 'new' },
   { name: 'Glow Aesthetics Dermatology',       cat: 'Dermatologue',       region: 'AE', city: 'Dubai · Burjuman',    web: 'glowdubai.ae',                   phone: '+971 4 ███-2244', status: 'contacted' },
-  { name: 'Centro Dermatológico Nuria Romero', cat: 'Dermatólogo',        region: 'ES', city: 'Madrid · Chamberí',   web: '—',                              phone: '+34 91 ███-4421', status: 'new' },
+  { name: 'Centro Dermatológico Nuria Romero', cat: 'Dermatólogo',        region: 'ES', city: 'Madrid · Chamberí',   web: '-',                              phone: '+34 91 ███-4421', status: 'new' },
   { name: 'Clínica IMEDE',                     cat: 'Cosmetic Medical',   region: 'ES', city: 'Madrid · Chamberí',   web: 'imede.es',                       phone: '+34 91 ███-1180', status: 'contacted' },
-  { name: 'Clínica AB Derma',                  cat: 'Dermatology Clinic', region: 'ES', city: 'Madrid · Salamanca',  web: '—',                              phone: '+34 91 ███-9090', status: 'new' },
-  { name: 'Derma360 — Clínica de Dermatologia',cat: 'Skincare Clinic',    region: 'PT', city: 'Lisbon',              web: 'derma360.pt',                    phone: '+351 21 ███-4052', status: 'replied' },
+  { name: 'Clínica AB Derma',                  cat: 'Dermatology Clinic', region: 'ES', city: 'Madrid · Salamanca',  web: '-',                              phone: '+34 91 ███-9090', status: 'new' },
+  { name: 'Derma360 Clínica de Dermatologia',  cat: 'Skincare Clinic',    region: 'PT', city: 'Lisbon',              web: 'derma360.pt',                    phone: '+351 21 ███-4052', status: 'replied' },
   { name: 'A|D Lisbon Aesthetic & Dermatology',cat: 'Medical Clinic',     region: 'PT', city: 'Lisbon',              web: 'adlisbon.pt',                    phone: '+351 963 ███-090', status: 'contacted' },
   { name: 'Centro de Dermatologia de Lisboa',  cat: 'Dermatologist',      region: 'PT', city: 'Lisbon',              web: 'cdlisboa.pt',                    phone: '+351 21 ███-4090', status: 'new' },
   { name: 'Personal Derma Clinic & Esthetic',  cat: 'Dermatologist',      region: 'PT', city: 'Lisbon',              web: 'personalderma.pt',               phone: '+351 910 ███-055', status: 'new' },
@@ -80,8 +80,8 @@ export const LeadFeed = () => {
     <><UserPlus size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">New lead</b> added · Glow Aesthetics Dermatology (Dubai)</span></>,
     <><Phone size={11} className="tw-text-sky-300" /><span><b className="tw-text-sky-300">Phone verified</b> · Clínica IMEDE (Madrid)</span></>,
     <><Mail size={11} className="tw-text-violet-300" /><span><b className="tw-text-violet-300">Outreach sent</b> · Las Vegas Liquidation Pallets</span></>,
-    <><MessageSquare size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">Reply received</b> · 888 Lots — opportunity flagged</span></>,
-    <><Globe size={11} className="tw-text-sky-300" /><span><b className="tw-text-sky-300">Website found</b> · adlisbon.pt — added to record</span></>,
+    <><MessageSquare size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">Reply received</b> · 888 Lots · opportunity flagged</span></>,
+    <><Globe size={11} className="tw-text-sky-300" /><span><b className="tw-text-sky-300">Website found</b> · adlisbon.pt · added to record</span></>,
     <><Zap size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">14 leads</b> enriched in the last 10 minutes</span></>,
   ];
 
@@ -101,10 +101,10 @@ export const LeadFeed = () => {
           </div>
           <p>Inside the system</p>
           <h2>The dashboard your team wakes up to.</h2>
-          <span>A clean Google Sheet of targeted buyer leads — names, categories, locations, websites, phones, and outreach status — delivered daily, ready to act on. Numbers below are from a live VARPEC campaign.</span>
+          <span>A clean Google Sheet of targeted buyer leads. Names, categories, locations, websites, phones, and outreach status, delivered daily, ready to act on. Numbers below are from a live VARPEC campaign.</span>
         </div>
 
-        {/* KPI ROW — 4 cards with sparklines + deltas */}
+        {/* KPI ROW - 4 cards with sparklines + deltas */}
         <div className="tw-mt-10 tw-grid tw-grid-cols-2 tw-gap-3 md:tw-grid-cols-4">
           <KpiCard value={107} label="Total Leads"        accent="tw-text-white"       sparkColor="#ffffff" spark={makeSpark(7,  12, 'up')} delta={24} />
           <KpiCard value={97}  label="Phones Found"       accent="tw-text-sky-300"     sparkColor="#7dd3fc" spark={makeSpark(13, 12, 'up')} delta={9}  suffix="/107" />
@@ -122,7 +122,7 @@ export const LeadFeed = () => {
                 <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-yellow-500/70" />
                 <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-green-500/70" />
               </div>
-              <span className="tw-text-xs tw-font-semibold tw-text-white/60">LEADS — Varpec · Lead Dashboard</span>
+              <span className="tw-text-xs tw-font-semibold tw-text-white/60">LEADS · Varpec · Lead Dashboard</span>
               <span className="tw-hidden tw-rounded tw-bg-white/[0.05] tw-px-1.5 tw-py-0.5 tw-text-[9px] tw-font-mono tw-text-white/45 sm:tw-inline">sheet · live</span>
             </div>
             <div className="tw-hidden tw-items-center tw-gap-2 sm:tw-flex">
@@ -233,8 +233,8 @@ export const LeadFeed = () => {
                           </span>
                         </td>
                         <td className="tw-hidden tw-px-4 tw-py-3 tw-text-xs lg:tw-table-cell">
-                          {lead.web === '—' ? (
-                            <span className="tw-text-white/30">—</span>
+                          {lead.web === '-' ? (
+                            <span className="tw-text-white/30">-</span>
                           ) : (
                             <span className="tw-inline-flex tw-items-center tw-gap-1 tw-text-[#9fc8ff]"><Globe size={11} />{lead.web}</span>
                           )}

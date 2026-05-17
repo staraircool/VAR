@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Landmark, Mail, Orbit, PhoneCall, Radar, ShieldCheck, Target, TrendingUp, Zap } from 'lucide-react';
-import laptopFull from '../assets/laptop-full.png';
-import laptopHalf from '../assets/laptop-half-top-view.png';
+import { ArrowRight, Banknote, Bitcoin, Check, ChevronRight, CreditCard, Flame, Landmark, Orbit, ShieldCheck, TrendingUp, Zap } from 'lucide-react';
 import varpecLogo from '../assets/logo.png';
 import './agency.css';
 import './agency-performance.css';
@@ -19,9 +17,11 @@ import './premium-sections.css';
 import { Spotlight } from './ui/Spotlight';
 import { Badge } from './ui/Badge';
 import { Accordion } from './ui/Accordion';
-import { LeadFeed } from './ui/LeadFeed';
-import { EmailFeed } from './ui/EmailFeed';
-import { SystemMap } from './ui/SystemMap';
+// Heavy below-fold sections are code-split to keep the initial bundle small
+const LeadFeed = React.lazy(() => import('./ui/LeadFeed').then((m) => ({ default: m.LeadFeed })));
+const EmailFeed = React.lazy(() => import('./ui/EmailFeed').then((m) => ({ default: m.EmailFeed })));
+const SystemMap = React.lazy(() => import('./ui/SystemMap').then((m) => ({ default: m.SystemMap })));
+const WhatYouGet = React.lazy(() => import('./ui/WhatYouGet').then((m) => ({ default: m.WhatYouGet })));
 import { Dialog } from './ui/Dialog';
 import { Sheet } from './ui/Sheet';
 import { Tooltip } from './ui/Tooltip';
@@ -39,13 +39,6 @@ const fadeUp = {
 };
 
 const signals = ['50 to 145 daily contacts', '300+ to 1,000+ weekly contacts', 'AI email outreach', 'AI WhatsApp outreach', 'AI phone call bot', 'Interested lead alerts', 'Google Sheet dashboard', '5,000+ monthly contacts'];
-
-const services = [
-  [Target, 'Targeted buyer contacts every single day', 'VARPEC finds targeted buyers for your products and delivers fresh contacts daily, so your pipeline does not depend on luck.'],
-  [Mail, 'AI email outreach on your behalf', 'Growth and Premium plans send personalised email outreach automatically, so your offer keeps moving while you focus on sales.'],
-  [PhoneCall, 'WhatsApp and AI phone call automation', 'Premium runs a fully automated campaign across email, WhatsApp, and AI phone calls to qualify serious interest faster.'],
-  [Radar, 'Instant interested lead alerts', 'When a buyer replies or says yes, you receive an alert with their full details, so you speak with people already showing interest.']
-];
 
 const process = [
   ['01', 'Position', 'We make your offer easy to understand and attractive to the right business buyer.'],
@@ -200,7 +193,7 @@ export default function AgencyApp() {
         <motion.div className="agencyHeroLeft" initial="hidden" animate="visible" variants={fadeUp}>
           <div className="agencyEyebrow"><Flame size={16} /> Limited monthly onboarding</div>
           <h1>The <em>automated lead machine</em> your competitors hope you <em>never install.</em></h1>
-          <p>Targeted buyers found, contacted, and qualified — every single day.</p>
+          <p>Targeted buyers found, contacted, and qualified. Every single day.</p>
           <div className="agencyHeroActions"><a className="agencyPrimaryBtn" href="#plans">Claim a Growth Slot <ArrowRight size={18} /></a><a className="agencySecondaryBtn" href="#system">See the System <ChevronRight size={18} /></a></div>
           <div className="agencyTrustRow"><span><ShieldCheck size={14} /> Targeted buyers</span><span><Orbit size={14} /> Sheet dashboard</span><span><TrendingUp size={14} /> 5,000+ monthly contacts</span></div>
         </motion.div>
@@ -213,14 +206,20 @@ export default function AgencyApp() {
 
       <section className="agencyTicker"><div className="agencyTickerTrack">{[...signals, ...signals].map((item, index) => <span key={`${item}-${index}`}><Zap size={15} />{item}</span>)}</div></section>
 
-      <LeadFeed />
+      <React.Suspense fallback={<div style={{ minHeight: 600 }} />}>
+        <WhatYouGet />
+      </React.Suspense>
+
+      <React.Suspense fallback={<div style={{ minHeight: 600 }} />}>
+        <LeadFeed />
+      </React.Suspense>
 
       <section className="agencyEmailSection">
         <div className="agencyEmailWordmark" aria-hidden="true">OUTREACH</div>
         <motion.div className="agencyEmailCopy" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
           <p>// AI email delivery proof</p>
           <h2>Outreach that looks active, controlled, and already moving.</h2>
-          <span>Email outreach should not feel invisible. This view turns delivery into proof — sent messages, clean movement, and a campaign engine that looks alive before the first interested reply arrives.</span>
+          <span>Email outreach should not feel invisible. This view turns delivery into proof. Sent messages, clean movement, and a campaign engine that looks alive before the first interested reply arrives.</span>
         </motion.div>
         <div className="agencyEmailStats">
           <div><strong>01</strong><b>Delivered Emails</b><span>Live send queue with verified inbox placement.</span></div>
@@ -228,11 +227,15 @@ export default function AgencyApp() {
           <div><strong>03</strong><b>Interested Lead Alerts</b><span>Instant signals when a buyer replies or shows intent.</span></div>
         </div>
         <div className="agencyEmailVisual agencyEmailVisualDashboard">
-          <EmailFeed />
+          <React.Suspense fallback={<div style={{ minHeight: 500 }} />}>
+            <EmailFeed />
+          </React.Suspense>
         </div>
       </section>
 
-      <SystemMap />
+      <React.Suspense fallback={<div style={{ minHeight: 600 }} />}>
+        <SystemMap />
+      </React.Suspense>
 
       <section className="agencyOpportunityWall">
         <div className="agencyWallCopy"><p>Hidden opportunity gap</p><h2>Most businesses are not losing because their offer is bad. They are losing because nobody sees it often enough.</h2></div>

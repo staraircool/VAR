@@ -24,7 +24,7 @@
   display: none !important;
 }
 
-/* === HERO — 2 COLUMN: TEXT LEFT, CIRCLE RIGHT === */
+/* === HERO 2 COLUMN: TEXT LEFT, CIRCLE RIGHT === */
 .agencyHero {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;

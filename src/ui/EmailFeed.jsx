@@ -8,7 +8,7 @@ import { cn } from '../lib/utils';
 import { Sparkline, Donut, KpiCard, Ticker, GeoStack, Funnel, Kbd, GroupHeader, makeSpark } from './dashboard-ui';
 
 // ──────────────────────────────────────────────────────────────────────────────
-// DATA POOLS — VARPEC buyer verticals (US wholesalers + UAE/EU dermatology)
+// DATA POOLS - VARPEC buyer verticals (US wholesalers + UAE/EU dermatology)
 // ──────────────────────────────────────────────────────────────────────────────
 const RECIPIENTS = [
   { handle: 'sales',          domain: 'supremewholesale.com',        name: 'Supreme Wholesale',         flag: '🇺🇸' },
@@ -43,16 +43,16 @@ const RECIPIENTS = [
 const SUBJECTS = [
   ['Quick question for {{name}}',                'intro'],
   ['Helping {{name}} get more qualified buyers',  'intro'],
-  ['Saw your work — quick idea',                  'intro'],
-  ['{{name}} — quick automation idea',            'intro'],
+  ['Saw your work, quick idea',                   'intro'],
+  ['{{name}}, quick automation idea',             'intro'],
   ['Worth a 15-min look?',                        'intro'],
   ['Following up on my last note',                'followup'],
-  ['Bumping this — quick thought for {{name}}',   'followup'],
+  ['Bumping this, quick thought for {{name}}',    'followup'],
   ['Re: Helping {{name}} get more qualified buyers', 'reply'],
   ['Re: Quick question for {{name}}',             'reply'],
   ['Re: Worth a 15-min look?',                    'reply'],
-  ['{{name}} — proposal inside',                  'proposal'],
-  ['As promised — short loom + numbers',          'proposal'],
+  ['{{name}}, proposal inside',                   'proposal'],
+  ['As promised, short loom and numbers',         'proposal'],
   ['Closing the loop',                            'breakup'],
 ];
 
@@ -99,7 +99,7 @@ function pickWeighted(rand, pool) {
 }
 
 /**
- * Mask only the domain part after @ — keep handle clean, blur only some letters
+ * Mask only the domain part after @ to keep handle clean, blur only some letters
  * of the domain name (TLD always visible).
  *   sales@supremewholesale.com  →  sales@sup████le.com
  *   info@perla-dc.com           →  info@pe███dc.com
@@ -259,12 +259,12 @@ export const EmailFeed = () => {
     <><Send size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">Day 3 follow-up</b> sent to Supreme Wholesale</span></>,
     <><MailOpen size={11} className="tw-text-violet-300" /><span><b className="tw-text-violet-300">Opened</b> · Bargain Central Warehouse (3rd time)</span></>,
     <><Zap size={11} className="tw-text-emerald-400" /><span><b className="tw-text-emerald-300">12 emails</b> delivered in the last 60 seconds</span></>,
-    <><Star size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">Link clicked</b> · 888 Lots — opportunity flagged</span></>,
+    <><Star size={11} className="tw-text-[#ffb878]" /><span><b className="tw-text-[#ffb878]">Link clicked</b> · 888 Lots · opportunity flagged</span></>,
   ];
 
   return (
     <div className="tw-mx-auto tw-w-full tw-max-w-6xl tw-px-2 sm:tw-px-5">
-      {/* KPI ROW — 5 cards with sparklines + deltas */}
+      {/* KPI ROW - 5 cards with sparklines + deltas */}
       <div className="tw-grid tw-grid-cols-2 tw-gap-3 md:tw-grid-cols-5">
         <KpiCard value={total}     label="Emails Sent" accent="tw-text-white"         sparkColor="#ffffff" spark={makeSpark(11, 12, 'up')}   delta={18} />
         <KpiCard value={delivered} label="Delivered"   accent="tw-text-sky-300"       sparkColor="#7dd3fc" spark={makeSpark(22, 12, 'up')}   delta={4}  suffix={`/${total}`} />
@@ -290,7 +290,7 @@ export const EmailFeed = () => {
               <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-yellow-500/70" />
               <span className="tw-h-3 tw-w-3 tw-rounded-full tw-bg-green-500/70" />
             </div>
-            <span className="tw-text-xs tw-font-semibold tw-text-white/60">OUTREACH — Varpec · Send Queue</span>
+            <span className="tw-text-xs tw-font-semibold tw-text-white/60">OUTREACH · Varpec · Send Queue</span>
             <span className="tw-hidden tw-rounded tw-bg-white/[0.05] tw-px-1.5 tw-py-0.5 tw-text-[9px] tw-font-mono tw-text-white/45 sm:tw-inline">v2.4 · prod</span>
           </div>
           <div className="tw-hidden tw-items-center tw-gap-2 sm:tw-flex">
@@ -426,7 +426,7 @@ export const EmailFeed = () => {
                         </div>
                       </div>
 
-                      {/* Right column — status pill + time-ago, swap with action icons on hover */}
+                      {/* Right column with status pill + time-ago, swap with action icons on hover */}
                       <div className="tw-relative tw-flex tw-flex-shrink-0 tw-items-center">
                         <div className="tw-flex tw-items-center tw-gap-3 tw-transition-opacity tw-duration-150 group-hover/row:tw-opacity-0">
                           <StatusPill status={email.status} />
