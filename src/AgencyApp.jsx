@@ -48,6 +48,9 @@ const process = [
   ['04', 'Convert', 'Interested buyers are pushed to you with details, so you can focus on closing deals instead of chasing cold lists.']
 ];
 
+// Sources are identical across every plan, mixed automatically by niche
+const SOURCES = ['Google Maps', 'Apollo', 'Yellow Pages', 'Europages'];
+
 const plans = [
   {
     name: 'Starter',
@@ -55,17 +58,14 @@ const plans = [
     period: '/month',
     label: 'For founders ready to start outbound',
     headline: 'Daily lead supply. You run the calls.',
-    stats: ['50 leads delivered daily', '300+ leads weekly', '1,500+ leads monthly'],
-    description: 'Built for founders and small teams who want a steady, verified pipeline of buyer contacts every day. You handle the outreach. We handle the heavy lifting of finding them.',
+    stats: ['50 leads daily', '300+ weekly', '1,500+ monthly'],
+    description: 'A steady, verified pipeline of buyer contacts every day. You run the outreach. We handle the finding.',
     features: [
-      'Worldwide scraping, up to 20 countries, unlimited cities',
-      'Sources: Google Maps, Apollo, Yellow Pages, Europages (mixed by niche)',
-      'Verified name, business, category, phone, website, business email',
-      'Live Google Sheet dashboard, refreshed every morning',
-      'Dead-lead replacement within 24 hours, no charge',
-      'Targeting locked to your exact buyer profile',
-      'Onboarding strategy call (45 minutes)',
-      'Cancel anytime, no long-term contract'
+      'Verified phone, email and website per lead',
+      'Live Google Sheet, refreshed every morning',
+      'Dead-lead replacement inside 24 hours',
+      'Targeting locked to your buyer profile',
+      '45-minute onboarding strategy call'
     ],
     outcome: 'Close 1 deal per month at $3K average and this plan returns 30x its cost.',
     slotStatus: 'FEW SLOTS LEFT',
@@ -79,17 +79,14 @@ const plans = [
     label: 'Most chosen plan. Built for revenue.',
     headline: 'We find them. We pitch them. You close.',
     badge: 'MOST CHOSEN',
-    stats: ['100 leads delivered daily', '700+ leads weekly', '3,500+ leads monthly'],
-    description: 'Built for growth-stage teams who want leads found AND contacted automatically. We send 25 to 30 personalised AI emails on your behalf every day, then route only the hot replies straight to your inbox.',
+    stats: ['100 leads daily', '700+ weekly', '3,500+ monthly'],
+    description: 'For growth-stage teams who want leads found AND contacted automatically. Hot replies route straight to your inbox.',
     features: [
-      'Everything in Starter, plus the actual outreach engine:',
-      '25 to 30 personalised AI emails sent on your behalf daily',
-      '200+ outreach emails per week, fully managed',
-      '3-step follow-up sequence per prospect (auto-sent over 7 days)',
-      'Inbox warm-up and deliverability monitoring included',
-      'Real-time interested-lead alerts straight to your inbox',
-      'Weekly performance report (reply rate, ROI, top copy)',
-      'Daily ops check by our team, no babysitting needed'
+      'Everything in Starter, plus:',
+      '25 to 30 personalised AI emails sent for you daily',
+      'Auto 3-step follow-up sequence over 7 days',
+      'Hot-reply alerts straight to your inbox',
+      'Weekly performance and ROI report'
     ],
     outcome: 'Most Growth clients see their first booked call inside 6 working days.',
     slotStatus: 'FEW SLOTS LEFT',
@@ -103,19 +100,14 @@ const plans = [
     period: '/month',
     label: 'For teams that want a closing machine',
     headline: 'A full outbound team, on autopilot.',
-    stats: ['300 leads delivered daily', '2,500+ leads weekly', '10,000+ leads monthly'],
-    description: 'Built for high-ticket B2B and teams that want every channel firing at once. Email, WhatsApp, AI phone calls and SMS all working in sequence until the buyer responds.',
+    stats: ['300 leads daily', '2,500+ weekly', '10,000+ monthly'],
+    description: 'For high-ticket B2B. Email, WhatsApp, AI phone calls and SMS all firing in sequence until the buyer responds.',
     features: [
-      'Everything in Growth, plus full multi-channel power:',
-      'AI phone bot calls qualified leads and books meetings',
-      'WhatsApp Business campaigns with sequenced touches',
-      'SMS and phone message broadcasts',
-      'Smart orchestration: email then WhatsApp then call then SMS',
-      'Dedicated campaign manager (Slack + WhatsApp, 4h response)',
-      'Custom AI voice option (clone your closer\u2019s voice)',
-      'A/B testing framework with weekly winners report',
-      'Priority lead queue, your scrape runs first every day',
-      'White-glove 90-minute strategy onboarding'
+      'Everything in Growth, plus:',
+      'AI phone bot books meetings while you sleep',
+      'WhatsApp Business and SMS campaigns',
+      'Multi-channel orchestration across 4 channels',
+      'Dedicated manager and priority lead queue'
     ],
     outcome: 'Built for high-ticket B2B with $5K+ deal sizes. Designed to feed a 3-person sales team.',
     slotStatus: 'FULLY BOOKED',
@@ -123,6 +115,43 @@ const plans = [
     cta: 'JOIN WAITLIST',
     soldOut: true
   }
+];
+
+// Full capability matrix - rendered as a sortable side-by-side table below the cards
+// Format: { group: 'Section Title' } for headers, OR [label, starterVal, growthVal, eliteVal] for rows
+// Cell value: true = check, false = dash, string = display as text
+const capabilities = [
+  { group: 'Lead Supply' },
+  ['Daily targeted contacts',           '50',     '100',    '300'],
+  ['Weekly contacts',                   '300+',   '700+',   '2,500+'],
+  ['Monthly contacts',                  '1,500+', '3,500+', '10,000+'],
+  { group: 'Data & Sources' },
+  ['Google Maps source',                true, true, true],
+  ['Apollo source',                     true, true, true],
+  ['Yellow Pages source',               true, true, true],
+  ['Europages source',                  true, true, true],
+  ['Worldwide, 20 countries, all cities', true, true, true],
+  ['Verified phone, email, website',    true, true, true],
+  ['Live Google Sheet dashboard',       true, true, true],
+  ['Dead-lead replacement (24h)',       true, true, true],
+  { group: 'Outreach Engine' },
+  ['AI email outreach',                 false, true, true],
+  ['Personalised emails per day',       false, '25-30', '25-30'],
+  ['3-step follow-up sequence',         false, true, true],
+  ['Inbox warm-up and deliverability',  false, true, true],
+  ['Hot-lead reply alerts',             false, true, true],
+  ['Weekly performance and ROI report', false, true, true],
+  { group: 'Multi-Channel Power' },
+  ['WhatsApp Business outreach',        false, false, true],
+  ['AI phone-call bot',                 false, false, true],
+  ['SMS broadcasts',                    false, false, true],
+  ['Multi-channel orchestration',       false, false, true],
+  ['Custom AI voice option',            false, false, true],
+  { group: 'Service and Onboarding' },
+  ['Onboarding strategy call',          '45 min', '60 min', '90 min'],
+  ['Dedicated campaign manager',        false, false, true],
+  ['Priority lead queue',               false, false, true],
+  ['Cancel anytime, no contract',       true, true, true]
 ];
 
 const payments = [[Bitcoin, 'Crypto'], [Landmark, 'Bank Transfer'], [CreditCard, 'Card Payment'], [Banknote, 'Western Union']];
@@ -339,7 +368,7 @@ export default function AgencyApp() {
             <Badge variant="success"><Check size={11} /> 4.9/5 rated</Badge>
           </div>
         </div>
-        <div className="agencyPricingGrid">
+        <div id="compare" className="agencyPricingGrid">
           {plans.map((plan) => {
             const cardClass = [
               'agencyPriceCard',
@@ -384,6 +413,17 @@ export default function AgencyApp() {
                   <span>Worldwide, up to <b>20 countries</b>, unlimited cities</span>
                 </div>
 
+                <div className="agencyPlanSources">
+                  <div className="agencyPlanSourcesLabel">Data sources  ·  mixed by niche</div>
+                  <div className="agencyPlanSourceChips">
+                    {SOURCES.map((src) => (
+                      <span key={src} className="agencyPlanSourceChip">
+                        <Check size={10} />{src}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
                 <ul>
                   {plan.features.map((item, i) => (
                     <li key={i} className={item.startsWith('Everything in') ? 'agencyPlanFeatureGroup' : ''}>
@@ -409,6 +449,63 @@ export default function AgencyApp() {
               </motion.article>
             );
           })}
+        </div>
+
+        <div className="agencyCapabilityWrap">
+          <div className="agencyCapabilityHead">
+            <p>Full capability matrix</p>
+            <h3>What is included in every plan, line by line.</h3>
+            <span>No hidden upsells. No surprise add-ons. Every feature, side by side.</span>
+          </div>
+          <div className="agencyCapabilityCard">
+            <table className="agencyCapabilityTable">
+              <thead>
+                <tr>
+                  <th>Capability</th>
+                  <th>
+                    <div className="agencyCapColName">Starter</div>
+                    <div className="agencyCapColPrice">$99/mo</div>
+                  </th>
+                  <th className="agencyCapColFeatured">
+                    <div className="agencyCapColName">Growth</div>
+                    <div className="agencyCapColPrice">$199/mo  ·  Most chosen</div>
+                  </th>
+                  <th>
+                    <div className="agencyCapColName">Elite</div>
+                    <div className="agencyCapColPrice">$799/mo  ·  Waitlist</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {capabilities.map((row, i) => {
+                  if (!Array.isArray(row)) {
+                    return (
+                      <tr key={`g-${i}`} className="agencyCapGroup">
+                        <td colSpan={4}>{row.group}</td>
+                      </tr>
+                    );
+                  }
+                  const [label, s, g, e] = row;
+                  const renderCell = (val) => {
+                    if (val === true) return <span className="agencyCapCheck"><Check size={13} /></span>;
+                    if (val === false) return <span className="agencyCapDash" aria-label="not included" />;
+                    return <span className="agencyCapValue">{val}</span>;
+                  };
+                  return (
+                    <tr key={`r-${i}`} className="agencyCapRow">
+                      <td>{label}</td>
+                      <td>{renderCell(s)}</td>
+                      <td className="agencyCapCell--featured">{renderCell(g)}</td>
+                      <td>{renderCell(e)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+            <div className="agencyCapabilityFootnote">
+              Cancel anytime. No long-term contracts. Switch plans on a 24-hour notice.
+            </div>
+          </div>
         </div>
       </section>
 
